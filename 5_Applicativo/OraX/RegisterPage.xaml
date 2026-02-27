@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="OraX.RegisterPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Registrazione"
+    BackgroundColor="White">
+
+    <VerticalStackLayout Padding="30" Spacing="20" VerticalOptions="Center">
+
+        <Label 
+            Text="Registrazione"
+            FontSize="32"
+            FontAttributes="Bold"
+            HorizontalOptions="Center" />
+
+        <Entry Placeholder="Username" />
+        <Entry Placeholder="Email" />
+        <Entry Placeholder="Password" IsPassword="True"/>
+
+        <Button
+            Text="Registrati"
+            BackgroundColor="DarkViolet"
+            TextColor="White"/>
+
+    </VerticalStackLayout>
+
+</ContentPage>

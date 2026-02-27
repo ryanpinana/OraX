@@ -26222,24 +26222,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\qnu854\\.nuget\\packages\\": {},
+    "C:\\Users\\gwj832\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\OraX\\OraX\\5_Applicativo\\OraX\\OraX.csproj",
+      "projectUniqueName": "D:\\2025-26\\modulo 306\\OraX\\5_Applicativo\\OraX\\OraX.csproj",
       "projectName": "OraX",
-      "projectPath": "H:\\OraX\\OraX\\5_Applicativo\\OraX\\OraX.csproj",
-      "packagesPath": "C:\\Users\\qnu854\\.nuget\\packages\\",
-      "outputPath": "H:\\OraX\\OraX\\5_Applicativo\\OraX\\obj\\",
+      "projectPath": "D:\\2025-26\\modulo 306\\OraX\\5_Applicativo\\OraX\\OraX.csproj",
+      "packagesPath": "C:\\Users\\gwj832\\.nuget\\packages\\",
+      "outputPath": "D:\\2025-26\\modulo 306\\OraX\\5_Applicativo\\OraX\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\qnu854\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gwj832\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

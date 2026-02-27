@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="OraX.LoginPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    BackgroundColor="White">
+
+    <Grid>
+
+
+        <VerticalStackLayout
+            x:Name="LoginLayout"
+            Padding="30"
+            Spacing="20"
+            VerticalOptions="Center"
+            Opacity="0">
+
+            <Label 
+                Text="Login"
+                FontSize="32"
+                FontAttributes="Bold"
+                HorizontalOptions="Center" />
+
+            <Entry
+                x:Name="UsernameEntry"
+                Placeholder="Username" />
+
+            <Entry
+                x:Name="PasswordEntry"
+                Placeholder="Password"
+                IsPassword="True"/>
+
+            <Button
+                Text="Accedi"
+                BackgroundColor="DarkViolet"
+                TextColor="White"
+                Clicked="OnLoginClicked"/>
+
+            <Label
+                Text="Non hai un account? Registrati"
+                TextColor="DarkViolet"
+                HorizontalOptions="Center">
+
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnRegisterTapped"/>
+                </Label.GestureRecognizers>
+
+            </Label>
+
+        </VerticalStackLayout>
+
+        
+        <Image
+            x:Name="IntroImage"
+            Source="intro.png"
+            Aspect="AspectFill" />
+
+    </Grid>
+
+</ContentPage>
