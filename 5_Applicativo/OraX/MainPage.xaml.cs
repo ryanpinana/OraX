@@ -2,23 +2,26 @@
 {
     public partial class MainPage : ContentPage
     {
+        private DateTime _dataSelezionata = DateTime.Today;
+        public DateTime DataSelezionata
+        {
+            get => _dataSelezionata;
+            set
+            {
+                _dataSelezionata = value;
+                OnPropertyChanged();
+                DisplayAlert("Data Scelta", $"Hai selezionato: {value.ToShortDateString()}", "OK");
+            }
+
+        }
         int count = 0;
 
         public MainPage()
         {
             InitializeComponent();
+            BindingContext = this;
         }
 
-        private void OnCounterClicked(object? sender, EventArgs e)
-        {
-            count++;
-
-            if (count == 1)
-                CounterBtn.Text = $"Clicked {count} time";
-            else
-                CounterBtn.Text = $"Clicked {count} times";
-
-            SemanticScreenReader.Announce(CounterBtn.Text);
-        }
+        
     }
 }
