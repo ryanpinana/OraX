@@ -4,17 +4,43 @@
              xmlns:controls="clr-namespace:Plugin.Maui.Calendar.Controls;assembly=Plugin.Maui.Calendar"
              x:Class="OraX.MainPage">
 
-    <ScrollView>
-        <VerticalStackLayout
-            Padding="30,0"
-            Spacing="25">
-           
-            <controls:Calendar
-                EventsScrollViewVisible="True"
-                TodayFillColor="#512BD4"
-                SelectedDayBackgroundColor="#2B0B98"
-                SelectedDate="{Binding DataSelezionata}"/>
-        </VerticalStackLayout>
-    </ScrollView>
+    <Grid RowDefinitions="Auto,*">
+
+        <Grid Padding="20,10" ColumnDefinitions="*,Auto">
+            <Label Text="" Grid.Column="0"/>
+
+            <HorizontalStackLayout Grid.Column="1"
+                                   Spacing="10"
+                                   VerticalOptions="Center">
+                
+                <Label Text="Nome Utente" FontSize="16" VerticalOptions="Center"/>
+
+                <Border StrokeShape="Ellipse"
+                        WidthRequest="40"
+                        HeightRequest="40"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center">
+                    
+                    <Image Source="dotnet_bot.png"
+                       Aspect="AspectFill"/>
+                </Border>
+            </HorizontalStackLayout>
+            
+        </Grid>
+        <ScrollView Grid.Row="1">
+            <VerticalStackLayout
+                Padding="30,0"
+                Spacing="25">
+
+
+
+                <controls:Calendar
+                    EventsScrollViewVisible="True"
+                    TodayFillColor="#512BD4"
+                    SelectedDayBackgroundColor="#2B0B98"
+                    SelectedDate="{Binding DataSelezionata}"/>
+            </VerticalStackLayout>
+        </ScrollView>
+    </Grid>
 
 </ContentPage>

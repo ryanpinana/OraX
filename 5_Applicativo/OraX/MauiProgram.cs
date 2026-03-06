@@ -18,7 +18,7 @@ namespace OraX
 #if DEBUG
     		builder.Logging.AddDebug();
 #endif
-
+            Routing.RegisterRoute("CalendarPageV2", typeof(CalendarPageV2));
             return builder.Build();
         }
     }

@@ -65,4 +65,10 @@
 		<PackageReference Include="Plugin.Maui.Calendar" Version="2.0.12" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <MauiXaml Update="CalendarPageV2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
 </Project>

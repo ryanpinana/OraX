@@ -6,9 +6,15 @@
     xmlns:local="clr-namespace:OraX"
     Title="OraX">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <TabBar>
+        <ShellContent
+            Title="Home"
+            ContentTemplate="{DataTemplate local:MainPage}"
+            Route="MainPage" />
+        <ShellContent
+            Title="CalendarioV2"
+            ContentTemplate="{DataTemplate local:CalendarPageV2}"
+            Route="CalendarPageV2"/>
+    </TabBar>
 
 </Shell>
