@@ -5,10 +5,19 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:OraX"
     Title="OraX">
-
+    <TabBar>
     <ShellContent
-        Title="Home"
+        Title="Profilo"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
+    <ShellContent
+        Title="Calendario"
+        ContentTemplate="{DataTemplate local:Calendario}"
+        Route="Calendario" />
+    <ShellContent
+        Title="Condivisa"
+        ContentTemplate="{DataTemplate local:Condivisa}"
+        Route="Condivisa" />
+    </TabBar>
 
 </Shell>

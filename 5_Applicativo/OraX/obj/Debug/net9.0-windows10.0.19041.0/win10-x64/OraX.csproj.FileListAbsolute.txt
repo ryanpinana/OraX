@@ -471,3 +471,12 @@ D:\Scuola 2025-2026\Professionale\Secondo Semestre\m306\OraX\5_Applicativo\OraX\
 D:\Scuola 2025-2026\Professionale\Secondo Semestre\m306\OraX\5_Applicativo\OraX\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\kitty.scale-100.png
 D:\Scuola 2025-2026\Professionale\Secondo Semestre\m306\OraX\5_Applicativo\OraX\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\kittyreal.scale-100.png
 D:\Scuola 2025-2026\Professionale\Secondo Semestre\m306\OraX\5_Applicativo\OraX\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\kittyreal.scale-100.png
+D:\Scuola 2025-2026\Professionale\Secondo Semestre\m306\OraX\5_Applicativo\OraX\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microcharts.Maui.dll
+D:\Scuola 2025-2026\Professionale\Secondo Semestre\m306\OraX\5_Applicativo\OraX\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\SkiaSharp.dll
+D:\Scuola 2025-2026\Professionale\Secondo Semestre\m306\OraX\5_Applicativo\OraX\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\SkiaSharp.Views.WinUI.Native.Projection.dll
+D:\Scuola 2025-2026\Professionale\Secondo Semestre\m306\OraX\5_Applicativo\OraX\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\SkiaSharp.Views.Maui.Controls.dll
+D:\Scuola 2025-2026\Professionale\Secondo Semestre\m306\OraX\5_Applicativo\OraX\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\SkiaSharp.Views.Maui.Core.dll
+D:\Scuola 2025-2026\Professionale\Secondo Semestre\m306\OraX\5_Applicativo\OraX\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\SkiaSharp.Views.Windows.dll
+D:\Scuola 2025-2026\Professionale\Secondo Semestre\m306\OraX\5_Applicativo\OraX\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\libSkiaSharp.dll
+D:\Scuola 2025-2026\Professionale\Secondo Semestre\m306\OraX\5_Applicativo\OraX\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\SkiaSharp.Views.WinUI.Native.dll
+D:\Scuola 2025-2026\Professionale\Secondo Semestre\m306\OraX\5_Applicativo\OraX\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\SkiaSharp.Views.WinUI.Native.winmd

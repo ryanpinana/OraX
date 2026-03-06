@@ -18,7 +18,7 @@ namespace OraX
 #if DEBUG
     		builder.Logging.AddDebug();
 #endif
-
+            Routing.RegisterRoute("Calendario", typeof(Calendario));
             return builder.Build();
         }
     }

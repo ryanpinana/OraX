@@ -178,3 +178,12 @@ Xamarin.KotlinX.Coroutines.Core.aar
 Xamarin.KotlinX.Coroutines.Core.Jvm.aar
 Xamarin.KotlinX.Serialization.Core.aar
 Xamarin.KotlinX.Serialization.Core.Jvm.aar
+Microcharts.Maui.dll
+SkiaSharp.dll
+SkiaSharp.Views.Android.dll
+SkiaSharp.Views.Maui.Controls.dll
+SkiaSharp.Views.Maui.Core.dll
+SkiaSharp.Views.Android.aar
+SQLitePCLRaw.batteries_v2.dll
+SQLitePCLRaw.lib.e_sqlite3.android.dll
+SQLitePCLRaw.lib.e_sqlite3.android.aar
