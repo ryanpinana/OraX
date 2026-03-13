@@ -3,26 +3,116 @@
     x:Class="OraX.RegisterPage"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    Title="Registrazione"
-    BackgroundColor="White">
+    BackgroundColor="#F2F2F7"
+    Title="Registrazione">
 
-    <VerticalStackLayout Padding="30" Spacing="20" VerticalOptions="Center">
+    <ScrollView>
+        <VerticalStackLayout Padding="30" Spacing="25" VerticalOptions="Center">
 
-        <Label 
-            Text="Registrazione"
-            FontSize="32"
-            FontAttributes="Bold"
-            HorizontalOptions="Center" />
+           
+            <Label 
+                Text="Registrazione"
+                FontSize="34"
+                FontAttributes="Bold"
+                HorizontalOptions="Center"
+                TextColor="Black"/>
 
-        <Entry Placeholder="Username" />
-        <Entry Placeholder="Email" />
-        <Entry Placeholder="Password" IsPassword="True"/>
+            
+            <Frame
+                CornerRadius="25"
+                Padding="20"
+                BackgroundColor="White"
+                HasShadow="True"
+                VerticalOptions="Center"
+                HorizontalOptions="CenterAndExpand"
+                WidthRequest="550">
 
-        <Button
-            Text="Registrati"
-            BackgroundColor="DarkViolet"
-            TextColor="White"/>
+                <VerticalStackLayout Spacing="18">
 
-    </VerticalStackLayout>
+                   
+                    <Border StrokeShape="RoundRectangle 18"
+                        Stroke="#E5E5EA"
+                        BackgroundColor="White"
+                        Padding="12">
+                        <Entry x:Name="NomeEntry"
+                            Placeholder="Nome"
+                            PlaceholderColor="#8E8E93"
+                            FontSize="18"
+                            TextColor="Black"/>
+                    </Border>
+
+                   
+                    <Border StrokeShape="RoundRectangle 18"
+                        Stroke="#E5E5EA"
+                        BackgroundColor="White"
+                        Padding="12">
+                        <Entry x:Name="CognomeEntry"
+                            Placeholder="Cognome"
+                            PlaceholderColor="#8E8E93"
+                            FontSize="18"
+                            TextColor="Black"/>
+                    </Border>
+
+                    <Label 
+                        Text="Data di nascita:"
+                        FontSize="20"
+                        HorizontalOptions="Center"
+                        TextColor="Black"/>
+
+                    <Border StrokeShape="RoundRectangle 18"
+                        Stroke="#E5E5EA"
+                        BackgroundColor="White"
+                        Padding="12"
+                        HorizontalOptions="Center">
+
+    
+                        
+                        <DatePicker x:Name="DataNascitaPicker"
+                            FontSize="18"
+                            TextColor="Black"
+                            BackgroundColor="Transparent"
+                            Format="dd/MM/yyyy"/>
+                    </Border>
+
+                   
+                    <Border StrokeShape="RoundRectangle 18"
+                        Stroke="#E5E5EA"
+                        BackgroundColor="White"
+                        Padding="12">
+                        <Entry x:Name="UsernameEntry"
+                            Placeholder="Username"
+                            PlaceholderColor="#8E8E93"
+                            FontSize="18"
+                            TextColor="Black"/>
+                    </Border>
+
+                    
+                    <Border StrokeShape="RoundRectangle 18"
+                        Stroke="#E5E5EA"
+                        BackgroundColor="White"
+                        Padding="12">
+                        <Entry x:Name="PasswordEntry"
+                            Placeholder="Password"
+                            PlaceholderColor="#8E8E93"
+                            IsPassword="True"
+                            FontSize="18"
+                            TextColor="Black"/>
+                    </Border>
+
+                   
+                    <Button
+                        Text="Registrati"
+                        FontSize="18"
+                        HeightRequest="55"
+                        CornerRadius="18"
+                        BackgroundColor="#7C3AED"
+                        TextColor="White"
+                        Clicked="OnRegisterClicked"/>
+
+                </VerticalStackLayout>
+            </Frame>
+
+        </VerticalStackLayout>
+    </ScrollView>
 
 </ContentPage>
