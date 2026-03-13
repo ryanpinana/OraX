@@ -5,91 +5,164 @@
              x:Class="OraX.CalendarPageV2"
              Title="CalendarPageV2">
 
-    <Grid RowDefinitions="Auto,*">
-        <Grid Grid.Row="0" Padding="20,10">
-            <HorizontalStackLayout
-            HorizontalOptions="End"
-            Spacing="10">
+    <!-- Grid generale -->
+    <Grid>
 
-                <Label Text="Nome Utente" FontSize="16" VerticalOptions="Center"/>
+        <!-- Contenuto della pagina -->
+        <Grid RowDefinitions="Auto,*">
 
-                <Border StrokeShape="Ellipse"
-                    WidthRequest="40"
-                    HeightRequest="40"
-                    HorizontalOptions="Center"
-                    VerticalOptions="Center">
+            <!-- Riga con nome utente -->
+            <Grid Grid.Row="0" Padding="20,10">
+                <HorizontalStackLayout
+                    HorizontalOptions="End"
+                    Spacing="10">
 
-                    <Image Source="dotnet_bot.png"
-                        Aspect="AspectFill"/>
-                </Border>
-            </HorizontalStackLayout>
+                    <Label Text="Nome Utente"
+                           FontSize="16"
+                           VerticalOptions="Center"/>
+
+                    <Border StrokeShape="Ellipse"
+                            WidthRequest="40"
+                            HeightRequest="40">
+
+                        <Image Source="dotnet_bot.png"
+                               Aspect="AspectFill"/>
+                    </Border>
+
+                </HorizontalStackLayout>
+            </Grid>
+
+
+            <!-- Pagina principale -->
+            <Grid Grid.Row="1"
+                  ColumnDefinitions="2*,3*"
+                  Padding="20"
+                  ColumnSpacing="30">
+
+                <!-- Calendario -->
+                <Frame Grid.Column="0"
+                       CornerRadius="15"
+                       Padding="10"
+                       BackgroundColor="#F3F3F3">
+
+                    <controls:Calendar
+                        Events="{Binding EventiCalendario}"
+                        EventIndicatorColor="Red"
+                        EventsScrollViewVisible="True"
+                        TodayFillColor="#512BD4"
+                        SelectedDayBackgroundColor="#2B0B98"
+                        SelectedDate="{Binding DataSelezionata}"/>
+
+                </Frame>
+
+
+                <!-- View degli eventi -->
+                <VerticalStackLayout Grid.Column="1" Spacing="15">
+
+                    <Label 
+                        Text="Eventi del giorno"
+                        FontSize="22"
+                        FontAttributes="Bold"/>
+
+
+                    <CollectionView ItemsSource="{Binding AttivitaDelGiorno}">
+
+                        <CollectionView.ItemTemplate>
+
+                            <DataTemplate>
+
+                                <Frame BackgroundColor="{Binding Colore}"
+                                       CornerRadius="12"
+                                       Padding="15"
+                                       Margin="0,5">
+
+                                    <Label Text="{Binding Titolo}"
+                                           TextColor="White"
+                                           FontSize="16"/>
+
+                                </Frame>
+
+                            </DataTemplate>
+
+                        </CollectionView.ItemTemplate>
+
+                    </CollectionView>
+
+
+                    <!-- Bottone d'aggiunta -->
+                    <Button
+                        Text="+ Aggiungi evento"
+                        BackgroundColor="#512BD4"
+                        TextColor="White"
+                        CornerRadius="10"
+                        HorizontalOptions="Start"
+                        Padding="15,8"
+                        Clicked="ApriOverlay"/>
+
+                </VerticalStackLayout>
+
+            </Grid>
+
         </Grid>
 
-        <Grid Grid.Row="1"
-              ColumnDefinitions="2*,3*"
-              Padding="20"
-              ColumnSpacing="30">
-            <Frame Grid.Column="0"
-                   CornerRadius="15"
-                   Padding="10"
-                   BackgroundColor="#F3F3F3">
-                
-                <controls:Calendar
-                    EventsScrollViewVisible="True"
-                    TodayFillColor="#512BD4"
-                    SelectedDayBackgroundColor="#2B0B98"/>
+
+        <!-- Form overlay -->
+        <Grid x:Name="Overlay"
+              IsVisible="False"
+              BackgroundColor="#80000000">
+
+            <Frame
+                BackgroundColor="White"
+                CornerRadius="15"
+                Padding="25"
+                WidthRequest="350"
+                HorizontalOptions="Center"
+                VerticalOptions="Center">
+
+                <VerticalStackLayout Spacing="15">
+
+                    <Label 
+                        Text="Nuova attività"
+                        FontSize="22"
+                        FontAttributes="Bold"/>
+
+                    <Entry
+                        x:Name="TitoloEntry"
+                        Placeholder="Titolo attività"/>
+                    
+
+                    <Picker
+                        x:Name="ColorePicker"
+                        Title="Colore">
+
+                        <Picker.Items>
+                            <x:String>Rosso</x:String>
+                            <x:String>Verde</x:String>
+                            <x:String>Blu</x:String>
+                        </Picker.Items>
+
+                    </Picker>
+
+                    <HorizontalStackLayout Spacing="10">
+
+                        <Button
+                            Text="Annulla"
+                            Clicked="ChiudiOverlay"/>
+
+                        <Button
+                            Text="Aggiungi"
+                            BackgroundColor="#512BD4"
+                            TextColor="White"
+                            Clicked="AggiungiAttivita"/>
+
+                    </HorizontalStackLayout>
+
+                </VerticalStackLayout>
+
             </Frame>
-            
-            <VerticalStackLayout Grid.Column="1" Spacing="15">
 
-                <Label 
-                    Text="Eventi del giorno"
-                    FontSize="22"
-                    FontAttributes="Bold"/>
-
-
-                <!-- Evento 1 -->
-                <Frame BackgroundColor="#FF5C5C"
-                       CornerRadius="12"
-                       Padding="15">
-
-                    <HorizontalStackLayout Spacing="10">
-                        <Label Text="📝" FontSize="20"/>
-                        <Label Text="Verifica di Informatica"
-                               TextColor="White"
-                               FontSize="16"/>
-                    </HorizontalStackLayout>
-
-                </Frame>
-
-
-                <!-- Evento 2 -->
-                <Frame BackgroundColor="#7DBB5F"
-                       CornerRadius="12"
-                       Padding="15">
-
-                    <HorizontalStackLayout Spacing="10">
-                        <Label Text="✈️" FontSize="20"/>
-                        <Label Text="Vacanza Roma"
-                               TextColor="White"
-                               FontSize="16"/>
-                    </HorizontalStackLayout>
-
-                </Frame>
-
-
-                <!-- Pulsante aggiungi -->
-                <Button
-                    Text="+ Aggiungi evento"
-                    BackgroundColor="#512BD4"
-                    TextColor="White"
-                    CornerRadius="10"
-                    HorizontalOptions="Start"
-                    Padding="15,8"/>
-
-            </VerticalStackLayout>
         </Grid>
-        
+
     </Grid>
 
 </ContentPage>

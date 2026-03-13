@@ -9,8 +9,8 @@
             set
             {
                 _dataSelezionata = value;
-                OnPropertyChanged();
-                DisplayAlert("Data Scelta", $"Hai selezionato: {value.ToShortDateString()}", "OK");
+                //OnPropertyChanged();
+                //DisplayAlert("Data Scelta", $"Hai selezionato: {value.ToShortDateString()}", "OK");
             }
 
         }
