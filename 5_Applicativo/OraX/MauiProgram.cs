@@ -11,14 +11,16 @@ namespace OraX
                 .UseMauiApp<App>()
                 .ConfigureFonts(fonts =>
                 {
-                    fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
-                    fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+                    //fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
+                    //fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+                    fonts.AddFont("SFNSDisplay-Medium.otf", "font");
                 });
 
 #if DEBUG
     		builder.Logging.AddDebug();
 #endif
-            Routing.RegisterRoute("Calendario", typeof(Calendario));
+            Routing.RegisterRoute("Statistiche", typeof(Statistiche));
+            Routing.RegisterRoute("Modifiche", typeof(Modifiche));
             return builder.Build();
         }
     }

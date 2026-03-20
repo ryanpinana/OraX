@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OraX.Modifiche"
+             Title="Profilo">
+
+    <ContentPage.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+            <GradientStop Color="#F7F7F7" Offset="0.0"/>
+            <GradientStop Color="#FFFFFF" Offset="1.0"/>
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="25" Padding="25">
+
+            <!-- PROFILE HEADER -->
+            <VerticalStackLayout Spacing="12" HorizontalOptions="Center">
+
+                <Frame HeightRequest="110"
+                       WidthRequest="110"
+                       CornerRadius="55"
+                       Padding="0"
+                       IsClippedToBounds="True"
+                       BorderColor="#E6E6E6"
+                       BackgroundColor="White"
+                       HasShadow="False">
+
+                    <Image Source="default_profile.png"
+                           Aspect="AspectFill"/>
+                </Frame>
+
+                <Button Text="Cambia foto"
+                        BackgroundColor="Transparent"
+                        TextColor="#007AFF"
+                        FontAttributes="Bold"/>
+            </VerticalStackLayout>
+
+            <!-- CARD: INFO -->
+            <Frame CornerRadius="18"
+                   Padding="18"
+                   BackgroundColor="White"
+                   BorderColor="#EEEEEE"
+                   HasShadow="False">
+
+                <VerticalStackLayout Spacing="18">
+
+                    <Label Text="Informazioni personali"
+                           FontSize="16"
+                           FontAttributes="Bold"
+                           TextColor="#1C1C1E"/>
+
+                    <Entry x:Name="NameEntry"
+                           Placeholder="Nome"
+                           BackgroundColor="#F2F2F7"
+                           HeightRequest="45"/>
+
+                    <Entry x:Name="SurnameEntry"
+                           Placeholder="Cognome"
+                           BackgroundColor="#F2F2F7"
+                           HeightRequest="45"/>
+
+                    <Entry x:Name="UsernameEntry"
+                           Placeholder="Username"
+                           BackgroundColor="#F2F2F7"
+                           HeightRequest="45"/>
+
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- CARD: CONTATTI -->
+            <Frame CornerRadius="18"
+                   Padding="18"
+                   BackgroundColor="White"
+                   BorderColor="#EEEEEE"
+                   HasShadow="False">
+
+                <VerticalStackLayout Spacing="18">
+
+                    <Label Text="Contatti"
+                           FontSize="16"
+                           FontAttributes="Bold"
+                           TextColor="#1C1C1E"/>
+
+                    <Entry x:Name="EmailEntry"
+                           Placeholder="Email"
+                           Keyboard="Email"
+                           BackgroundColor="#F2F2F7"
+                           HeightRequest="45"/>
+
+                    <Entry x:Name="PhoneEntry"
+                           Placeholder="Telefono"
+                           Keyboard="Telephone"
+                           BackgroundColor="#F2F2F7"
+                           HeightRequest="45"/>
+
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- CARD: EXTRA -->
+            <Frame CornerRadius="18"
+                   Padding="18"
+                   BackgroundColor="White"
+                   BorderColor="#EEEEEE"
+                   HasShadow="False">
+
+                <VerticalStackLayout Spacing="18">
+
+                    <Label Text="Extra"
+                           FontSize="16"
+                           FontAttributes="Bold"
+                           TextColor="#1C1C1E"/>
+
+                    <Entry x:Name="BioEntry"
+                           Placeholder="Bio (descrizione)"
+                           HeightRequest="80"
+                           BackgroundColor="#F2F2F7"/>
+
+                    <DatePicker x:Name="BirthDatePicker"/>
+
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- SAVE BUTTON -->
+            <Button Text="Salva modifiche"
+                    BackgroundColor="#007AFF"
+                    TextColor="White"
+                    CornerRadius="14"
+                    HeightRequest="50"
+                    FontAttributes="Bold"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

@@ -30,17 +30,17 @@ build_metadata.AdditionalFiles.ManifestResourceName = OraX.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[D:/Scuola 2025-2026/Professionale/Secondo Semestre/m306/OraX/5_Applicativo/OraX/Calendario.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = OraX.Calendario.xaml
-build_metadata.AdditionalFiles.TargetPath = Calendario.xaml
-build_metadata.AdditionalFiles.RelativePath = Calendario.xaml
-
 [D:/Scuola 2025-2026/Professionale/Secondo Semestre/m306/OraX/5_Applicativo/OraX/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = OraX.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[D:/Scuola 2025-2026/Professionale/Secondo Semestre/m306/OraX/5_Applicativo/OraX/Modifiche.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = OraX.Modifiche.xaml
+build_metadata.AdditionalFiles.TargetPath = Modifiche.xaml
+build_metadata.AdditionalFiles.RelativePath = Modifiche.xaml
 
 [D:/Scuola 2025-2026/Professionale/Secondo Semestre/m306/OraX/5_Applicativo/OraX/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
@@ -53,3 +53,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = OraX.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[D:/Scuola 2025-2026/Professionale/Secondo Semestre/m306/OraX/5_Applicativo/OraX/Statistiche.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = OraX.Statistiche.xaml
+build_metadata.AdditionalFiles.TargetPath = Statistiche.xaml
+build_metadata.AdditionalFiles.RelativePath = Statistiche.xaml

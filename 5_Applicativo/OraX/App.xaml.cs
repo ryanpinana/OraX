@@ -1,14 +1,15 @@
-﻿public partial class App : Application
+﻿namespace OraX
 {
-    public static DatabaseService Database { get; private set; }
-
-    public App()
+    public partial class App : Application
     {
-        InitializeComponent();
+        public App()
+        {
+            InitializeComponent();
+        }
 
-        Database = new DatabaseService();
-        Database.Init();
-
-        MainPage = new AppShell();
+        protected override Window CreateWindow(IActivationState? activationState)
+        {
+            return new Window(new AppShell());
+        }
     }
 }

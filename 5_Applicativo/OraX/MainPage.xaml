@@ -1,90 +1,131 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             Title="Profilo"
-             x:Class="OraX.MainPage">
+             x:Class="OraX.MainPage"
+             BackgroundColor="#F7F7F7">
 
     <ScrollView>
-        <VerticalStackLayout
-            Padding="20,0"
-            Spacing="20">
-            <Button Text="Logout"
-                BackgroundColor="Red"
-                TextColor="White"
-                WidthRequest="150"
-                VerticalOptions="End"
-                HorizontalOptions="End"
-                CornerRadius="12"/>
+        <VerticalStackLayout Padding="25" Spacing="20">
 
-            <Frame CornerRadius="100"
-                   HeightRequest="150"
-                   WidthRequest="150"
-                   HorizontalOptions="Center"
-                   BorderColor="LightGray"
-                   HasShadow="True">
-                <Image Source="kittyreal.png"
-                       Aspect="AspectFill"/>
-            </Frame>
+            <!-- PROFILE CARD -->
+            <Frame CornerRadius="25"
+                   Padding="25"
+                   BackgroundColor="White"
+                   HasShadow="False"
+                   BorderColor="#EEEEEE">
 
-            <!-- Nome Utente -->
-            <Label Text="Linda Bytyqi"
-                   FontSize="24"
-                   FontAttributes="Bold"
-                   HorizontalOptions="Center"/>
+                <VerticalStackLayout Spacing="12" HorizontalOptions="Center">
 
-            <!-- Email -->
-            <Label Text="bto419@edu.ti.ch"
-                   FontSize="14"
-                   TextColor="Gray"
-                   HorizontalOptions="Center"/>
+                    <Frame WidthRequest="110"
+                           HeightRequest="110"
+                           CornerRadius="55"
+                           IsClippedToBounds="True"
+                           Padding="0"
+                           BorderColor="#E6E6E6"
+                           BackgroundColor="White"
+                           HasShadow="False">
 
-            <!-- Informazioni Utente -->
-            <Frame Padding="15" CornerRadius="15" HasShadow="True">
-                <VerticalStackLayout Spacing="10">
-                    <Label Text="Informazioni"
+                        <Image Source="fox.jpg"
+                               Aspect="AspectFill"/>
+                    </Frame>
+
+                    <Label Text="Mario Rossi"
+                           FontSize="22"
                            FontAttributes="Bold"
-                           FontSize="18"/>
+                           HorizontalOptions="Center"
+                           TextColor="#1C1C1E"/>
 
-                    <HorizontalStackLayout>
-                        <Label Text="Username:"
-                               FontAttributes="Bold"/>
-                        <Label Text=" lindush01"/>
-                    </HorizontalStackLayout>
+                    <Label Text="mario@email.com"
+                           FontSize="14"
+                           TextColor="#8E8E93"
+                           HorizontalOptions="Center"/>
 
-                    <HorizontalStackLayout>
-                        <Label Text="Data di nascita:"
-                               FontAttributes="Bold"/>
-                        <Label Text=" 04/04/2007"/>
-                    </HorizontalStackLayout>
-
-                    <HorizontalStackLayout>
-                        <Label Text="Paese:"
-                               FontAttributes="Bold"/>
-                        <Label Text=" Kosovo"/>
-                    </HorizontalStackLayout>
                 </VerticalStackLayout>
             </Frame>
-            <HorizontalStackLayout Spacing="30">
-            <!-- Pulsanti Azione -->
-            <Button Text="Modifica Profilo"
-                    BackgroundColor="#512BD4"
-                    TextColor="White"
-                    WidthRequest="150"
-                    VerticalOptions="Start"
-                    HorizontalOptions="Start"
-                    CornerRadius="12"/>
-               
-            <Button Text="Statistiche"
-                    BackgroundColor="#512BD4"
-                    TextColor="White"
-                    WidthRequest="150"
-                    VerticalOptions="Start"
-                    HorizontalOptions="Start"
-                    CornerRadius="12"/>
-            </HorizontalStackLayout>
 
+            <!-- STATISTICHE -->
+            <Frame CornerRadius="25"
+                   Padding="20"
+                   BackgroundColor="White"
+                   HasShadow="False"
+                   BorderColor="#EEEEEE">
 
+                <VerticalStackLayout Spacing="15">
 
+                    <Label Text="Attività"
+                           FontSize="16"
+                           FontAttributes="Bold"
+                           TextColor="#1C1C1E"/>
+
+                    <Grid ColumnDefinitions="*,*"
+                          RowDefinitions="Auto,Auto">
+
+                        <Label Text="Completate"
+                               HorizontalOptions="Center"
+                               TextColor="#8E8E93"/>
+
+                        <Label Text="In sospeso"
+                               Grid.Column="1"
+                               HorizontalOptions="Center"
+                               TextColor="#8E8E93"/>
+
+                        <Label Text="25"
+                               Grid.Row="1"
+                               FontSize="22"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Center"
+                               TextColor="#34C759"/>
+
+                        <Label Text="8"
+                               Grid.Row="1"
+                               Grid.Column="1"
+                               FontSize="22"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Center"
+                               TextColor="#FF3B30"/>
+
+                    </Grid>
+
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- ACTIONS CARD -->
+            <Frame CornerRadius="25"
+                   Padding="10"
+                   BackgroundColor="White"
+                   HasShadow="False"
+                   BorderColor="#EEEEEE">
+
+                <VerticalStackLayout Spacing="0">
+
+                    <!-- ITEM -->
+                    <Button Text="Modifica profilo"
+                            Clicked="Button_Clicked_1"
+                            BackgroundColor="Transparent"
+                            TextColor="#007AFF"
+                            HorizontalOptions="Fill"
+                            HeightRequest="50"/>
+
+                    <BoxView HeightRequest="1"
+                             Color="#E5E5EA"/>
+
+                    <Button Text="Visualizza statistiche"
+                            Clicked="Button_Clicked"
+                            BackgroundColor="Transparent"
+                            TextColor="#007AFF"
+                            HeightRequest="50"/>
+
+                    <BoxView HeightRequest="1"
+                             Color="#E5E5EA"/>
+
+                    <Button Text="Esci dal profilo"
+                            BackgroundColor="Transparent"
+                            TextColor="#FF3B30"
+                            HeightRequest="50"/>
+
+                </VerticalStackLayout>
+
+            </Frame>
 
         </VerticalStackLayout>
     </ScrollView>
