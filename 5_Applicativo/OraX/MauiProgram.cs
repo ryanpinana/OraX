@@ -15,7 +15,7 @@ public static class MauiProgram
             .ConfigureFonts(fonts =>
             {
                
-                fonts.AddFont("SFUIDisplay-Regular.ttf", "font");
+                fonts.AddFont("SFNSDisplay-Medium.otf", "font");
             });
 
         

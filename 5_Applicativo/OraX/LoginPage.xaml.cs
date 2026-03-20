@@ -1,20 +1,22 @@
-﻿using OraX.Services;   
-using OraX.Models;     
+﻿using OraX.Services;
+using OraX.Models;
 
 namespace OraX;
 
 public partial class LoginPage : ContentPage
 {
-
     DatabaseService database;
-
 
     public LoginPage(DatabaseService db)
     {
         InitializeComponent();
-
-
         database = db;
+    }
+
+    protected override void OnAppearing()
+    {
+        base.OnAppearing();
+        System.Diagnostics.Debug.WriteLine("DB PATH: " + FileSystem.AppDataDirectory);
     }
 
     private async void OnRegisterTapped(object sender, TappedEventArgs e)
@@ -22,25 +24,10 @@ public partial class LoginPage : ContentPage
         await Navigation.PushAsync(new RegisterPage(database));
     }
 
-    protected override async void OnAppearing()
-    {
-        base.OnAppearing();
-
-        await Task.Delay(1500);
-
-        await IntroImage.TranslateTo(0, -800, 800, Easing.SinInOut);
-
-        IntroImage.IsVisible = false; 
-
-        await LoginLayout.FadeTo(1, 600);
-    }
-
-
     private async void OnLoginClicked(object sender, EventArgs e)
     {
-        string username = UsernameEntry.Text;
-        string password = PasswordEntry.Text;
-
+        string username = UsernameEntry.Text ?? "";
+        string password = PasswordEntry.Text ?? "";
 
         if (string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(password))
         {
@@ -50,9 +37,7 @@ public partial class LoginPage : ContentPage
 
         string hashPassword = PasswordHelper.HashPassword(password);
 
-
         User user = await database.GetUser(username, hashPassword);
-
 
         if (user == null)
         {
@@ -60,9 +45,6 @@ public partial class LoginPage : ContentPage
             return;
         }
 
-        await DisplayAlert("Login riuscito", "Benvenuto/a " + user.Username, "OK");
-
-
+        await DisplayAlert("Login riuscito", "Benvenuto/a " + user.Nome + user.Cognome, "OK");
     }
-
 }

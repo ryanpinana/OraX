@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Properties",
+    "\\Resources",
+    "\\Services"
   ],
   "SelectedNode": "\\OraX.sln",
   "PreviewInSolutionExplorer": false

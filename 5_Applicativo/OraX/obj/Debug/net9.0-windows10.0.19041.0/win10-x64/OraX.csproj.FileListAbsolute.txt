@@ -466,3 +466,7 @@ D:\2025-26\modulo 306\OraX\5_Applicativo\OraX\bin\Debug\net9.0-windows10.0.19041
 D:\2025-26\modulo 306\OraX\5_Applicativo\OraX\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\e_sqlite3.dll
 D:\2025-26\modulo 306\OraX\5_Applicativo\OraX\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\SFUIDisplay-Regular.otf
 D:\2025-26\modulo 306\OraX\5_Applicativo\OraX\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\f\SFUIDisplay-Regular.otf
+D:\2025-26\modulo 306\OraX\5_Applicativo\OraX\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\SFNSDisplay-Medium.otf
+D:\2025-26\modulo 306\OraX\5_Applicativo\OraX\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\f\SFNSDisplay-Medium.otf
+D:\2025-26\modulo 306\OraX\5_Applicativo\OraX\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\logoorax_def.scale-100.png
+D:\2025-26\modulo 306\OraX\5_Applicativo\OraX\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoorax_def.scale-100.png
