@@ -516,3 +516,5 @@ H:\OraX\OraX\5_Applicativo\OraX\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\M
 H:\OraX\OraX\5_Applicativo\OraX\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Media.Capture.Projection.dll
 H:\OraX\OraX\5_Applicativo\OraX\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Plugin.Maui.Calendar.dll
 H:\OraX\OraX\5_Applicativo\OraX\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.ApplicationModel.Background.UniversalBGTask.dll
+H:\OraX\OraX\5_Applicativo\OraX\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\SFNSDisplay-Medium.otf
+H:\OraX\OraX\5_Applicativo\OraX\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\f\SFNSDisplay-Medium.otf

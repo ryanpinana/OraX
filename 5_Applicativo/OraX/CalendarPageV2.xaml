@@ -51,7 +51,8 @@
                         EventsScrollViewVisible="True"
                         TodayFillColor="#512BD4"
                         SelectedDayBackgroundColor="#2B0B98"
-                        SelectedDate="{Binding DataSelezionata}"/>
+                        SelectedDate="{Binding DataSelezionata}"
+                        FirstDayOfWeek="Monday"/>
 
                 </Frame>
 
@@ -71,17 +72,28 @@
 
                             <DataTemplate>
 
-                                <Frame BackgroundColor="{Binding Colore}"
-                                       CornerRadius="12"
-                                       Padding="15"
-                                       Margin="0,5">
+                                <Grid ColumnDefinitions="*,Auto">
 
-                                    <Label Text="{Binding Titolo}"
-                                           TextColor="White"
-                                           FontSize="16"/>
+                                    <Frame Grid.Column="0"
+                                           BackgroundColor="{Binding Colore}"
+                                           CornerRadius="12"
+                                           Padding="15"
+                                           Margin="0,5">
 
-                                </Frame>
+                                        <Label Text="{Binding Titolo}"
+                                               TextColor="White"
+                                               FontSize="16"/>
 
+                                    </Frame>
+
+                                    <Button Grid.Column="1"
+                                            Text="✕"
+                                            BackgroundColor="Transparent"
+                                            FontSize="18"
+                                            Clicked="EliminaAttivita"
+                                            CommandParameter="{Binding .}"/> <!-- Passa l'oggetto Attivita al metodo -->
+
+                                </Grid>
                             </DataTemplate>
 
                         </CollectionView.ItemTemplate>
@@ -142,6 +154,20 @@
                         </Picker.Items>
 
                     </Picker>
+
+                    <Label Text="Data di fine" FontAttributes="Bold"/>
+
+                    <HorizontalStackLayout Spacing="10">
+                        <Label Text="Attiva" VerticalOptions="Center"/>
+
+                        <Switch x:Name="DataFineSwitch"
+                                Toggled="OnDataFineSwitchToggled"/>
+                    </HorizontalStackLayout>
+                    
+                    <DatePicker x:Name="DataFinePicker"
+                                Format="dd/MM/yyyy"
+                                IsEnabled="False"
+                                Opacity="0.5"/>
 
                     <HorizontalStackLayout Spacing="10">
 
