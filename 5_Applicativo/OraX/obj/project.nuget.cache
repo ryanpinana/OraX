@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BVhkL1zVMzg=",
+  "dgSpecHash": "85Q6UHcklq8=",
   "success": true,
-  "projectFilePath": "D:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\5_Applicativo\\OraX\\OraX.csproj",
+  "projectFilePath": "C:\\Users\\bto419\\Downloads\\OraX-main (2)\\OraX-main\\5_Applicativo\\OraX\\OraX.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bto419\\.nuget\\packages\\googlegson\\2.11.0.5\\googlegson.2.11.0.5.nupkg.sha512",
     "C:\\Users\\bto419\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.0\\microsoft.extensions.configuration.9.0.0.nupkg.sha512",

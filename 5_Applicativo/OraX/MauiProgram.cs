@@ -17,7 +17,7 @@ namespace OraX
                 });
 
 #if DEBUG
-    		builder.Logging.AddDebug();
+            builder.Logging.AddDebug();
 #endif
             Routing.RegisterRoute("Statistiche", typeof(Statistiche));
             Routing.RegisterRoute("Modifiche", typeof(Modifiche));

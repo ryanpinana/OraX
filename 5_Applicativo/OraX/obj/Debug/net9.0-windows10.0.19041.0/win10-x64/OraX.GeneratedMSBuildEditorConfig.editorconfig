@@ -8,7 +8,7 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = OraX
-build_property.ProjectDir = D:\Scuola 2025-2026\Professionale\Secondo Semestre\m306\OraX\5_Applicativo\OraX\
+build_property.ProjectDir = C:\Users\bto419\Downloads\OraX-main (2)\OraX-main\5_Applicativo\OraX\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.CsWinRTAotOptimizerEnabled = true
@@ -22,43 +22,43 @@ build_property.CsWinRTUseWindowsUIXamlProjections = false
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[D:/Scuola 2025-2026/Professionale/Secondo Semestre/m306/OraX/5_Applicativo/OraX/App.xaml]
+[C:/Users/bto419/Downloads/OraX-main (2)/OraX-main/5_Applicativo/OraX/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = OraX.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[D:/Scuola 2025-2026/Professionale/Secondo Semestre/m306/OraX/5_Applicativo/OraX/AppShell.xaml]
+[C:/Users/bto419/Downloads/OraX-main (2)/OraX-main/5_Applicativo/OraX/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = OraX.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[D:/Scuola 2025-2026/Professionale/Secondo Semestre/m306/OraX/5_Applicativo/OraX/MainPage.xaml]
+[C:/Users/bto419/Downloads/OraX-main (2)/OraX-main/5_Applicativo/OraX/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = OraX.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[D:/Scuola 2025-2026/Professionale/Secondo Semestre/m306/OraX/5_Applicativo/OraX/Modifiche.xaml]
+[C:/Users/bto419/Downloads/OraX-main (2)/OraX-main/5_Applicativo/OraX/Modifiche.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = OraX.Modifiche.xaml
 build_metadata.AdditionalFiles.TargetPath = Modifiche.xaml
 build_metadata.AdditionalFiles.RelativePath = Modifiche.xaml
 
-[D:/Scuola 2025-2026/Professionale/Secondo Semestre/m306/OraX/5_Applicativo/OraX/Resources/Styles/Colors.xaml]
+[C:/Users/bto419/Downloads/OraX-main (2)/OraX-main/5_Applicativo/OraX/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = OraX.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[D:/Scuola 2025-2026/Professionale/Secondo Semestre/m306/OraX/5_Applicativo/OraX/Resources/Styles/Styles.xaml]
+[C:/Users/bto419/Downloads/OraX-main (2)/OraX-main/5_Applicativo/OraX/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = OraX.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[D:/Scuola 2025-2026/Professionale/Secondo Semestre/m306/OraX/5_Applicativo/OraX/Statistiche.xaml]
+[C:/Users/bto419/Downloads/OraX-main (2)/OraX-main/5_Applicativo/OraX/Statistiche.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = OraX.Statistiche.xaml
 build_metadata.AdditionalFiles.TargetPath = Statistiche.xaml

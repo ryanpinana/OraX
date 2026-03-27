@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\5_Applicativo\\OraX\\OraX.csproj": {}
+    "C:\\Users\\bto419\\Downloads\\OraX-main (2)\\OraX-main\\5_Applicativo\\OraX\\OraX.csproj": {}
   },
   "projects": {
-    "D:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\5_Applicativo\\OraX\\OraX.csproj": {
+    "C:\\Users\\bto419\\Downloads\\OraX-main (2)\\OraX-main\\5_Applicativo\\OraX\\OraX.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\5_Applicativo\\OraX\\OraX.csproj",
+        "projectUniqueName": "C:\\Users\\bto419\\Downloads\\OraX-main (2)\\OraX-main\\5_Applicativo\\OraX\\OraX.csproj",
         "projectName": "OraX",
-        "projectPath": "D:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\5_Applicativo\\OraX\\OraX.csproj",
+        "projectPath": "C:\\Users\\bto419\\Downloads\\OraX-main (2)\\OraX-main\\5_Applicativo\\OraX\\OraX.csproj",
         "packagesPath": "C:\\Users\\bto419\\.nuget\\packages\\",
-        "outputPath": "D:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\5_Applicativo\\OraX\\obj\\",
+        "outputPath": "C:\\Users\\bto419\\Downloads\\OraX-main (2)\\OraX-main\\5_Applicativo\\OraX\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
