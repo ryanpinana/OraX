@@ -10,7 +10,7 @@ namespace OraX
     {
         public string Titolo { get; set; }
         public DateTime Data { get; set; }
-        public DateTime? DataFine { get; set; } //opzionale, se non c'è mette nullo
+        public DateTime? DataFine { get; set; } //opzionale, può essere nullo
         public Color Colore { get; set; }
     }
 }

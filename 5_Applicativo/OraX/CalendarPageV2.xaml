@@ -12,8 +12,14 @@
         <Grid RowDefinitions="Auto,*">
 
             <!-- Riga con nome utente -->
-            <Grid Grid.Row="0" Padding="20,10">
+            <Grid Grid.Row="0" Padding="20,10" ColumnDefinitions="*,Auto">
+                <SearchBar Grid.Column="0"
+                           WidthRequest="600"
+                           x:Name="SearchBarAttivita"
+                           Placeholder="Cerca Attività..."
+                           SearchButtonPressed="OnSearchPressed"/>
                 <HorizontalStackLayout
+                    Grid.Column="1"
                     HorizontalOptions="End"
                     Spacing="10">
 
@@ -66,7 +72,9 @@
                         FontAttributes="Bold"/>
 
 
-                    <CollectionView ItemsSource="{Binding AttivitaDelGiorno}">
+                    <CollectionView ItemsSource="{Binding AttivitaDelGiorno}"
+                                    SelectionMode="Single"
+                                    SelectionChanged="OnAttivitaSelezionata">
 
                         <CollectionView.ItemTemplate>
 
@@ -187,6 +195,158 @@
 
             </Frame>
 
+        </Grid>
+
+        <Grid x:Name="SearchOverlay"
+              IsVisible="False"
+              BackgroundColor="#80000000">
+
+            <Frame BackgroundColor="White"
+                   CornerRadius="15"
+                   Padding="20"
+                   WidthRequest="400"
+                   HeightRequest="500"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center">
+
+                <Grid RowDefinitions="Auto,*">
+                    
+                    <!-- Header -->
+                    <Grid Grid.Row="0" ColumnDefinitions="*,Auto">
+
+                        <Label Text="Risultati ricerca"
+                               FontSize="20"
+                               FontAttributes="Bold"/>
+
+                        <Button Grid.Column="1"
+                                Text="✕"
+                                BackgroundColor="Transparent"
+                                Clicked="ChiudiSearchOverlay"/>
+                    </Grid>
+                    
+                    <!-- Risultati -->
+                    <CollectionView Grid.Row="1"
+                                    ItemsSource="{Binding RisultatiRicerca}"
+                                    SelectionMode="Single"
+                                    SelectionChanged="OnRisultatoSelezionato">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+
+                                <Frame BackgroundColor="{Binding Colore}"
+                                       CornerRadius="10"
+                                       Padding="10"
+                                       Margin="0,5">
+
+                                    <VerticalStackLayout>
+                                        <Label Text="{Binding Titolo}"
+                                               TextColor="White"
+                                               FontAttributes="Bold"/>
+
+                                        <Label Text="{Binding Data, StringFormat='Inizio: {0:dd/MM/yyyy}'}"
+                                               TextColor="White"
+                                               FontSize="12"/>
+                                    </VerticalStackLayout>
+                                </Frame>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+
+                    <Label Grid.Row="1"
+                           Text="Nessuna attività trovata"
+                           IsVisible="{Binding NessunRisultato}"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"
+                           FontSize="16"/>
+                </Grid>
+            </Frame>
+        </Grid>
+
+        <Grid x:Name="OverlayDettaglio"
+              IsVisible="False"
+              BackgroundColor="#80000000">
+
+            <Frame BackgroundColor="White"
+                   CornerRadius="15"
+                   Padding="0"
+                   WidthRequest="380"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center">
+
+                <Grid RowDefinitions="120,Auto">
+                    
+                    <!-- Header con titolo -->
+                    <Grid Grid.Row="0"
+                          x:Name="DettaglioHeader"
+                          RowDefinitions="*,Auto">
+
+                        <Button Grid.Row="0"
+                                Text="✕"
+                                TextColor="White"
+                                BackgroundColor="Transparent"
+                                FontSize="20"
+                                HorizontalOptions="End"
+                                VerticalOptions="Start"
+                                Clicked="ChiudiOverlayDettaglio"/>
+
+                        <Label Grid.Row="1"
+                               x:Name="DettaglioTitolo"
+                               FontSize="24"
+                               FontAttributes="Bold"
+                               TextColor="White"
+                               Margin="20,0,20,15"/>
+                    </Grid>
+                    
+                    <!-- Corpo informazioni -->
+                    <VerticalStackLayout Grid.Row="1"
+                                         Padding="20"
+                                         Spacing="15">
+                        
+                        <!-- Data inizio -->
+                        <VerticalStackLayout Spacing="3">
+                            <Label Text="DATA INIZIO"
+                                   FontSize="11"
+                                   TextColor="Gray"
+                                   FontAttributes="Bold"/>
+                            <Label x:Name="DettaglioDataInizio"
+                                   FontSize="16"/>
+                        </VerticalStackLayout>
+
+                        <BoxView HeightRequest="1"
+                                 BackgroundColor="#EEEEEE"/>
+                        
+                        <!-- data fine -->
+                        <VerticalStackLayout Spacing="3">
+                            <Label Text="DATA FINE"
+                                   FontSize="11"
+                                   TextColor="Gray"
+                                   FontAttributes="Bold"/>
+                            <Label x:Name="DettaglioDataFine"
+                                   FontSize="16"/>
+                        </VerticalStackLayout>
+
+                        <BoxView HeightRequest="1"
+                                BackgroundColor="#EEEEEE"/>
+                        
+                        <!-- Colore -->
+                        <VerticalStackLayout Spacing="3">
+                            <Label Text="COLORE"
+                                   FontSize="11"
+                                   TextColor="Gray"
+                                   FontAttributes="Bold"/>
+                            <HorizontalStackLayout Spacing="10">
+                                <BoxView x:Name="DettaglioColore"
+                                         WidthRequest="20"
+                                         HeightRequest="20"
+                                         CornerRadius="10"
+                                         VerticalOptions="Center"/>
+                                <Label x:Name="DettaglioColoreNome"
+                                       FontSize="16"
+                                       VerticalOptions="Center"/>
+                            </HorizontalStackLayout>
+                        </VerticalStackLayout>
+                    </VerticalStackLayout>
+                </Grid>
+            </Frame>
         </Grid>
 
     </Grid>
