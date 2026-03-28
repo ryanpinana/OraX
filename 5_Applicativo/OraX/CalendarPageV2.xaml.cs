@@ -8,7 +8,7 @@ namespace OraX;
 
 public partial class CalendarPageV2 : ContentPage, INotifyPropertyChanged
 {
-	DateTime dataSelezionata;
+	DateTime dataSelezionata = DateTime.Today;
 
 	public DateTime DataSelezionata
 	{
@@ -153,7 +153,7 @@ public partial class CalendarPageV2 : ContentPage, INotifyPropertyChanged
 		}
 
 		//Controllo se il titolo è vuoto
-		if(TitoloEntry.Text.Trim() == "")
+		if(TitoloEntry.Text == null || TitoloEntry.Text.Trim() == "")
 		{
 			DisplayAlert("Errore", "Inserire un titolo per l'attività", "OK");
 			return;
@@ -252,7 +252,7 @@ public partial class CalendarPageV2 : ContentPage, INotifyPropertyChanged
 
 	void OnSearchPressed(object sender, EventArgs e)
 	{
-		string testo = SearchBarAttivita.Text?.ToLower() ?? "";  //Prendo il testo di ricerca in piccolo
+		string testo = SearchBarAttivita.Text?.ToLower().Trim() ?? "";  //Prendo il testo di ricerca in piccolo
 
 		RisultatiRicerca.Clear();  //Svuoto i risultati di prima
 
