@@ -105,10 +105,10 @@
 
         void ApplyTheme()
         {
-            // Sfondo pagina
+            
             this.BackgroundColor = ThemeManager.BackgroundColor;
 
-            // Testi
+           
             titleLabel.TextColor = ThemeManager.TextColor;
             frameProfile.BackgroundColor = ThemeManager.FrameBackgroundColor;
             frameProfile.BorderColor = ThemeManager.FrameBorderColor;

@@ -1,46 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\bto419\\Downloads\\OraX-main (2)\\OraX-main\\5_Applicativo\\OraX\\",
+  "WorkspaceRootPath": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\5_Applicativo\\OraX\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|c:\\users\\bto419\\downloads\\orax-main (2)\\orax-main\\5_applicativo\\orax\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|c:\\users\\bto419\\downloads\\orax-main (2)\\orax-main\\5_applicativo\\orax\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|c:\\users\\bto419\\downloads\\orax-main (2)\\orax-main\\5_applicativo\\orax\\thememanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:thememanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|c:\\users\\bto419\\downloads\\orax-main (2)\\orax-main\\5_applicativo\\orax\\modifiche.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|e:\\scuola 2025-2026\\professionale\\secondo semestre\\m306\\orax\\5_applicativo\\orax\\modifiche.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:modifiche.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|c:\\users\\bto419\\downloads\\orax-main (2)\\orax-main\\5_applicativo\\orax\\statistiche.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:statistiche.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|c:\\users\\bto419\\downloads\\orax-main (2)\\orax-main\\5_applicativo\\orax\\statistiche.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:statistiche.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|c:\\users\\bto419\\downloads\\orax-main (2)\\orax-main\\5_applicativo\\orax\\modifiche.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:modifiche.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|c:\\users\\bto419\\downloads\\orax-main (2)\\orax-main\\5_applicativo\\orax\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|c:\\users\\bto419\\downloads\\orax-main (2)\\orax-main\\5_applicativo\\orax\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|e:\\scuola 2025-2026\\professionale\\secondo semestre\\m306\\orax\\5_applicativo\\orax\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|c:\\users\\bto419\\downloads\\orax-main (2)\\orax-main\\5_applicativo\\orax\\orax.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:orax.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|e:\\scuola 2025-2026\\professionale\\secondo semestre\\m306\\orax\\5_applicativo\\orax\\statistiche.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:statistiche.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|e:\\scuola 2025-2026\\professionale\\secondo semestre\\m306\\orax\\5_applicativo\\orax\\statistiche.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:statistiche.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|e:\\scuola 2025-2026\\professionale\\secondo semestre\\m306\\orax\\5_applicativo\\orax\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|e:\\scuola 2025-2026\\professionale\\secondo semestre\\m306\\orax\\5_applicativo\\orax\\thememanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:thememanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|e:\\scuola 2025-2026\\professionale\\secondo semestre\\m306\\orax\\5_applicativo\\orax\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|e:\\scuola 2025-2026\\professionale\\secondo semestre\\m306\\orax\\5_applicativo\\orax\\modifiche.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:modifiche.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,133 +50,100 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Modifiche.xaml",
-              "DocumentMoniker": "C:\\Users\\bto419\\Downloads\\OraX-main (2)\\OraX-main\\5_Applicativo\\OraX\\Modifiche.xaml",
-              "RelativeDocumentMoniker": "Modifiche.xaml",
-              "ToolTip": "C:\\Users\\bto419\\Downloads\\OraX-main (2)\\OraX-main\\5_Applicativo\\OraX\\Modifiche.xaml",
-              "RelativeToolTip": "Modifiche.xaml",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAQwIYAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-27T13:32:46.616Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\bto419\\Downloads\\OraX-main (2)\\OraX-main\\5_Applicativo\\OraX\\MainPage.xaml",
-              "RelativeDocumentMoniker": "MainPage.xaml",
-              "ToolTip": "C:\\Users\\bto419\\Downloads\\OraX-main (2)\\OraX-main\\5_Applicativo\\OraX\\MainPage.xaml",
-              "RelativeToolTip": "MainPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-27T13:32:22.947Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ThemeManager.cs",
-              "DocumentMoniker": "C:\\Users\\bto419\\Downloads\\OraX-main (2)\\OraX-main\\5_Applicativo\\OraX\\ThemeManager.cs",
-              "RelativeDocumentMoniker": "ThemeManager.cs",
-              "ToolTip": "C:\\Users\\bto419\\Downloads\\OraX-main (2)\\OraX-main\\5_Applicativo\\OraX\\ThemeManager.cs",
-              "RelativeToolTip": "ThemeManager.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAAwF4AAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T13:32:11.017Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MauiProgram.cs",
-              "DocumentMoniker": "C:\\Users\\bto419\\Downloads\\OraX-main (2)\\OraX-main\\5_Applicativo\\OraX\\MauiProgram.cs",
-              "RelativeDocumentMoniker": "MauiProgram.cs",
-              "ToolTip": "C:\\Users\\bto419\\Downloads\\OraX-main (2)\\OraX-main\\5_Applicativo\\OraX\\MauiProgram.cs",
-              "RelativeToolTip": "MauiProgram.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T13:33:18.399Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\bto419\\Downloads\\OraX-main (2)\\OraX-main\\5_Applicativo\\OraX\\MainPage.xaml.cs",
+              "DocumentMoniker": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\5_Applicativo\\OraX\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\bto419\\Downloads\\OraX-main (2)\\OraX-main\\5_Applicativo\\OraX\\MainPage.xaml.cs",
+              "ToolTip": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\5_Applicativo\\OraX\\MainPage.xaml.cs",
               "RelativeToolTip": "MainPage.xaml.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAAAF8AAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAcwG4AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T13:31:46.867Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "OraX",
-              "DocumentMoniker": "C:\\Users\\bto419\\Downloads\\OraX-main (2)\\OraX-main\\5_Applicativo\\OraX\\OraX.csproj",
-              "RelativeDocumentMoniker": "OraX.csproj",
-              "ToolTip": "C:\\Users\\bto419\\Downloads\\OraX-main (2)\\OraX-main\\5_Applicativo\\OraX\\OraX.csproj",
-              "RelativeToolTip": "OraX.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-27T13:31:58.418Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Statistiche.xaml",
-              "DocumentMoniker": "C:\\Users\\bto419\\Downloads\\OraX-main (2)\\OraX-main\\5_Applicativo\\OraX\\Statistiche.xaml",
-              "RelativeDocumentMoniker": "Statistiche.xaml",
-              "ToolTip": "C:\\Users\\bto419\\Downloads\\OraX-main (2)\\OraX-main\\5_Applicativo\\OraX\\Statistiche.xaml",
-              "RelativeToolTip": "Statistiche.xaml",
-              "ViewState": "AgIAAIUAAAAAAAAAAAAQwKoAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-27T13:33:09.103Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-27T13:31:46.867Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Statistiche.xaml",
+              "DocumentMoniker": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\5_Applicativo\\OraX\\Statistiche.xaml",
+              "RelativeDocumentMoniker": "Statistiche.xaml",
+              "ToolTip": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\5_Applicativo\\OraX\\Statistiche.xaml",
+              "RelativeToolTip": "Statistiche.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-27T13:33:09.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Statistiche.xaml.cs",
+              "DocumentMoniker": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\5_Applicativo\\OraX\\Statistiche.xaml.cs",
+              "RelativeDocumentMoniker": "Statistiche.xaml.cs",
+              "ToolTip": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\5_Applicativo\\OraX\\Statistiche.xaml.cs",
+              "RelativeToolTip": "Statistiche.xaml.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAIwBIAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T13:38:50.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Modifiche.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\bto419\\Downloads\\OraX-main (2)\\OraX-main\\5_Applicativo\\OraX\\Modifiche.xaml.cs",
+              "DocumentMoniker": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\5_Applicativo\\OraX\\Modifiche.xaml.cs",
               "RelativeDocumentMoniker": "Modifiche.xaml.cs",
-              "ToolTip": "C:\\Users\\bto419\\Downloads\\OraX-main (2)\\OraX-main\\5_Applicativo\\OraX\\Modifiche.xaml.cs",
+              "ToolTip": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\5_Applicativo\\OraX\\Modifiche.xaml.cs",
               "RelativeToolTip": "Modifiche.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAcwEYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-27T13:38:37.199Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Statistiche.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\bto419\\Downloads\\OraX-main (2)\\OraX-main\\5_Applicativo\\OraX\\Statistiche.xaml.cs",
-              "RelativeDocumentMoniker": "Statistiche.xaml.cs",
-              "ToolTip": "C:\\Users\\bto419\\Downloads\\OraX-main (2)\\OraX-main\\5_Applicativo\\OraX\\Statistiche.xaml.cs",
-              "RelativeToolTip": "Statistiche.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "ThemeManager.cs",
+              "DocumentMoniker": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\5_Applicativo\\OraX\\ThemeManager.cs",
+              "RelativeDocumentMoniker": "ThemeManager.cs",
+              "ToolTip": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\5_Applicativo\\OraX\\ThemeManager.cs",
+              "RelativeToolTip": "ThemeManager.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAmwFgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T13:38:50.424Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-27T13:32:11.017Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\5_Applicativo\\OraX\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MainPage.xaml",
+              "ToolTip": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\5_Applicativo\\OraX\\MainPage.xaml",
+              "RelativeToolTip": "MainPage.xaml",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAAAHEAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-27T13:32:22.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Modifiche.xaml",
+              "DocumentMoniker": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\5_Applicativo\\OraX\\Modifiche.xaml",
+              "RelativeDocumentMoniker": "Modifiche.xaml",
+              "ToolTip": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\5_Applicativo\\OraX\\Modifiche.xaml",
+              "RelativeToolTip": "Modifiche.xaml",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAHsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-27T13:32:46.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "AppShell.xaml",
-              "DocumentMoniker": "C:\\Users\\bto419\\Downloads\\OraX-main (2)\\OraX-main\\5_Applicativo\\OraX\\AppShell.xaml",
+              "DocumentMoniker": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\5_Applicativo\\OraX\\AppShell.xaml",
               "RelativeDocumentMoniker": "AppShell.xaml",
-              "ToolTip": "C:\\Users\\bto419\\Downloads\\OraX-main (2)\\OraX-main\\5_Applicativo\\OraX\\AppShell.xaml",
+              "ToolTip": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\5_Applicativo\\OraX\\AppShell.xaml",
               "RelativeToolTip": "AppShell.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-27T13:33:26.831Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-27T13:33:26.831Z"
             }
           ]
         }

@@ -10,7 +10,7 @@ namespace OraX
         public static Color FrameBackgroundColor { get; private set; }
         public static Color FrameBorderColor { get; private set; }
 
-        // Tema chiaro
+        
         public static void SetLightTheme()
         {
             BackgroundColor = Colors.White;
@@ -20,27 +20,26 @@ namespace OraX
             ThemeChanged?.Invoke();
         }
 
-        // Tema “default viola”
+        
         public static void SetDefaultTheme()
         {
             BackgroundColor = Colors.White;
             TextColor = Color.FromArgb("#a31aff");
-            FrameBackgroundColor = Color.FromArgb("#e0b3ff");
+            FrameBackgroundColor = Color.FromArgb("#E5CCFF");
             FrameBorderColor = Color.FromArgb("#d1a3ff");
             ThemeChanged?.Invoke();
         }
 
-        // Tema scuro ma leggibile
         public static void SetDarkTheme()
         {
-            BackgroundColor = Color.FromArgb("#2E2E3A");       // grigio scuro/bluastro
+            BackgroundColor = Color.FromArgb("#2E2E3A");       
             TextColor = Colors.White;
-            FrameBackgroundColor = Color.FromArgb("#3A3A4E");  // frame leggermente più chiaro
+            FrameBackgroundColor = Color.FromArgb("#3A3A4E");  
             FrameBorderColor = Color.FromArgb("#50506A");
             ThemeChanged?.Invoke();
         }
 
-        // Tema blu
+       
         public static void SetBlueTheme()
         {
             BackgroundColor = Color.FromArgb("#cce6ff");
@@ -50,7 +49,7 @@ namespace OraX
             ThemeChanged?.Invoke();
         }
 
-        // Tema rosa
+       
         public static void SetPinkTheme()
         {
             BackgroundColor = Color.FromArgb("#ffccff");
@@ -60,7 +59,7 @@ namespace OraX
             ThemeChanged?.Invoke();
         }
 
-        // Tema viola
+        
         public static void SetPurpleTheme()
         {
             BackgroundColor = Color.FromArgb("#cc99ff");
@@ -69,7 +68,7 @@ namespace OraX
             FrameBorderColor = Color.FromArgb("#d1b3ff");
             ThemeChanged?.Invoke();
         }
-        // Tema giallo
+       
         public static void SetYellowTheme()
         {
             BackgroundColor = Color.FromArgb("#ffffcc");
@@ -78,7 +77,7 @@ namespace OraX
             FrameBorderColor = Color.FromArgb("#ff9900");
             ThemeChanged?.Invoke();
         }
-        // Tema rosso
+        
         public static void SetRedTheme()
         {
             BackgroundColor = Color.FromArgb("#ffe6e6");
@@ -87,7 +86,7 @@ namespace OraX
             FrameBorderColor = Color.FromArgb("#cc0000");
             ThemeChanged?.Invoke();
         }
-        // Tema marrone
+        
         public static void SetBrownTheme()
         {
             BackgroundColor = Color.FromArgb("#e6ccb3");

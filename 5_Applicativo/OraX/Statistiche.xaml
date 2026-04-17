@@ -8,14 +8,16 @@
     <ScrollView>
         <VerticalStackLayout Padding="25" Spacing="20">
 
-            <!-- HEADER -->
-            <Label Text="Le tue statistiche"
+           
+            <Label x:Name="labelHeader"
+                   Text="Le tue statistiche"
                    FontSize="28"
                    FontAttributes="Bold"
                    TextColor="#1C1C1E"/>
 
-            <!-- SUMMARY CARD -->
-            <Frame CornerRadius="25"
+         
+            <Frame x:Name="frameSummary"
+                   CornerRadius="25"
                    Padding="20"
                    BackgroundColor="White"
                    BorderColor="#EEEEEE"
@@ -25,23 +27,27 @@
                       RowDefinitions="Auto,Auto,Auto"
                       RowSpacing="8">
 
-                    <Label Text="Completate"
+                    <Label x:Name="labelCompletamento"
+                           Text="Completate"
                            HorizontalOptions="Center"
                            TextColor="#8E8E93"/>
 
-                    <Label Text="Non completate"
+                    <Label x:Name="labelNonComplete"
+                           Text="Non completate"
                            Grid.Column="1"
                            HorizontalOptions="Center"
                            TextColor="#8E8E93"/>
 
-                    <Label Text="25"
+                    <Label x:Name="labelFatte"
+                           Text="25"
                            Grid.Row="1"
                            FontSize="24"
                            FontAttributes="Bold"
                            HorizontalOptions="Center"
                            TextColor="#34C759"/>
 
-                    <Label Text="8"
+                    <Label x:Name="labelNonFatte"
+                           Text="8"
                            Grid.Row="1"
                            Grid.Column="1"
                            FontSize="24"
@@ -49,7 +55,8 @@
                            HorizontalOptions="Center"
                            TextColor="#FF3B30"/>
 
-                    <Label Text="Totale: 33 attività"
+                    <Label x:Name="labelTot"
+                           Text="Totale: 33 attività"
                            Grid.Row="2"
                            Grid.ColumnSpan="2"
                            HorizontalOptions="Center"
@@ -59,8 +66,9 @@
                 </Grid>
             </Frame>
 
-            <!-- PROGRESS CARD -->
-            <Frame CornerRadius="25"
+           
+            <Frame x:Name="frameCard"
+                   CornerRadius="25"
                    Padding="20"
                    BackgroundColor="White"
                    BorderColor="#EEEEEE"
@@ -68,7 +76,8 @@
 
                 <VerticalStackLayout Spacing="12">
 
-                    <Label Text="Completamento"
+                    <Label x:Name="labelComplete"
+                           Text="Completamento"
                            FontSize="16"
                            FontAttributes="Bold"
                            TextColor="#1C1C1E"/>
@@ -78,7 +87,8 @@
                                  ProgressColor="#007AFF"
                                  BackgroundColor="#E5E5EA"/>
 
-                    <Label Text="75% completato"
+                    <Label x:Name="labelPercento"
+                           Text="75% completato"
                            HorizontalOptions="End"
                            TextColor="#8E8E93"
                            FontSize="13"/>
@@ -87,15 +97,17 @@
             </Frame>
 
             <!-- RECENT ACTIVITY -->
-            <Label Text="Attività recenti"
+            <Label x:Name="labelAttivita"
+                   Text="Attività recenti"
                    FontSize="18"
                    FontAttributes="Bold"
                    TextColor="#1C1C1E"/>
 
             <VerticalStackLayout Spacing="12">
 
-                <!-- ITEM -->
-                <Frame CornerRadius="18"
+                
+                <Frame x:Name="frameItem"
+                       CornerRadius="18"
                        Padding="15"
                        BackgroundColor="White"
                        BorderColor="#EEEEEE"
@@ -104,11 +116,13 @@
                     <Grid ColumnDefinitions="*,Auto">
 
                         <VerticalStackLayout Spacing="2">
-                            <Label Text="Oggi"
+                            <Label x:Name="labelOggi"
+                                   Text="Oggi"
                                    FontAttributes="Bold"
                                    TextColor="#1C1C1E"/>
 
-                            <Label Text="5 completate · 2 non completate"
+                            <Label x:Name="labelQuante"
+                                   Text="5 completate · 2 non completate"
                                    FontSize="13"
                                    TextColor="#8E8E93"/>
                         </VerticalStackLayout>
@@ -118,7 +132,8 @@
                     </Grid>
                 </Frame>
 
-                <Frame CornerRadius="18"
+                <Frame x:Name="frameAttivita"
+                       CornerRadius="18"
                        Padding="15"
                        BackgroundColor="White"
                        BorderColor="#EEEEEE"
@@ -127,11 +142,13 @@
                     <Grid ColumnDefinitions="*,Auto">
 
                         <VerticalStackLayout Spacing="2">
-                            <Label Text="Ieri"
+                            <Label x:Name="labelIeri"
+                                   Text="Ieri"
                                    FontAttributes="Bold"
                                    TextColor="#1C1C1E"/>
 
-                            <Label Text="3 completate · 1 non completata"
+                            <Label x:Name="labelStatistiche"
+                                   Text="3 completate · 1 non completata"
                                    FontSize="13"
                                    TextColor="#8E8E93"/>
                         </VerticalStackLayout>
@@ -140,7 +157,8 @@
                     </Grid>
                 </Frame>
 
-                <Frame CornerRadius="18"
+                <Frame x:Name="frameAttivita2"
+                       CornerRadius="18"
                        Padding="15"
                        BackgroundColor="White"
                        BorderColor="#EEEEEE"
@@ -149,11 +167,13 @@
                     <Grid ColumnDefinitions="*,Auto">
 
                         <VerticalStackLayout Spacing="2">
-                            <Label Text="2 giorni fa"
+                            <Label x:Name="label2D"
+                                   Text="2 giorni fa"
                                    FontAttributes="Bold"
                                    TextColor="#1C1C1E"/>
 
-                            <Label Text="2 completate · 3 non completate"
+                            <Label x:Name="labelStati"
+                                   Text="2 completate · 3 non completate"
                                    FontSize="13"
                                    TextColor="#8E8E93"/>
                         </VerticalStackLayout>

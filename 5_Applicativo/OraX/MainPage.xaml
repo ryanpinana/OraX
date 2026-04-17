@@ -7,7 +7,6 @@
     <ScrollView>
         <VerticalStackLayout Padding="25" Spacing="20">
 
-            <!-- HEADER PICKER -->
             <HorizontalStackLayout Padding="10" Spacing="10">
                 <Label x:Name="titleLabel"
                        Text="Personalizza il tuo calendario:"
@@ -29,7 +28,7 @@
                 </Picker>
             </HorizontalStackLayout>
 
-            <!-- PROFILE CARD -->
+           
             <Frame x:Name="frameProfile" CornerRadius="25"
                    Padding="25"
                    BackgroundColor="White"
@@ -66,7 +65,7 @@
                 </VerticalStackLayout>
             </Frame>
 
-            <!-- STATISTICHE -->
+         
             <Frame x:Name="frameStatistiche" CornerRadius="25"
                    Padding="20"
                    BackgroundColor="White"
@@ -112,7 +111,7 @@
                 </VerticalStackLayout>
             </Frame>
 
-            <!-- ACTIONS CARD -->
+           
             <Frame x:Name="frameActions" CornerRadius="25"
                    Padding="10"
                    BackgroundColor="White"
