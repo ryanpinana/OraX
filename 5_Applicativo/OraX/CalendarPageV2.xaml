@@ -177,6 +177,22 @@
                                 IsEnabled="False"
                                 Opacity="0.5"/>
 
+
+                    <Picker
+                        x:Name="TipoPicker"
+                        Title="Tipo"
+                        ItemsSource="{Binding tuttiTipi}"
+                        ItemDisplayBinding="{Binding Nome}"/>
+
+                    <Label
+                        Text="Note"
+                        FontAttributes="Bold"/>
+
+                    <Editor
+                        x:Name="NoteEditor"
+                        Placeholder="Note dell'attività"
+                        HeightRequest="100"/>
+
                     <HorizontalStackLayout Spacing="10">
 
                         <Button
@@ -344,6 +360,38 @@
                                        VerticalOptions="Center"/>
                             </HorizontalStackLayout>
                         </VerticalStackLayout>
+
+                        <BoxView HeightRequest="1"
+                                 BackgroundColor="#EEEEEE"/>
+
+                        <VerticalStackLayout Spacing="3">
+                            <Label Text="TIPO"
+                                   FontSize="11"
+                                   TextColor="Gray"
+                                   FontAttributes="Bold"/>
+
+                            <Frame x:Name="DettaglioTipoTag"
+                                   CornerRadius="20"
+                                   Padding="12,5"
+                                   HorizontalOptions="Start">
+
+                                <Label x:Name="DettaglioTipoNome"
+                                       TextColor="White"
+                                       FontSize="14"
+                                       FontAttributes="Bold"/>
+                            </Frame>
+                        </VerticalStackLayout>
+
+                        <BoxView HeightRequest="1"
+                            BackgroundColor="#EEEEEE"/>
+
+                        <Label Text="NOTE"
+                           FontSize="11"
+                           TextColor="Gray"
+                           FontAttributes="Bold"/>
+
+                        <Label x:Name="DettaglioNote"
+                               FontSize="14"/>
                     </VerticalStackLayout>
                 </Grid>
             </Frame>

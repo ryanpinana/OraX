@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OraX")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+6d8ca252acdafbbc5d4762fc5b3401f040e729e1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+7d4c3109148641f4283f97a5640f795ee3bbd970")]
 [assembly: System.Reflection.AssemblyProductAttribute("OraX")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OraX")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

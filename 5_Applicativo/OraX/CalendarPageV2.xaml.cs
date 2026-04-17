@@ -47,33 +47,54 @@ public partial class CalendarPageV2 : ContentPage, INotifyPropertyChanged
 
 	//Sorgente di tutti i dati "privati" (provissorio)
 	List<Attivita> tutteLeAttivita = new();
+
+	public List<Tipo> tuttiTipi { get; set; } = new();
 	public CalendarPageV2()
 	{
-		InitializeComponent();
+        tutteLeAttivita = new List<Attivita>
+        {
+            new Attivita
+            {
+                Titolo = "Verifica M145",
+                Data = new DateTime(2026, 3, 15),
+                Colore = Colors.Red
+            },
+            new Attivita
+            {
+                Titolo = "Minecraft Live",
+                Data = new DateTime(2026, 3, 15),
+                Colore = Colors.Green
+            },
+            new Attivita
+            {
+                Titolo = "Cinema con Luca",
+                Data = new DateTime(2026, 3, 20),
+                Colore = Colors.Red
+            }
+        };
+
+        tuttiTipi = new List<Tipo>
+        {
+            new Tipo
+            {
+                Nome = "Scuola",
+                Colore = Colors.Aquamarine
+            },
+            new Tipo
+            {
+                Nome = "Casa",
+                Colore = Colors.DarkCyan
+            },
+            new Tipo
+            {
+                Nome = "Viaggi",
+                Colore = Colors.Gold
+            },
+        };
+
+        InitializeComponent();
 
 		BindingContext = this;
-
-		tutteLeAttivita = new List<Attivita>
-		{
-			new Attivita
-			{
-				Titolo = "Verifica M145",
-				Data = new DateTime(2026, 3, 15),
-				Colore = Colors.Red
-			},
-			new Attivita
-			{
-				Titolo = "Minecraft Live",
-				Data = new DateTime(2026, 3, 15),
-				Colore = Colors.Green
-			},
-			new Attivita
-			{
-				Titolo = "Cinema con Luca",
-				Data = new DateTime(2026, 3, 20),
-				Colore = Colors.Red
-			}
-		};
 
 		foreach (var a in tutteLeAttivita)
 		{
@@ -166,13 +187,24 @@ public partial class CalendarPageV2 : ContentPage, INotifyPropertyChanged
 			return;
 		}
 
+		var tipoSelezionato = TipoPicker.SelectedItem as Tipo;
+
+        if (tipoSelezionato ==  null)
+        {
+			DisplayAlert("Errore", "Scegliere un tipo per l'attivita", "OK");
+        }
+
+		var Note = NoteEditor.Text;
+
 		//Creo l'attività
 		var nuova = new Attivita
 		{
 			Titolo = TitoloEntry.Text,
 			Data = DataSelezionata,
 			DataFine = dataFine,
-			Colore = colore
+			Colore = colore,
+			Tipo = tipoSelezionato,
+			Note = Note
 		};
 
 		//La aggiungo alla lista generale
@@ -322,7 +354,19 @@ public partial class CalendarPageV2 : ContentPage, INotifyPropertyChanged
             : attivita.Colore == Colors.Blue ? "Blu"
             : attivita.Colore.ToString();
 
-		OverlayDettaglio.IsVisible = true;
+		if (attivita.Tipo != null)
+		{
+			DettaglioTipoTag.BackgroundColor = attivita.Tipo.Colore;
+			DettaglioTipoNome.Text = attivita.Tipo.Nome;
+			DettaglioTipoTag.IsVisible = true;
+		} else
+		{
+            DettaglioTipoTag.IsVisible = false;
+        }
+
+		DettaglioNote.Text = attivita.Note;
+
+			OverlayDettaglio.IsVisible = true;
 
 		//Resetta la selezione
 		(sender as CollectionView).SelectedItem = null;
