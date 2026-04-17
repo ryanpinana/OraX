@@ -1,0 +1,258 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\2025-26\\modulo 306\\OraX\\5_Applicativo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\2025-26\\modulo 306\\OraX\\5_Applicativo\\OraX\\OraX.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OraX\\OraX.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\2025-26\\modulo 306\\OraX\\5_Applicativo\\OraX\\OraX.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OraX\\OraX.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\2025-26\\modulo 306\\OraX\\5_Applicativo\\OraX\\MauiProgram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OraX\\MauiProgram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\2025-26\\modulo 306\\OraX\\5_Applicativo\\OraX\\MainPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OraX\\MainPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\2025-26\\modulo 306\\OraX\\5_Applicativo\\OraX\\MainPage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OraX\\MainPage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\2025-26\\modulo 306\\OraX\\5_Applicativo\\OraX\\LoginPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OraX\\LoginPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\2025-26\\modulo 306\\OraX\\5_Applicativo\\OraX\\LoginPage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OraX\\LoginPage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\2025-26\\modulo 306\\OraX\\5_Applicativo\\OraX\\AppShell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OraX\\AppShell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\2025-26\\modulo 306\\OraX\\5_Applicativo\\OraX\\AppShell.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OraX\\AppShell.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\2025-26\\modulo 306\\OraX\\5_Applicativo\\OraX\\App.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OraX\\App.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\2025-26\\modulo 306\\OraX\\5_Applicativo\\OraX\\App.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OraX\\App.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\2025-26\\modulo 306\\OraX\\5_Applicativo\\OraX\\Models\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OraX\\Models\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\2025-26\\modulo 306\\OraX\\5_Applicativo\\OraX\\Services\\PasswordHelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OraX\\Services\\PasswordHelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\2025-26\\modulo 306\\OraX\\5_Applicativo\\OraX\\Services\\DatabaseService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OraX\\Services\\DatabaseService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OraX.csproj.user",
+              "DocumentMoniker": "D:\\2025-26\\modulo 306\\OraX\\5_Applicativo\\OraX\\OraX.csproj.user",
+              "RelativeDocumentMoniker": "OraX\\OraX.csproj.user",
+              "ToolTip": "D:\\2025-26\\modulo 306\\OraX\\5_Applicativo\\OraX\\OraX.csproj.user",
+              "RelativeToolTip": "OraX\\OraX.csproj.user",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
+              "WhenOpened": "2026-04-17T12:26:53.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OraX.csproj",
+              "DocumentMoniker": "D:\\2025-26\\modulo 306\\OraX\\5_Applicativo\\OraX\\OraX.csproj",
+              "RelativeDocumentMoniker": "OraX\\OraX.csproj",
+              "ToolTip": "D:\\2025-26\\modulo 306\\OraX\\5_Applicativo\\OraX\\OraX.csproj",
+              "RelativeToolTip": "OraX\\OraX.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-17T12:26:49.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "D:\\2025-26\\modulo 306\\OraX\\5_Applicativo\\OraX\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "OraX\\MauiProgram.cs",
+              "ToolTip": "D:\\2025-26\\modulo 306\\OraX\\5_Applicativo\\OraX\\MauiProgram.cs",
+              "RelativeToolTip": "OraX\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T12:26:29.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "D:\\2025-26\\modulo 306\\OraX\\5_Applicativo\\OraX\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "OraX\\MainPage.xaml.cs",
+              "ToolTip": "D:\\2025-26\\modulo 306\\OraX\\5_Applicativo\\OraX\\MainPage.xaml.cs",
+              "RelativeToolTip": "OraX\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T12:26:26.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\2025-26\\modulo 306\\OraX\\5_Applicativo\\OraX\\MainPage.xaml",
+              "RelativeDocumentMoniker": "OraX\\MainPage.xaml",
+              "ToolTip": "D:\\2025-26\\modulo 306\\OraX\\5_Applicativo\\OraX\\MainPage.xaml",
+              "RelativeToolTip": "OraX\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-17T12:26:23.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "D:\\2025-26\\modulo 306\\OraX\\5_Applicativo\\OraX\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "OraX\\LoginPage.xaml.cs",
+              "ToolTip": "D:\\2025-26\\modulo 306\\OraX\\5_Applicativo\\OraX\\LoginPage.xaml.cs",
+              "RelativeToolTip": "OraX\\LoginPage.xaml.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAwwDEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T12:26:14.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "D:\\2025-26\\modulo 306\\OraX\\5_Applicativo\\OraX\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "OraX\\LoginPage.xaml",
+              "ToolTip": "D:\\2025-26\\modulo 306\\OraX\\5_Applicativo\\OraX\\LoginPage.xaml",
+              "RelativeToolTip": "OraX\\LoginPage.xaml",
+              "ViewState": "AgIAAN4AAAAAAAAAAAAiwAsBAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-17T12:25:54.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "D:\\2025-26\\modulo 306\\OraX\\5_Applicativo\\OraX\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "OraX\\AppShell.xaml.cs",
+              "ToolTip": "D:\\2025-26\\modulo 306\\OraX\\5_Applicativo\\OraX\\AppShell.xaml.cs",
+              "RelativeToolTip": "OraX\\AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T12:25:51.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "D:\\2025-26\\modulo 306\\OraX\\5_Applicativo\\OraX\\AppShell.xaml",
+              "RelativeDocumentMoniker": "OraX\\AppShell.xaml",
+              "ToolTip": "D:\\2025-26\\modulo 306\\OraX\\5_Applicativo\\OraX\\AppShell.xaml",
+              "RelativeToolTip": "OraX\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-17T12:25:30.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\2025-26\\modulo 306\\OraX\\5_Applicativo\\OraX\\App.xaml.cs",
+              "RelativeDocumentMoniker": "OraX\\App.xaml.cs",
+              "ToolTip": "D:\\2025-26\\modulo 306\\OraX\\5_Applicativo\\OraX\\App.xaml.cs",
+              "RelativeToolTip": "OraX\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T12:25:25.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\2025-26\\modulo 306\\OraX\\5_Applicativo\\OraX\\App.xaml",
+              "RelativeDocumentMoniker": "OraX\\App.xaml",
+              "ToolTip": "D:\\2025-26\\modulo 306\\OraX\\5_Applicativo\\OraX\\App.xaml",
+              "RelativeToolTip": "OraX\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-17T12:25:19.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\2025-26\\modulo 306\\OraX\\5_Applicativo\\OraX\\Models\\User.cs",
+              "RelativeDocumentMoniker": "OraX\\Models\\User.cs",
+              "ToolTip": "D:\\2025-26\\modulo 306\\OraX\\5_Applicativo\\OraX\\Models\\User.cs",
+              "RelativeToolTip": "OraX\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T12:24:47.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PasswordHelper.cs",
+              "DocumentMoniker": "D:\\2025-26\\modulo 306\\OraX\\5_Applicativo\\OraX\\Services\\PasswordHelper.cs",
+              "RelativeDocumentMoniker": "OraX\\Services\\PasswordHelper.cs",
+              "ToolTip": "D:\\2025-26\\modulo 306\\OraX\\5_Applicativo\\OraX\\Services\\PasswordHelper.cs",
+              "RelativeToolTip": "OraX\\Services\\PasswordHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T12:24:35.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DatabaseService.cs",
+              "DocumentMoniker": "D:\\2025-26\\modulo 306\\OraX\\5_Applicativo\\OraX\\Services\\DatabaseService.cs",
+              "RelativeDocumentMoniker": "OraX\\Services\\DatabaseService.cs",
+              "ToolTip": "D:\\2025-26\\modulo 306\\OraX\\5_Applicativo\\OraX\\Services\\DatabaseService.cs",
+              "RelativeToolTip": "OraX\\Services\\DatabaseService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAwwC0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T12:24:01.466Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OraX.MainPage"
+             BackgroundColor="#F7F7F7">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="25" Spacing="20">
+
+            <!-- HEADER PICKER -->
+            <HorizontalStackLayout Padding="10" Spacing="10">
+                <Label x:Name="titleLabel"
+                       Text="Personalizza il tuo calendario:"
+                       FontSize="14"
+                       VerticalOptions="Center"/>
+                <Picker x:Name="themePicker"
+                        SelectedIndexChanged="OnThemeChanged"
+                        HorizontalOptions="FillAndExpand">
+                    <Picker.Items>
+                        <x:String>Chiaro</x:String>
+                        <x:String>Scuro</x:String>
+                        <x:String>Blu</x:String>
+                        <x:String>Rosa</x:String>
+                        <x:String>Viola</x:String>
+                        <x:String>Giallo</x:String>
+                        <x:String>Rosso</x:String>
+                        <x:String>Marrone</x:String>
+                    </Picker.Items>
+                </Picker>
+            </HorizontalStackLayout>
+
+            <!-- PROFILE CARD -->
+            <Frame x:Name="frameProfile" CornerRadius="25"
+                   Padding="25"
+                   BackgroundColor="White"
+                   HasShadow="False"
+                   BorderColor="#EEEEEE">
+
+                <VerticalStackLayout Spacing="12" HorizontalOptions="Center">
+
+                    <Frame x:Name="frameProfileImage"
+                           WidthRequest="110"
+                           HeightRequest="110"
+                           CornerRadius="55"
+                           IsClippedToBounds="True"
+                           Padding="0"
+                           BorderColor="#E6E6E6"
+                           BackgroundColor="White"
+                           HasShadow="False">
+
+                        <Image x:Name="imageProfile" Source="fox.jpg"
+                               Aspect="AspectFill"/>
+                    </Frame>
+
+                    <Label x:Name="labelNome" Text="Mario Rossi"
+                           FontSize="22"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Center"
+                           TextColor="#1C1C1E"/>
+
+                    <Label x:Name="labelEmail" Text="mario@email.com"
+                           FontSize="14"
+                           TextColor="#8E8E93"
+                           HorizontalOptions="Center"/>
+
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- STATISTICHE -->
+            <Frame x:Name="frameStatistiche" CornerRadius="25"
+                   Padding="20"
+                   BackgroundColor="White"
+                   HasShadow="False"
+                   BorderColor="#EEEEEE">
+
+                <VerticalStackLayout Spacing="15">
+
+                    <Label x:Name="labelAttivita" Text="Attività"
+                           FontSize="16"
+                           FontAttributes="Bold"
+                           TextColor="#1C1C1E"/>
+
+                    <Grid ColumnDefinitions="*,*"
+                          RowDefinitions="Auto,Auto">
+
+                        <Label x:Name="labelCompletate" Text="Completate"
+                               HorizontalOptions="Center"
+                               TextColor="#8E8E93"/>
+
+                        <Label x:Name="labelInSospeso" Text="In sospeso"
+                               Grid.Column="1"
+                               HorizontalOptions="Center"
+                               TextColor="#8E8E93"/>
+
+                        <Label x:Name="labelCompletateValue" Text="25"
+                               Grid.Row="1"
+                               FontSize="22"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Center"
+                               TextColor="#34C759"/>
+
+                        <Label x:Name="labelInSospesoValue" Text="8"
+                               Grid.Row="1"
+                               Grid.Column="1"
+                               FontSize="22"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Center"
+                               TextColor="#FF3B30"/>
+
+                    </Grid>
+
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- ACTIONS CARD -->
+            <Frame x:Name="frameActions" CornerRadius="25"
+                   Padding="10"
+                   BackgroundColor="White"
+                   HasShadow="False"
+                   BorderColor="#EEEEEE">
+
+                <VerticalStackLayout Spacing="0">
+
+                    <Button x:Name="btnModificaProfilo" Text="Modifica profilo"
+                            Clicked="Button_Clicked_1"
+                            BackgroundColor="Transparent"
+                            TextColor="#007AFF"
+                            HorizontalOptions="Fill"
+                            HeightRequest="50"/>
+
+                    <BoxView x:Name="box1" HeightRequest="1" Color="#E5E5EA"/>
+
+                    <Button x:Name="btnStatistiche" Text="Visualizza statistiche"
+                            Clicked="Button_Clicked"
+                            BackgroundColor="Transparent"
+                            TextColor="#007AFF"
+                            HeightRequest="50"/>
+
+                    <BoxView x:Name="box2" HeightRequest="1" Color="#E5E5EA"/>
+
+                    <Button x:Name="btnEsci" Text="Esci dal profilo"
+                            BackgroundColor="Transparent"
+                            TextColor="#FF3B30"
+                            HeightRequest="50"/>
+
+                </VerticalStackLayout>
+
+            </Frame>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
