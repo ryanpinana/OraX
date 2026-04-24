@@ -1,459 +1,191 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage
-    x:Class="OraX.RegisterPage"
-    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    BackgroundColor="#F2F2F7"
-    Shell.NavBarIsVisible="False"
-    Title="Registrazione">
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OraX.Statistiche"
+             Title="Statistiche"
+             BackgroundColor="#F7F7F7">
 
-    <Grid ColumnDefinitions="*,*">
+    <ScrollView>
+        <VerticalStackLayout Padding="25" Spacing="20">
 
-        <Grid Grid.Column="0" BackgroundColor="#0a0a0f">
 
-            <BoxView
-                Color="#0a0a0f"
-                Opacity="0.65" />
+            <Label x:Name="labelHeader"
+                   Text="Le tue statistiche"
+                   FontSize="28"
+                   FontAttributes="Bold"
+                   TextColor="#1C1C1E"/>
 
-            <BoxView
-                Color="#7C3AED"
-                Opacity="0.15" />
 
-            <VerticalStackLayout
-                Padding="48"
-                Spacing="20"
-                VerticalOptions="Fill">
+            <Frame x:Name="frameSummary"
+                   CornerRadius="25"
+                   Padding="20"
+                   BackgroundColor="White"
+                   BorderColor="#EEEEEE"
+                   HasShadow="False">
 
-                <HorizontalStackLayout Spacing="12">
-                    <Border
-                        WidthRequest="55"
-                        HeightRequest="55"
-                        StrokeThickness="1"
-                        Stroke="#30FFFFFF"
-                        BackgroundColor="#1AFFFFFF">
-                        <Border.StrokeShape>
-                            <RoundRectangle CornerRadius="12" />
-                        </Border.StrokeShape>
+                <Grid ColumnDefinitions="*,*"
+                      RowDefinitions="Auto,Auto,Auto"
+                      RowSpacing="8">
 
-                        <Image
-                            Source="logoorax_def.png"
-                            Aspect="AspectFit"
-                            HorizontalOptions="Center"
-                            VerticalOptions="Center" />
-                    </Border>
+                    <Label x:Name="labelCompletamento"
+                           Text="Completate"
+                           HorizontalOptions="Center"
+                           TextColor="#8E8E93"/>
 
-                    <Label
-                        Text="OraX"
-                        FontSize="27"
-                        FontAttributes="Bold"
-                        TextColor="White"
-                        VerticalOptions="Center" />
-                </HorizontalStackLayout>
+                    <Label x:Name="labelNonComplete"
+                           Text="Non completate"
+                           Grid.Column="1"
+                           HorizontalOptions="Center"
+                           TextColor="#8E8E93"/>
 
-                <Grid VerticalOptions="FillAndExpand" />
+                    <Label x:Name="labelFatte"
+                           Text="25"
+                           Grid.Row="1"
+                           FontSize="24"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Center"
+                           TextColor="#34C759"/>
 
-                <VerticalStackLayout Spacing="6">
-                    <Label
-                        Text="Crea il tuo"
-                        FontSize="55"
-                        FontAttributes="Bold"
-                        TextColor="White"
-                        LineHeight="1.1" />
+                    <Label x:Name="labelNonFatte"
+                           Text="8"
+                           Grid.Row="1"
+                           Grid.Column="1"
+                           FontSize="24"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Center"
+                           TextColor="#FF3B30"/>
 
-                    <Label
-                        Text="account"
-                        FontSize="53"
-                        FontAttributes="Bold"
-                        TextColor="#A78BFA"
-                        LineHeight="1.1" />
+                    <Label x:Name="labelTot"
+                           Text="Totale: 33 attività"
+                           Grid.Row="2"
+                           Grid.ColumnSpan="2"
+                           HorizontalOptions="Center"
+                           TextColor="#8E8E93"
+                           FontSize="13"/>
 
-                    <Label
-                        Text="Registrati per cominciare a gestire &#x0a;in modo veloce, semplice e ordinato&#x0a;i tuoi impegni personali"
-                        FontSize="23"
-                        TextColor="#CCFFFFFF"
-                        LineHeight="1.5"
-                        Margin="0,12,0,0" />
+                </Grid>
+            </Frame>
+
+
+            <Frame x:Name="frameCard"
+                   CornerRadius="25"
+                   Padding="20"
+                   BackgroundColor="White"
+                   BorderColor="#EEEEEE"
+                   HasShadow="False">
+
+                <VerticalStackLayout Spacing="12">
+
+                    <Label x:Name="labelComplete"
+                           Text="Completamento"
+                           FontSize="16"
+                           FontAttributes="Bold"
+                           TextColor="#1C1C1E"/>
+
+                    <ProgressBar Progress="0.75"
+                                 HeightRequest="10"
+                                 ProgressColor="#007AFF"
+                                 BackgroundColor="#E5E5EA"/>
+
+                    <Label x:Name="labelPercento"
+                           Text="75% completato"
+                           HorizontalOptions="End"
+                           TextColor="#8E8E93"
+                           FontSize="13"/>
+
                 </VerticalStackLayout>
+            </Frame>
 
-                <Grid VerticalOptions="FillAndExpand" />
+            <!-- RECENT ACTIVITY -->
+            <Label x:Name="labelAttivita"
+                   Text="Attività recenti"
+                   FontSize="18"
+                   FontAttributes="Bold"
+                   TextColor="#1C1C1E"/>
+
+            <VerticalStackLayout Spacing="12">
+
+
+                <Frame x:Name="frameItem"
+                       CornerRadius="18"
+                       Padding="15"
+                       BackgroundColor="White"
+                       BorderColor="#EEEEEE"
+                       HasShadow="False">
+
+                    <Grid ColumnDefinitions="*,Auto">
+
+                        <VerticalStackLayout Spacing="2">
+                            <Label x:Name="labelOggi"
+                                   Text="Oggi"
+                                   FontAttributes="Bold"
+                                   TextColor="#1C1C1E"/>
+
+                            <Label x:Name="labelQuante"
+                                   Text="5 completate · 2 non completate"
+                                   FontSize="13"
+                                   TextColor="#8E8E93"/>
+                        </VerticalStackLayout>
+
+
+
+                    </Grid>
+                </Frame>
+
+                <Frame x:Name="frameAttivita"
+                       CornerRadius="18"
+                       Padding="15"
+                       BackgroundColor="White"
+                       BorderColor="#EEEEEE"
+                       HasShadow="False">
+
+                    <Grid ColumnDefinitions="*,Auto">
+
+                        <VerticalStackLayout Spacing="2">
+                            <Label x:Name="labelIeri"
+                                   Text="Ieri"
+                                   FontAttributes="Bold"
+                                   TextColor="#1C1C1E"/>
+
+                            <Label x:Name="labelStatistiche"
+                                   Text="3 completate · 1 non completata"
+                                   FontSize="13"
+                                   TextColor="#8E8E93"/>
+                        </VerticalStackLayout>
+
+
+                    </Grid>
+                </Frame>
+
+                <Frame x:Name="frameAttivita2"
+                       CornerRadius="18"
+                       Padding="15"
+                       BackgroundColor="White"
+                       BorderColor="#EEEEEE"
+                       HasShadow="False">
+
+                    <Grid ColumnDefinitions="*,Auto">
+
+                        <VerticalStackLayout Spacing="2">
+                            <Label x:Name="label2D"
+                                   Text="2 giorni fa"
+                                   FontAttributes="Bold"
+                                   TextColor="#1C1C1E"/>
+
+                            <Label x:Name="labelStati"
+                                   Text="2 completate · 3 non completate"
+                                   FontSize="13"
+                                   TextColor="#8E8E93"/>
+                        </VerticalStackLayout>
+
+
+
+                    </Grid>
+                </Frame>
 
             </VerticalStackLayout>
-        </Grid>
 
-        <ScrollView Grid.Column="1" BackgroundColor="#F9F9FB">
+        </VerticalStackLayout>
+    </ScrollView>
 
-            <VerticalStackLayout
-                WidthRequest="430"
-                Padding="0,30,0,30"
-                Spacing="0"
-                VerticalOptions="Center"
-                HorizontalOptions="Center">
-
-                <Label
-                    Text="Registrazione"
-                    FontSize="44"
-                    FontAttributes="Bold"
-                    TextColor="#111111"
-                    Margin="0,0,0,6" />
-
-                <Label
-                    Text="Inserisci i tuoi dati per creare un account"
-                    FontSize="20"
-                    TextColor="#8A8A9A"
-                    Margin="0,0,0,28" />
-
-                <Label
-                    Text="NOME"
-                    FontSize="17"
-                    FontAttributes="Bold"
-                    TextColor="#5A5A6E"
-                    Margin="0,0,0,6" />
-
-                <Border
-                    StrokeThickness="1"
-                    Stroke="#E2E2EA"
-                    BackgroundColor="White"
-                    Margin="0,0,0,14">
-                    <Border.StrokeShape>
-                        <RoundRectangle CornerRadius="14" />
-                    </Border.StrokeShape>
-
-                    <Grid ColumnDefinitions="Auto,*" Padding="14,0" HeightRequest="54">
-                        <Label
-                            Grid.Column="0"
-                            Text="👤"
-                            FontSize="18"
-                            Opacity="0.45"
-                            VerticalOptions="Center"
-                            Margin="0,0,10,0" />
-
-                        <Entry
-                            x:Name="NomeEntry"
-                            Grid.Column="1"
-                            Placeholder="Nome"
-                            PlaceholderColor="#B0B0C0"
-                            TextColor="#0F0F14"
-                            BackgroundColor="Transparent"
-                            FontSize="15"
-                            VerticalOptions="Center" />
-                    </Grid>
-                </Border>
-
-                <Label
-                    Text="COGNOME"
-                    FontSize="17"
-                    FontAttributes="Bold"
-                    TextColor="#5A5A6E"
-                    Margin="0,0,0,6" />
-
-                <Border
-                    StrokeThickness="1"
-                    Stroke="#E2E2EA"
-                    BackgroundColor="White"
-                    Margin="0,0,0,14">
-                    <Border.StrokeShape>
-                        <RoundRectangle CornerRadius="14" />
-                    </Border.StrokeShape>
-
-                    <Grid ColumnDefinitions="Auto,*" Padding="14,0" HeightRequest="54">
-                        <Label
-                            Grid.Column="0"
-                            Text="👤"
-                            FontSize="18"
-                            Opacity="0.45"
-                            VerticalOptions="Center"
-                            Margin="0,0,10,0" />
-
-                        <Entry
-                            x:Name="CognomeEntry"
-                            Grid.Column="1"
-                            Placeholder="Cognome"
-                            PlaceholderColor="#B0B0C0"
-                            TextColor="#0F0F14"
-                            BackgroundColor="Transparent"
-                            FontSize="15"
-                            VerticalOptions="Center" />
-                    </Grid>
-                </Border>
-
-
-                <Label
-                    Text="EMAIL"
-                    FontSize="17"
-                    FontAttributes="Bold"
-                    TextColor="#5A5A6E"
-                    Margin="0,0,0,6" />
-
-                <Border
-                    StrokeThickness="1"
-                    Stroke="#E2E2EA"
-                    BackgroundColor="White"
-                    Margin="0,0,0,14">
-                        <Border.StrokeShape>
-                            <RoundRectangle CornerRadius="14" />
-                     </Border.StrokeShape>
-
-                        <Grid ColumnDefinitions="Auto,*" Padding="14,0" HeightRequest="54">
-                            <Label
-                                Grid.Column="0"
-                                Text="💌"
-                                FontSize="18"
-                                Opacity="0.45"
-                                VerticalOptions="Center"
-                                Margin="0,0,10,0" />
-
-                            <Entry
-                                x:Name="EmailEntry"
-                                Grid.Column="1"
-                                Placeholder="Email"
-                                PlaceholderColor="#B0B0C0"
-                                TextColor="#0F0F14"
-                                BackgroundColor="Transparent"
-                                FontSize="15"
-                                VerticalOptions="Center" />
-                        </Grid>
-                </Border>
-
-
-                <Label
-    Text="TELEFONO"
-    FontSize="17"
-    FontAttributes="Bold"
-    TextColor="#5A5A6E"
-    Margin="0,0,0,6" />
-
-                <Border
-    StrokeThickness="1"
-    Stroke="#E2E2EA"
-    BackgroundColor="White"
-    Margin="0,0,0,14">
-                    <Border.StrokeShape>
-                        <RoundRectangle CornerRadius="14" />
-                    </Border.StrokeShape>
-
-                    <Grid ColumnDefinitions="Auto,*" Padding="14,0" HeightRequest="54">
-                        <Label
-                Grid.Column="0"
-                Text="📞"
-                FontSize="18"
-                Opacity="0.45"
-                VerticalOptions="Center"
-                Margin="0,0,10,0" />
-
-                        <Entry
-                x:Name="TelefonoEntry"
-                Grid.Column="1"
-                Placeholder="Telefono"
-                PlaceholderColor="#B0B0C0"
-                TextColor="#0F0F14"
-                BackgroundColor="Transparent"
-                FontSize="15"
-                VerticalOptions="Center" />
-                    </Grid>
-                </Border>
-
-
-                <Label
-                    Text="DATA DI NASCITA"
-                    FontSize="17"
-                    FontAttributes="Bold"
-                    TextColor="#5A5A6E"
-                    Margin="0,0,0,6" />
-
-                <Border
-                    StrokeThickness="1"
-                    Stroke="#E2E2EA"
-                    BackgroundColor="White"
-                    Margin="0,0,0,14">
-                    <Border.StrokeShape>
-                        <RoundRectangle CornerRadius="14" />
-                    </Border.StrokeShape>
-
-                    <Grid ColumnDefinitions="Auto,*" Padding="14,0" HeightRequest="54">
-                        <Label
-                            Grid.Column="0"
-                            Text="📅"
-                            FontSize="18"
-                            Opacity="0.45"
-                            VerticalOptions="Center"
-                            Margin="0,0,10,0" />
-
-                        <DatePicker
-                            x:Name="DataNascitaPicker"
-                            Grid.Column="1"
-                            FontSize="15"
-                            TextColor="#0F0F14"
-                            Date="01/01/2008"
-                            BackgroundColor="Transparent"
-                            Format="dd/MM/yyyy"
-                            VerticalOptions="Center" />
-                    </Grid>
-                </Border>
-
-                <Label
-                    Text="USERNAME"
-                    FontSize="17"
-                    FontAttributes="Bold"
-                    TextColor="#5A5A6E"
-                    Margin="0,0,0,6" />
-
-                <Border
-                    StrokeThickness="1"
-                    Stroke="#E2E2EA"
-                    BackgroundColor="White"
-                    Margin="0,0,0,14">
-                    <Border.StrokeShape>
-                        <RoundRectangle CornerRadius="14" />
-                    </Border.StrokeShape>
-
-                    <Grid ColumnDefinitions="Auto,*" Padding="14,0" HeightRequest="54">
-                        <Label
-                            Grid.Column="0"
-                            Text="🆔"
-                            FontSize="18"
-                            Opacity="0.45"
-                            VerticalOptions="Center"
-                            Margin="0,0,10,0" />
-
-                        <Entry
-                            x:Name="UsernameEntry"
-                            Grid.Column="1"
-                            Placeholder="Username"
-                            PlaceholderColor="#B0B0C0"
-                            TextColor="#0F0F14"
-                            BackgroundColor="Transparent"
-                            FontSize="15"
-                            VerticalOptions="Center" />
-                    </Grid>
-                </Border>
-
-                <Label
-    Text="PASSWORD"
-    FontSize="17"
-    FontAttributes="Bold"
-    TextColor="#5A5A6E"
-    Margin="0,0,0,6" />
-
-                <Border
-    StrokeThickness="1"
-    Stroke="#E2E2EA"
-    BackgroundColor="White"
-    Margin="0,0,0,22">
-                    <Border.StrokeShape>
-                        <RoundRectangle CornerRadius="14" />
-                    </Border.StrokeShape>
-
-                    <Grid ColumnDefinitions="Auto,*,Auto" Padding="14,0" HeightRequest="54">
-                        <Label
-            Grid.Column="0"
-            Text="🔒"
-            FontSize="18"
-            Opacity="0.45"
-            VerticalOptions="Center"
-            Margin="0,0,10,0" />
-
-                        <Entry
-            x:Name="PasswordEntry"
-            Grid.Column="1"
-            Placeholder="Password"
-            PlaceholderColor="#B0B0C0"
-            IsPassword="True"
-            TextColor="#0F0F14"
-            BackgroundColor="Transparent"
-            FontSize="15"
-            VerticalOptions="Center" />
-
-                        <ImageButton
-            x:Name="OcchioPasswordButton"
-            Grid.Column="2"
-            Source="occhio_chiuso.png"
-            BackgroundColor="Transparent"
-            WidthRequest="24"
-            HeightRequest="24"
-            Clicked="OnTogglePasswordClicked"
-            VerticalOptions="Center"
-            Padding="0"
-            Margin="10,0,0,0" />
-                    </Grid>
-                </Border>
-
-
-                <Label
-    Text="CONFERMA PASSWORD"
-    FontSize="17"
-    FontAttributes="Bold"
-    TextColor="#5A5A6E"
-    Margin="0,0,0,6" />
-
-                <Border
-    StrokeThickness="1"
-    Stroke="#E2E2EA"
-    BackgroundColor="White"
-    Margin="0,0,0,22">
-                    <Border.StrokeShape>
-                        <RoundRectangle CornerRadius="14" />
-                    </Border.StrokeShape>
-
-                    <Grid ColumnDefinitions="Auto,*,Auto" Padding="14,0" HeightRequest="54">
-                        <Label
-            Grid.Column="0"
-            Text="🔒"
-            FontSize="18"
-            Opacity="0.45"
-            VerticalOptions="Center"
-            Margin="0,0,10,0" />
-
-                        <Entry
-            x:Name="PasswordEntry2"
-            Grid.Column="1"
-            Placeholder="Conferma Password"
-            PlaceholderColor="#B0B0C0"
-            IsPassword="True"
-            TextColor="#0F0F14"
-            BackgroundColor="Transparent"
-            FontSize="15"
-            VerticalOptions="Center" />
-
-                        <ImageButton
-            x:Name="OcchioPasswordButton2"
-            Grid.Column="2"
-            Source="occhio_chiuso.png"
-            BackgroundColor="Transparent"
-            WidthRequest="24"
-            HeightRequest="24"
-            Clicked="OnTogglePassword2Clicked"
-            VerticalOptions="Center"
-            Padding="0"
-            Margin="10,0,0,0" />
-                    </Grid>
-                </Border>
-
-                <Border
-                    StrokeThickness="0"
-                    Margin="0,0,0,20">
-                    <Border.Background>
-                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                            <GradientStop Color="#7C3AED" Offset="0.0" />
-                            <GradientStop Color="#A855F7" Offset="1.0" />
-                        </LinearGradientBrush>
-                    </Border.Background>
-
-                    <Border.StrokeShape>
-                        <RoundRectangle CornerRadius="16" />
-                    </Border.StrokeShape>
-
-                    <Button
-                        Text="Registrati"
-                        FontSize="18"
-                        FontAttributes="Bold"
-                        HeightRequest="56"
-                        BackgroundColor="Transparent"
-                        TextColor="White"
-                        Clicked="OnRegisterClicked" />
-                </Border>
-
-            </VerticalStackLayout>
-        </ScrollView>
-
-    </Grid>
 </ContentPage>

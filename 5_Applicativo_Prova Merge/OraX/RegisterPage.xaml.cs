@@ -1,6 +1,7 @@
 using OraX.Models;
 using OraX.Services;
 
+
 namespace OraX;
 
 public partial class RegisterPage : ContentPage

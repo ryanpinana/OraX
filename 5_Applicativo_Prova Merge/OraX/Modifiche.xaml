@@ -1,175 +1,111 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="OraX.Statistiche"
-             Title="Statistiche"
+             x:Class="OraX.Modifiche"
+             Title="Profilo"
              BackgroundColor="#F7F7F7">
 
     <ScrollView>
-        <VerticalStackLayout Padding="25" Spacing="20">
-
-            <!-- HEADER -->
-            <Label Text="Le tue statistiche"
-                   FontSize="28"
-                   FontAttributes="Bold"
-                   TextColor="#1C1C1E"/>
-
-            <!-- SUMMARY CARD -->
-            <Frame CornerRadius="25"
-                   Padding="20"
-                   BackgroundColor="White"
-                   BorderColor="#EEEEEE"
+        <VerticalStackLayout Spacing="25" Padding="25">
+            <VerticalStackLayout Spacing="12" HorizontalOptions="Center">
+                <Frame x:Name="frameInizio"  
+                   HeightRequest="110"  
+                   WidthRequest="110"  
+                   CornerRadius="55"  
+                   Padding="0"  
+                   IsClippedToBounds="True"  
+                   BorderColor="#E6E6E6"  
+                   BackgroundColor="White"  
                    HasShadow="False">
-
-                <Grid ColumnDefinitions="*,*"
-                      RowDefinitions="Auto,Auto,Auto"
-                      RowSpacing="8">
-
-                    <Label Text="Completate"
-                           HorizontalOptions="Center"
-                           TextColor="#8E8E93"/>
-
-                    <Label Text="Non completate"
-                           Grid.Column="1"
-                           HorizontalOptions="Center"
-                           TextColor="#8E8E93"/>
-
-                    <Label Text="25"
-                           Grid.Row="1"
-                           FontSize="24"
-                           FontAttributes="Bold"
-                           HorizontalOptions="Center"
-                           TextColor="#34C759"/>
-
-                    <Label Text="8"
-                           Grid.Row="1"
-                           Grid.Column="1"
-                           FontSize="24"
-                           FontAttributes="Bold"
-                           HorizontalOptions="Center"
-                           TextColor="#FF3B30"/>
-
-                    <Label Text="Totale: 33 attività"
-                           Grid.Row="2"
-                           Grid.ColumnSpan="2"
-                           HorizontalOptions="Center"
-                           TextColor="#8E8E93"
-                           FontSize="13"/>
-
-                </Grid>
-            </Frame>
-
-            <!-- PROGRESS CARD -->
-            <Frame CornerRadius="25"
-                   Padding="20"
-                   BackgroundColor="White"
-                   BorderColor="#EEEEEE"
-                   HasShadow="False">
-
-                <VerticalStackLayout Spacing="12">
-
-                    <Label Text="Completamento"
-                           FontSize="16"
-                           FontAttributes="Bold"
-                           TextColor="#1C1C1E"/>
-
-                    <ProgressBar Progress="0.75"
-                                 HeightRequest="10"
-                                 ProgressColor="#007AFF"
-                                 BackgroundColor="#E5E5EA"/>
-
-                    <Label Text="75% completato"
-                           HorizontalOptions="End"
-                           TextColor="#8E8E93"
-                           FontSize="13"/>
-
-                </VerticalStackLayout>
-            </Frame>
-
-            <!-- RECENT ACTIVITY -->
-            <Label Text="Attività recenti"
-                   FontSize="18"
-                   FontAttributes="Bold"
-                   TextColor="#1C1C1E"/>
-
-            <VerticalStackLayout Spacing="12">
-
-                <!-- ITEM -->
-                <Frame CornerRadius="18"
-                       Padding="15"
-                       BackgroundColor="White"
-                       BorderColor="#EEEEEE"
-                       HasShadow="False">
-
-                    <Grid ColumnDefinitions="*,Auto">
-
-                        <VerticalStackLayout Spacing="2">
-                            <Label Text="Oggi"
-                                   FontAttributes="Bold"
-                                   TextColor="#1C1C1E"/>
-
-                            <Label Text="5 completate · 2 non completate"
-                                   FontSize="13"
-                                   TextColor="#8E8E93"/>
-                        </VerticalStackLayout>
-
-
-
-                    </Grid>
+                    <Image x:Name="ImgProfilo"  
+                       Source="default_profile.png"  
+                       Aspect="AspectFill"/>
                 </Frame>
+                <Button Text="Cambia foto"  
+                    Clicked="OnChangePhotoClicked"  
+                    BackgroundColor="Transparent"  
+                    TextColor="#007AFF"  
+                    FontAttributes="Bold"/>
 
-                <Frame CornerRadius="18"
-                       Padding="15"
-                       BackgroundColor="White"
-                       BorderColor="#EEEEEE"
-                       HasShadow="False">
-
-                    <Grid ColumnDefinitions="*,Auto">
-
-                        <VerticalStackLayout Spacing="2">
-                            <Label Text="Ieri"
-                                   FontAttributes="Bold"
-                                   TextColor="#1C1C1E"/>
-
-                            <Label Text="3 completate · 1 non completata"
-                                   FontSize="13"
-                                   TextColor="#8E8E93"/>
-                        </VerticalStackLayout>
-
-
-                    </Grid>
-                </Frame>
-
-                <Frame CornerRadius="18"
-                       Padding="15"
-                       BackgroundColor="White"
-                       BorderColor="#EEEEEE"
-                       HasShadow="False">
-
-                    <Grid ColumnDefinitions="*,Auto">
-
-                        <VerticalStackLayout Spacing="2">
-                            <Label Text="2 giorni fa"
-                                   FontAttributes="Bold"
-                                   TextColor="#1C1C1E"/>
-
-                            <Label Text="2 completate · 3 non completate"
-                                   FontSize="13"
-                                   TextColor="#8E8E93"/>
-                        </VerticalStackLayout>
-
-
-
-                    </Grid>
-                </Frame>
 
             </VerticalStackLayout>
-
+            <Frame x:Name="frameInfo"  
+               CornerRadius="18"  
+               Padding="18"  
+               BackgroundColor="White"  
+               BorderColor="#EEEEEE"  
+               HasShadow="False">
+                <VerticalStackLayout Spacing="18">
+                    <Label x:Name="labelInfo"  
+                       Text="Informazioni personali"  
+                       FontSize="16"  
+                       FontAttributes="Bold"  
+                       TextColor="#1C1C1E"/>
+                    <Entry x:Name="NameEntry"  
+                       Placeholder="Nome"  
+                       BackgroundColor="#F2F2F7"  
+                       HeightRequest="45"/>
+                    <Entry x:Name="SurnameEntry"  
+                       Placeholder="Cognome"  
+                       BackgroundColor="#F2F2F7"  
+                       HeightRequest="45"/>
+                    <Entry x:Name="UsernameEntry"  
+                       Placeholder="Username"  
+                       BackgroundColor="#F2F2F7"  
+                       HeightRequest="45"/>
+                </VerticalStackLayout>
+            </Frame>
+            <Frame x:Name="frameContatti"  
+               CornerRadius="18"  
+               Padding="18"  
+               BackgroundColor="White"  
+               BorderColor="#EEEEEE"  
+               HasShadow="False">
+                <VerticalStackLayout Spacing="18">
+                    <Label x:Name="labelContatti"  
+                       Text="Contatti"  
+                       FontSize="16"  
+                       FontAttributes="Bold"  
+                       TextColor="#1C1C1E"/>
+                    <Entry x:Name="EmailEntry"  
+                       Placeholder="Email"  
+                       Keyboard="Email"  
+                       BackgroundColor="#F2F2F7"  
+                       HeightRequest="45"/>
+                    <Entry x:Name="PhoneEntry"  
+                       Placeholder="Telefono"  
+                       Keyboard="Telephone"  
+                       BackgroundColor="#F2F2F7"  
+                       HeightRequest="45"/>
+                </VerticalStackLayout>
+            </Frame>
+            <Frame x:Name="frameExtra"  
+               CornerRadius="18"  
+               Padding="18"  
+               BackgroundColor="White"  
+               BorderColor="#EEEEEE"  
+               HasShadow="False">
+                <VerticalStackLayout Spacing="18">
+                    <Label x:Name="labelExtra"  
+                       Text="Extra"  
+                       FontSize="16"  
+                       FontAttributes="Bold"  
+                       TextColor="#1C1C1E"/>
+                    <Entry x:Name="BioEntry"  
+                       Placeholder="Bio (descrizione)"  
+                       HeightRequest="80"  
+                       BackgroundColor="#F2F2F7"/>
+                    <DatePicker x:Name="BirthDatePicker"/>
+                </VerticalStackLayout>
+            </Frame>
+            <Button Text="Salva modifiche"  
+                Clicked="OnSaveClicked"  
+                BackgroundColor="#007AFF"  
+                TextColor="White"  
+                CornerRadius="14"  
+                HeightRequest="50"  
+                FontAttributes="Bold"/>
         </VerticalStackLayout>
     </ScrollView>
 
 </ContentPage>
-    
-    
-    
-    

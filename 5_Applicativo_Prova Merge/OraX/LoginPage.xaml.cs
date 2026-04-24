@@ -33,13 +33,12 @@ public partial class LoginPage : ContentPage
             await DisplayAlert("Errore", "Credenziali errate", "OK");
             return;
         }
-
-        // 💾 SALVA SESSIONE
+;
         UserSession.CurrentUser = user;
 
         await DisplayAlert("OK", $"Benvenuto {user.Nome}", "OK");
 
-        // 🚀 vai alla main page
+    
         await Shell.Current.GoToAsync("//MainPage");
     }
 

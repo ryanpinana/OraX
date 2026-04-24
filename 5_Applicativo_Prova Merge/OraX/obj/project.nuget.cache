@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1o8+pZdfehg=",
+  "dgSpecHash": "FXGboXb0zP8=",
   "success": true,
-  "projectFilePath": "D:\\2025-26\\modulo 306\\OraX\\5_Applicativo\\OraX\\OraX.csproj",
+  "projectFilePath": "D:\\2025-26\\modulo 306\\OraX\\5_Applicativo_Prova Merge\\OraX\\OraX.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gwj832\\.nuget\\packages\\googlegson\\2.11.0.5\\googlegson.2.11.0.5.nupkg.sha512",
     "C:\\Users\\gwj832\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.0\\microsoft.extensions.configuration.9.0.0.nupkg.sha512",

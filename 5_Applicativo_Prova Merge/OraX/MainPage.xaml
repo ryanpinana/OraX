@@ -7,7 +7,7 @@
     <ScrollView>
         <VerticalStackLayout Padding="25" Spacing="20">
 
-            <!-- HEADER PICKER -->
+           
             <HorizontalStackLayout Padding="10" Spacing="10">
 
                 <Label x:Name="titleLabel"
@@ -50,7 +50,8 @@
                            BorderColor="#E6E6E6"
                            BackgroundColor="White">
 
-                        <Image Source="fox.jpg"
+                        <Image x:Name="ImgProfilo"
+                               Source="default_profile.png"
                                Aspect="AspectFill"/>
                     </Frame>
 

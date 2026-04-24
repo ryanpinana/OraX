@@ -22,5 +22,7 @@ namespace OraX.Models
         public string Telefono { get; set; }
 
         public DateTime DataRegistrazione { get; set; }
+
+        public string FotoProfiloPath { get; set; }
     }
 }

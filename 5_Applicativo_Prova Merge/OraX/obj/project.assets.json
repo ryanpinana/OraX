@@ -28592,11 +28592,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\2025-26\\modulo 306\\OraX\\5_Applicativo\\OraX\\OraX.csproj",
+      "projectUniqueName": "D:\\2025-26\\modulo 306\\OraX\\5_Applicativo_Prova Merge\\OraX\\OraX.csproj",
       "projectName": "OraX",
-      "projectPath": "D:\\2025-26\\modulo 306\\OraX\\5_Applicativo\\OraX\\OraX.csproj",
+      "projectPath": "D:\\2025-26\\modulo 306\\OraX\\5_Applicativo_Prova Merge\\OraX\\OraX.csproj",
       "packagesPath": "C:\\Users\\gwj832\\.nuget\\packages\\",
-      "outputPath": "D:\\2025-26\\modulo 306\\OraX\\5_Applicativo\\OraX\\obj\\",
+      "outputPath": "D:\\2025-26\\modulo 306\\OraX\\5_Applicativo_Prova Merge\\OraX\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

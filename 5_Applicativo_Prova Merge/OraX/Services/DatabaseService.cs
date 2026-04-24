@@ -42,5 +42,11 @@ namespace OraX.Services
                 .Where(u => u.Username == username)
                 .FirstOrDefaultAsync();
         }
+
+        public async Task UpdateUser(User user)
+        {
+            await Init();
+            await database.UpdateAsync(user);
+        }
     }
 }
