@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="OraX.LoginPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    BackgroundColor="#F2F2F7"
+    Shell.NavBarIsVisible="False">
+
+    <Grid ColumnDefinitions="*,*">
+        <Grid Grid.Column="0" BackgroundColor="#0a0a0f">
+
+           
+            <BoxView
+                Color="#0a0a0f"
+                Opacity="0.65" />
+
+            
+            <BoxView
+                Color="#7C3AED"
+                Opacity="0.15" />
+
+            <VerticalStackLayout
+                Padding="48"
+                Spacing="20"
+                VerticalOptions="Fill">
+
+              
+                <HorizontalStackLayout Spacing="12">
+                    <Border
+                        WidthRequest="55"
+                        HeightRequest="55"
+                        StrokeThickness="1"
+                        Stroke="#30FFFFFF"
+                        BackgroundColor="#1AFFFFFF">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="12" />
+                        </Border.StrokeShape>
+
+                        <Image
+                            Source="logoorax_def.png"
+                            Aspect="AspectFill"
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center" />
+                    </Border>
+
+                    <Label
+                        Text="OraX"
+                        FontSize="27"
+                        FontAttributes="Bold"
+                        TextColor="White"
+                        VerticalOptions="Center" />
+                </HorizontalStackLayout>
+
+                <Grid VerticalOptions="FillAndExpand" />
+
+               
+                <VerticalStackLayout Spacing="6">
+                    <Label
+                        Text="Benvenuto/a"
+                        FontSize="55"
+                        FontAttributes="Bold"
+                        TextColor="White"
+                        LineHeight="1.1" />
+
+                    <Label
+                        Text="su OraX"
+                        FontSize="53"
+                        FontAttributes="Bold"
+                        TextColor="#A78BFA"
+                        LineHeight="1.1" />
+
+                    <Label
+                        Text="Accedi per cominciare a gestire &#x0a;in modo veloce, semplice e ordinato&#x0a;i tuoi impegni personali"
+                        FontSize="23"
+                        TextColor="#CCFFFFFF"
+                        LineHeight="1.5"
+                        Margin="0,12,0,0" />
+                </VerticalStackLayout>
+
+                <Grid VerticalOptions="FillAndExpand" />
+
+            
+
+            </VerticalStackLayout>
+        </Grid>
+
+       
+        <ScrollView Grid.Column="1" BackgroundColor="#F9F9FB">
+
+          
+            <VerticalStackLayout
+                x:Name="LoginLayout"
+                WidthRequest="430"
+                Padding="0,30,0,30"
+                Spacing="0"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                Opacity="1">
+
+               
+                <Label
+                    Text="Login"
+                    FontSize="44"
+                    FontAttributes="Bold"
+                    TextColor="#111111"
+                    Margin="0,0,0,6" />
+
+                <Label
+                    Text="Inserisci le tue credenziali per accedere"
+                    FontSize="20"
+                    TextColor="#8A8A9A"
+                    Margin="0,0,0,28" />
+
+                
+                <Label
+                    Text="USERNAME"
+                    FontSize="17"
+                    FontAttributes="Bold"
+                    TextColor="#5A5A6E"
+                    Margin="0,0,0,6" />
+
+                <Border
+                    StrokeThickness="1"
+                    Stroke="#E2E2EA"
+                    BackgroundColor="White"
+                    Margin="0,0,0,14">
+
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="14" />
+                    </Border.StrokeShape>
+
+                    <Grid ColumnDefinitions="Auto,*" Padding="14,0" HeightRequest="50">
+
+                        <Label
+                            Grid.Column="0"
+                            Text="👤"
+                            FontSize="18"
+                            Opacity="0.45"
+                            VerticalOptions="Center"
+                            Margin="0,0,10,0" />
+
+                        <Entry
+                            x:Name="UsernameEntry"
+                            Grid.Column="1"
+                            Placeholder="Username"
+                            PlaceholderColor="#B0B0C0"
+                            TextColor="#0F0F14"
+                            BackgroundColor="Transparent"
+                            FontSize="15"
+                            VerticalOptions="Center"
+                            FontFamily="font" />
+                    </Grid>
+                </Border>
+
+                
+                <Label
+                    Text="PASSWORD"
+                    FontSize="17"
+                    FontAttributes="Bold"
+                    TextColor="#5A5A6E"
+                    Margin="0,0,0,6" />
+
+                <Border
+                    StrokeThickness="1"
+                    Stroke="#E2E2EA"
+                    BackgroundColor="White"
+                    Margin="0,0,0,10">
+
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="14" />
+                    </Border.StrokeShape>
+
+                    <Grid ColumnDefinitions="Auto,*" Padding="14,0" HeightRequest="50">
+
+                        <Label
+                            Grid.Column="0"
+                            Text="🔒"
+                            FontSize="18"
+                            Opacity="0.45"
+                            VerticalOptions="Center"
+                            Margin="0,0,10,0" />
+
+                        <Entry
+                            x:Name="PasswordEntry"
+                            Grid.Column="1"
+                            Placeholder="Password"
+                            PlaceholderColor="#B0B0C0"
+                            IsPassword="True"
+                            TextColor="#0F0F14"
+                            BackgroundColor="Transparent"
+                            FontSize="15"
+                            VerticalOptions="Center" />
+                    </Grid>
+                </Border>
+
+
+                
+                <Border
+                    StrokeThickness="0"
+                    Margin="0,20,0,20">
+
+                    <Border.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                            <GradientStop Color="#7C3AED" Offset="0.0" />
+                            <GradientStop Color="#A855F7" Offset="1.0" />
+                        </LinearGradientBrush>
+                    </Border.Background>
+
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="16" />
+                    </Border.StrokeShape>
+
+                    <Button
+                        Text="Accedi"
+                        FontSize="18"
+                        FontAttributes="Bold"
+                        HeightRequest="54"
+                        BackgroundColor="Transparent"
+                        TextColor="White"
+                        Clicked="OnLoginClicked" />
+                </Border>
+
+                
+                <Grid ColumnDefinitions="*,Auto,*" Margin="0,0,0,18">
+                    <BoxView
+                        Grid.Column="0"
+                        HeightRequest="1"
+                        Color="#E8E8F0"
+                        VerticalOptions="Center" />
+
+                    <Label
+                        Grid.Column="1"
+                        Text="oppure"
+                        FontSize="14"
+                        TextColor="#B0B0C0"
+                        Margin="12,0" />
+
+                    <BoxView
+                        Grid.Column="2"
+                        HeightRequest="1"
+                        Color="#E8E8F0"
+                        VerticalOptions="Center" />
+                </Grid>
+
+               
+               
+                <HorizontalStackLayout HorizontalOptions="Center" Spacing="4">
+                    <Label
+                        Text="Se non hai un account?"
+                        FontSize="17"
+                        TextColor="#8A8A9A" />
+
+                    <Label
+                        Text="Registrati"
+                        FontSize="17"
+                        FontAttributes="Bold"
+                        TextColor="#7C3AED">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnRegisterTapped" />
+                        </Label.GestureRecognizers>
+                    </Label>
+                </HorizontalStackLayout>
+
+            </VerticalStackLayout>
+        </ScrollView>
+
+    </Grid>
+</ContentPage>

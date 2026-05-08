@@ -1,0 +1,197 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Scuola\\Anno_3\\Progetti\\Progetto Calendario\\OraX_Unito\\OraXUnito\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|d:\\scuola\\anno_3\\progetti\\progetto calendario\\orax_unito\\oraxunito\\services\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:services\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|d:\\scuola\\anno_3\\progetti\\progetto calendario\\orax_unito\\oraxunito\\calendarpagev2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:calendarpagev2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|d:\\scuola\\anno_3\\progetti\\progetto calendario\\orax_unito\\oraxunito\\calendarpagev2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:calendarpagev2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|d:\\scuola\\anno_3\\progetti\\progetto calendario\\orax_unito\\oraxunito\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|d:\\scuola\\anno_3\\progetti\\progetto calendario\\orax_unito\\oraxunito\\services\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:services\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|d:\\scuola\\anno_3\\progetti\\progetto calendario\\orax_unito\\oraxunito\\attivita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:attivita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|d:\\scuola\\anno_3\\progetti\\progetto calendario\\orax_unito\\oraxunito\\models\\attivitadb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:models\\attivitadb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|d:\\scuola\\anno_3\\progetti\\progetto calendario\\orax_unito\\oraxunito\\tipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:tipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|d:\\scuola\\anno_3\\progetti\\progetto calendario\\orax_unito\\oraxunito\\thememanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:thememanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|d:\\scuola\\anno_3\\progetti\\progetto calendario\\orax_unito\\oraxunito\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|d:\\scuola\\anno_3\\progetti\\progetto calendario\\orax_unito\\oraxunito\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserSession.cs",
+              "DocumentMoniker": "D:\\Scuola\\Anno_3\\Progetti\\Progetto Calendario\\OraX_Unito\\OraXUnito\\Services\\UserSession.cs",
+              "RelativeDocumentMoniker": "Services\\UserSession.cs",
+              "ToolTip": "D:\\Scuola\\Anno_3\\Progetti\\Progetto Calendario\\OraX_Unito\\OraXUnito\\Services\\UserSession.cs",
+              "RelativeToolTip": "Services\\UserSession.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T11:04:45.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CalendarPageV2.xaml.cs",
+              "DocumentMoniker": "D:\\Scuola\\Anno_3\\Progetti\\Progetto Calendario\\OraX_Unito\\OraXUnito\\CalendarPageV2.xaml.cs",
+              "RelativeDocumentMoniker": "CalendarPageV2.xaml.cs",
+              "ToolTip": "D:\\Scuola\\Anno_3\\Progetti\\Progetto Calendario\\OraX_Unito\\OraXUnito\\CalendarPageV2.xaml.cs",
+              "RelativeToolTip": "CalendarPageV2.xaml.cs",
+              "ViewState": "AgIAAEUBAAAAAAAAAAAwwBABAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T10:28:32.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DatabaseService.cs",
+              "DocumentMoniker": "D:\\Scuola\\Anno_3\\Progetti\\Progetto Calendario\\OraX_Unito\\OraXUnito\\Services\\DatabaseService.cs",
+              "RelativeDocumentMoniker": "Services\\DatabaseService.cs",
+              "ToolTip": "D:\\Scuola\\Anno_3\\Progetti\\Progetto Calendario\\OraX_Unito\\OraXUnito\\Services\\DatabaseService.cs",
+              "RelativeToolTip": "Services\\DatabaseService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T10:27:24.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AttivitaDb.cs",
+              "DocumentMoniker": "D:\\Scuola\\Anno_3\\Progetti\\Progetto Calendario\\OraX_Unito\\OraXUnito\\Models\\AttivitaDb.cs",
+              "RelativeDocumentMoniker": "Models\\AttivitaDb.cs",
+              "ToolTip": "D:\\Scuola\\Anno_3\\Progetti\\Progetto Calendario\\OraX_Unito\\OraXUnito\\Models\\AttivitaDb.cs",
+              "RelativeToolTip": "Models\\AttivitaDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T20:53:26.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Scuola\\Anno_3\\Progetti\\Progetto Calendario\\OraX_Unito\\OraXUnito\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "D:\\Scuola\\Anno_3\\Progetti\\Progetto Calendario\\OraX_Unito\\OraXUnito\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAYwBkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T20:53:13.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Tipo.cs",
+              "DocumentMoniker": "D:\\Scuola\\Anno_3\\Progetti\\Progetto Calendario\\OraX_Unito\\OraXUnito\\Tipo.cs",
+              "RelativeDocumentMoniker": "Tipo.cs",
+              "ToolTip": "D:\\Scuola\\Anno_3\\Progetti\\Progetto Calendario\\OraX_Unito\\OraXUnito\\Tipo.cs",
+              "RelativeToolTip": "Tipo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T20:52:59.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ThemeManager.cs",
+              "DocumentMoniker": "D:\\Scuola\\Anno_3\\Progetti\\Progetto Calendario\\OraX_Unito\\OraXUnito\\ThemeManager.cs",
+              "RelativeDocumentMoniker": "ThemeManager.cs",
+              "ToolTip": "D:\\Scuola\\Anno_3\\Progetti\\Progetto Calendario\\OraX_Unito\\OraXUnito\\ThemeManager.cs",
+              "RelativeToolTip": "ThemeManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T20:52:53.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "D:\\Scuola\\Anno_3\\Progetti\\Progetto Calendario\\OraX_Unito\\OraXUnito\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "D:\\Scuola\\Anno_3\\Progetti\\Progetto Calendario\\OraX_Unito\\OraXUnito\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T20:52:51.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\Scuola\\Anno_3\\Progetti\\Progetto Calendario\\OraX_Unito\\OraXUnito\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MainPage.xaml",
+              "ToolTip": "D:\\Scuola\\Anno_3\\Progetti\\Progetto Calendario\\OraX_Unito\\OraXUnito\\MainPage.xaml",
+              "RelativeToolTip": "MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-07T20:48:27.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CalendarPageV2.xaml",
+              "DocumentMoniker": "D:\\Scuola\\Anno_3\\Progetti\\Progetto Calendario\\OraX_Unito\\OraXUnito\\CalendarPageV2.xaml",
+              "RelativeDocumentMoniker": "CalendarPageV2.xaml",
+              "ToolTip": "D:\\Scuola\\Anno_3\\Progetti\\Progetto Calendario\\OraX_Unito\\OraXUnito\\CalendarPageV2.xaml",
+              "RelativeToolTip": "CalendarPageV2.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-07T20:48:01.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Attivita.cs",
+              "DocumentMoniker": "D:\\Scuola\\Anno_3\\Progetti\\Progetto Calendario\\OraX_Unito\\OraXUnito\\Attivita.cs",
+              "RelativeDocumentMoniker": "Attivita.cs",
+              "ToolTip": "D:\\Scuola\\Anno_3\\Progetti\\Progetto Calendario\\OraX_Unito\\OraXUnito\\Attivita.cs",
+              "RelativeToolTip": "Attivita.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T20:47:42.655Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
