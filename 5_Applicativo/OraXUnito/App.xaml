@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Application
+    x:Class="OraX.App"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:OraX">
+    <Application.Resources>
+        <ResourceDictionary>
+
+            <Style TargetType="Label">
+                <Setter Property="FontFamily" Value="font" />
+            </Style>
+
+            <Style TargetType="Entry">
+                <Setter Property="FontFamily" Value="font" />
+            </Style>
+
+            <Style TargetType="Button">
+                <Setter Property="FontFamily" Value="font" />
+            </Style>
+
+            <Style TargetType="Picker">
+                <Setter Property="FontFamily" Value="font" />
+            </Style>
+
+            <Style TargetType="DatePicker">
+                <Setter Property="FontFamily" Value="font" />
+            </Style>
+
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
+                <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

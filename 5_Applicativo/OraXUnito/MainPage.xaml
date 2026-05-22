@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OraX.MainPage"
+             Title="MainPage">
+    <ScrollView>
+        <VerticalStackLayout Padding="25" Spacing="20">
+           
+            <HorizontalStackLayout Padding="10" Spacing="10">
+                <Label x:Name="titleLabel"
+                       Text="Personalizza il tuo calendario:"
+                       FontSize="14"
+                       VerticalOptions="Center"/>
+                <Picker x:Name="themePicker"
+                        SelectedIndexChanged="OnThemeChanged"
+                        HorizontalOptions="FillAndExpand">
+                    <Picker.Items>
+                        <x:String>Chiaro</x:String>
+                        <x:String>Scuro</x:String>
+                        <x:String>Blu</x:String>
+                        <x:String>Rosa</x:String>
+                        <x:String>Viola</x:String>
+                        <x:String>Giallo</x:String>
+                        <x:String>Rosso</x:String>
+                        <x:String>Marrone</x:String>
+                    </Picker.Items>
+                </Picker>
+            </HorizontalStackLayout>
+            <!-- PROFILE -->
+            <Frame x:Name="frameProfile"
+                   CornerRadius="25"
+                   Padding="25"
+                   BackgroundColor="White"
+                   BorderColor="#EEEEEE">
+                <VerticalStackLayout Spacing="12" HorizontalOptions="Center">
+                    <Frame x:Name="frameProfileImage"
+                           WidthRequest="110"
+                           HeightRequest="110"
+                           CornerRadius="55"
+                           IsClippedToBounds="True"
+                           Padding="0"
+                           BorderColor="#E6E6E6"
+                           BackgroundColor="White">
+                        <Image x:Name="ImgProfilo"
+                               Source="default_profile.png"
+                               Aspect="AspectFill"/>
+                    </Frame>
+                    <Label x:Name="labelNome"
+                           Text="Nome"
+                           FontSize="22"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Center"/>
+                    <Label x:Name="labelEmail"
+                           Text="Email"
+                           FontSize="14"
+                           HorizontalOptions="Center"
+                           TextColor="#8E8E93"/>
+                </VerticalStackLayout>
+            </Frame>
+            
+            <!-- ACTIONS -->
+            <Frame x:Name="frameActions"
+                   CornerRadius="25"
+                   Padding="10"
+                   BackgroundColor="White"
+                   BorderColor="#EEEEEE">
+                <VerticalStackLayout Spacing="0">
+                    <Button Text="Modifica profilo"
+                            Clicked="ButtonModifica_Clicked"
+                            BackgroundColor="Transparent"
+                            TextColor="#007AFF"/>
+                    <BoxView HeightRequest="1" Color="#E5E5EA"/>
+                    <Button Text="Calendario"
+                            Clicked="ButtonCalendario_Clicked"
+                            BackgroundColor="Transparent"
+                            TextColor="#007AFF"/>
+                    <BoxView HeightRequest="1" Color="#E5E5EA"/>
+                    <Button Text="Statistiche"
+                            Clicked="ButtonStats_Clicked"
+                            BackgroundColor="Transparent"
+                            TextColor="#007AFF"/>
+                    <BoxView HeightRequest="1" Color="#E5E5EA"/>
+                    <Button Text="Esci"
+                            Clicked="ButtonLogout_Clicked"
+                            BackgroundColor="Transparent"
+                            TextColor="#FF3B30"/>
+                </VerticalStackLayout>
+            </Frame>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="OraX.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:OraX">
+
+    <ShellContent
+        Title="Login"
+        ContentTemplate="{DataTemplate local:LoginPage}"
+        Route="LoginPage" />
+
+    <ShellContent
+        Title="Main"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+
+    <ShellContent
+        Title="Calendario"
+        ContentTemplate="{DataTemplate local:CalendarPageV2}"
+        Route="CalendarPageV2" />
+
+    <ShellContent
+        Title="Statistiche"
+        ContentTemplate="{DataTemplate local:Statistiche}"
+        Route="Statistiche" />
+
+    <ShellContent
+        Title="Modifiche"
+        ContentTemplate="{DataTemplate local:Modifiche}"
+        Route="Modifiche" />
+
+</Shell>
