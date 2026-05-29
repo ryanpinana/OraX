@@ -1,7 +1,6 @@
 using OraX.Models;
 using OraX.Services;
 
-
 namespace OraX;
 
 public partial class RegisterPage : ContentPage
@@ -49,7 +48,6 @@ public partial class RegisterPage : ContentPage
         }
     }
 
-
     private async void OnRegisterClicked(object sender, EventArgs e)
     {
         if (string.IsNullOrWhiteSpace(NomeEntry.Text) ||
@@ -74,7 +72,7 @@ public partial class RegisterPage : ContentPage
 
         if (userEsistente != null)
         {
-            await DisplayAlert("Errore", "Username già esistente", "OK");
+            await DisplayAlert("Errore", "Username gi esistente", "OK");
             return;
         }
 

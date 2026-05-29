@@ -108,4 +108,24 @@ public partial class MainPage : ContentPage
         if (user != null && !string.IsNullOrEmpty(user.FotoProfiloPath))
             ImgProfilo.Source = user.FotoProfiloPath;
     }
+
+    private async void OnLogoutClicked(object sender, EventArgs e)
+    {
+        bool conferma = await DisplayAlert(
+            "Logout",
+            "Sei sicuro di voler uscire?",
+            "S",
+            "No"
+        );
+
+        if (!conferma)
+            return;
+
+        Preferences.Remove("utente_id");
+        Preferences.Remove("email");
+        Preferences.Remove("nome");
+        Preferences.Remove("ruolo");
+
+        await Shell.Current.GoToAsync("//LoginPage");
+    }
 }

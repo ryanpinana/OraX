@@ -18,6 +18,7 @@ public static class MauiProgram
             });
 
         builder.Services.AddSingleton<DatabaseService>();
+        builder.Services.AddSingleton<NotificationService>();
 
         builder.Services.AddTransient<LoginPage>();
         builder.Services.AddTransient<RegisterPage>();

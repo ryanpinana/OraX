@@ -445,22 +445,6 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Plugin.LocalNotification/10.1.8": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.GooglePlayServices.Location": "120.0.0.1"
-        },
-        "compile": {
-          "lib/net7.0-android33.0/Plugin.LocalNotification.dll": {
-            "related": ".aar;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net7.0-android33.0/Plugin.LocalNotification.dll": {
-            "related": ".aar;.xml"
-          }
-        }
-      },
       "Plugin.Maui.Calendar/2.0.12": {
         "type": "package",
         "dependencies": {
@@ -2182,13 +2166,6 @@
           "buildTransitive/net8.0-android34.0/Xamarin.AndroidX.Window.Extensions.Core.Core.targets": {}
         }
       },
-      "Xamarin.Build.Download/0.11.4": {
-        "type": "package",
-        "build": {
-          "buildTransitive/Xamarin.Build.Download.props": {},
-          "buildTransitive/Xamarin.Build.Download.targets": {}
-        }
-      },
       "Xamarin.Google.Android.Material/1.12.0.3": {
         "type": "package",
         "dependencies": {
@@ -2297,94 +2274,6 @@
           "lib/net8.0-android34.0/Xamarin.Google.Guava.ListenableFuture.dll": {
             "related": ".aar;.pdb;.xml"
           }
-        }
-      },
-      "Xamarin.GooglePlayServices.Base/118.1.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.AndroidX.Collection": "1.2.0.6",
-          "Xamarin.AndroidX.Core": "1.9.0.2",
-          "Xamarin.AndroidX.Fragment": "1.5.5.1",
-          "Xamarin.Build.Download": "0.11.4",
-          "Xamarin.GooglePlayServices.Basement": "118.1.0.2",
-          "Xamarin.GooglePlayServices.Tasks": "118.0.2.1"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Base.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Base.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Base.targets": {}
-        }
-      },
-      "Xamarin.GooglePlayServices.Basement/118.1.0.2": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.AndroidX.Collection": "1.2.0.6",
-          "Xamarin.AndroidX.Core": "1.9.0.2",
-          "Xamarin.AndroidX.Fragment": "1.5.5.1",
-          "Xamarin.Build.Download": "0.11.4"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Basement.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Basement.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Basement.targets": {}
-        }
-      },
-      "Xamarin.GooglePlayServices.Location/120.0.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Build.Download": "0.11.4",
-          "Xamarin.GooglePlayServices.Base": "118.1.0.1",
-          "Xamarin.GooglePlayServices.Basement": "118.1.0.2",
-          "Xamarin.GooglePlayServices.Tasks": "118.0.2.1"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Location.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Location.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Location.targets": {}
-        }
-      },
-      "Xamarin.GooglePlayServices.Tasks/118.0.2.1": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Build.Download": "0.11.4",
-          "Xamarin.GooglePlayServices.Basement": "118.1.0.2"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Tasks.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Tasks.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Tasks.targets": {}
         }
       },
       "Xamarin.Jetbrains.Annotations/26.0.2.1": {
@@ -2988,22 +2877,6 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Plugin.LocalNotification/10.1.8": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.GooglePlayServices.Location": "120.0.0.1"
-        },
-        "compile": {
-          "lib/net7.0-android33.0/Plugin.LocalNotification.dll": {
-            "related": ".aar;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net7.0-android33.0/Plugin.LocalNotification.dll": {
-            "related": ".aar;.xml"
-          }
-        }
-      },
       "Plugin.Maui.Calendar/2.0.12": {
         "type": "package",
         "dependencies": {
@@ -4725,13 +4598,6 @@
           "buildTransitive/net8.0-android34.0/Xamarin.AndroidX.Window.Extensions.Core.Core.targets": {}
         }
       },
-      "Xamarin.Build.Download/0.11.4": {
-        "type": "package",
-        "build": {
-          "buildTransitive/Xamarin.Build.Download.props": {},
-          "buildTransitive/Xamarin.Build.Download.targets": {}
-        }
-      },
       "Xamarin.Google.Android.Material/1.12.0.3": {
         "type": "package",
         "dependencies": {
@@ -4840,94 +4706,6 @@
           "lib/net8.0-android34.0/Xamarin.Google.Guava.ListenableFuture.dll": {
             "related": ".aar;.pdb;.xml"
           }
-        }
-      },
-      "Xamarin.GooglePlayServices.Base/118.1.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.AndroidX.Collection": "1.2.0.6",
-          "Xamarin.AndroidX.Core": "1.9.0.2",
-          "Xamarin.AndroidX.Fragment": "1.5.5.1",
-          "Xamarin.Build.Download": "0.11.4",
-          "Xamarin.GooglePlayServices.Basement": "118.1.0.2",
-          "Xamarin.GooglePlayServices.Tasks": "118.0.2.1"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Base.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Base.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Base.targets": {}
-        }
-      },
-      "Xamarin.GooglePlayServices.Basement/118.1.0.2": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.AndroidX.Collection": "1.2.0.6",
-          "Xamarin.AndroidX.Core": "1.9.0.2",
-          "Xamarin.AndroidX.Fragment": "1.5.5.1",
-          "Xamarin.Build.Download": "0.11.4"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Basement.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Basement.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Basement.targets": {}
-        }
-      },
-      "Xamarin.GooglePlayServices.Location/120.0.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Build.Download": "0.11.4",
-          "Xamarin.GooglePlayServices.Base": "118.1.0.1",
-          "Xamarin.GooglePlayServices.Basement": "118.1.0.2",
-          "Xamarin.GooglePlayServices.Tasks": "118.0.2.1"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Location.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Location.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Location.targets": {}
-        }
-      },
-      "Xamarin.GooglePlayServices.Tasks/118.0.2.1": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Build.Download": "0.11.4",
-          "Xamarin.GooglePlayServices.Basement": "118.1.0.2"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Tasks.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Tasks.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Tasks.targets": {}
         }
       },
       "Xamarin.Jetbrains.Annotations/26.0.2.1": {
@@ -5531,22 +5309,6 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Plugin.LocalNotification/10.1.8": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.GooglePlayServices.Location": "120.0.0.1"
-        },
-        "compile": {
-          "lib/net7.0-android33.0/Plugin.LocalNotification.dll": {
-            "related": ".aar;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net7.0-android33.0/Plugin.LocalNotification.dll": {
-            "related": ".aar;.xml"
-          }
-        }
-      },
       "Plugin.Maui.Calendar/2.0.12": {
         "type": "package",
         "dependencies": {
@@ -7268,13 +7030,6 @@
           "buildTransitive/net8.0-android34.0/Xamarin.AndroidX.Window.Extensions.Core.Core.targets": {}
         }
       },
-      "Xamarin.Build.Download/0.11.4": {
-        "type": "package",
-        "build": {
-          "buildTransitive/Xamarin.Build.Download.props": {},
-          "buildTransitive/Xamarin.Build.Download.targets": {}
-        }
-      },
       "Xamarin.Google.Android.Material/1.12.0.3": {
         "type": "package",
         "dependencies": {
@@ -7383,94 +7138,6 @@
           "lib/net8.0-android34.0/Xamarin.Google.Guava.ListenableFuture.dll": {
             "related": ".aar;.pdb;.xml"
           }
-        }
-      },
-      "Xamarin.GooglePlayServices.Base/118.1.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.AndroidX.Collection": "1.2.0.6",
-          "Xamarin.AndroidX.Core": "1.9.0.2",
-          "Xamarin.AndroidX.Fragment": "1.5.5.1",
-          "Xamarin.Build.Download": "0.11.4",
-          "Xamarin.GooglePlayServices.Basement": "118.1.0.2",
-          "Xamarin.GooglePlayServices.Tasks": "118.0.2.1"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Base.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Base.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Base.targets": {}
-        }
-      },
-      "Xamarin.GooglePlayServices.Basement/118.1.0.2": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.AndroidX.Collection": "1.2.0.6",
-          "Xamarin.AndroidX.Core": "1.9.0.2",
-          "Xamarin.AndroidX.Fragment": "1.5.5.1",
-          "Xamarin.Build.Download": "0.11.4"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Basement.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Basement.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Basement.targets": {}
-        }
-      },
-      "Xamarin.GooglePlayServices.Location/120.0.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Build.Download": "0.11.4",
-          "Xamarin.GooglePlayServices.Base": "118.1.0.1",
-          "Xamarin.GooglePlayServices.Basement": "118.1.0.2",
-          "Xamarin.GooglePlayServices.Tasks": "118.0.2.1"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Location.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Location.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Location.targets": {}
-        }
-      },
-      "Xamarin.GooglePlayServices.Tasks/118.0.2.1": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Build.Download": "0.11.4",
-          "Xamarin.GooglePlayServices.Basement": "118.1.0.2"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Tasks.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Tasks.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Tasks.targets": {}
         }
       },
       "Xamarin.Jetbrains.Annotations/26.0.2.1": {
@@ -8074,22 +7741,6 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Plugin.LocalNotification/10.1.8": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.GooglePlayServices.Location": "120.0.0.1"
-        },
-        "compile": {
-          "lib/net7.0-android33.0/Plugin.LocalNotification.dll": {
-            "related": ".aar;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net7.0-android33.0/Plugin.LocalNotification.dll": {
-            "related": ".aar;.xml"
-          }
-        }
-      },
       "Plugin.Maui.Calendar/2.0.12": {
         "type": "package",
         "dependencies": {
@@ -9811,13 +9462,6 @@
           "buildTransitive/net8.0-android34.0/Xamarin.AndroidX.Window.Extensions.Core.Core.targets": {}
         }
       },
-      "Xamarin.Build.Download/0.11.4": {
-        "type": "package",
-        "build": {
-          "buildTransitive/Xamarin.Build.Download.props": {},
-          "buildTransitive/Xamarin.Build.Download.targets": {}
-        }
-      },
       "Xamarin.Google.Android.Material/1.12.0.3": {
         "type": "package",
         "dependencies": {
@@ -9926,94 +9570,6 @@
           "lib/net8.0-android34.0/Xamarin.Google.Guava.ListenableFuture.dll": {
             "related": ".aar;.pdb;.xml"
           }
-        }
-      },
-      "Xamarin.GooglePlayServices.Base/118.1.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.AndroidX.Collection": "1.2.0.6",
-          "Xamarin.AndroidX.Core": "1.9.0.2",
-          "Xamarin.AndroidX.Fragment": "1.5.5.1",
-          "Xamarin.Build.Download": "0.11.4",
-          "Xamarin.GooglePlayServices.Basement": "118.1.0.2",
-          "Xamarin.GooglePlayServices.Tasks": "118.0.2.1"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Base.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Base.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Base.targets": {}
-        }
-      },
-      "Xamarin.GooglePlayServices.Basement/118.1.0.2": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.AndroidX.Collection": "1.2.0.6",
-          "Xamarin.AndroidX.Core": "1.9.0.2",
-          "Xamarin.AndroidX.Fragment": "1.5.5.1",
-          "Xamarin.Build.Download": "0.11.4"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Basement.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Basement.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Basement.targets": {}
-        }
-      },
-      "Xamarin.GooglePlayServices.Location/120.0.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Build.Download": "0.11.4",
-          "Xamarin.GooglePlayServices.Base": "118.1.0.1",
-          "Xamarin.GooglePlayServices.Basement": "118.1.0.2",
-          "Xamarin.GooglePlayServices.Tasks": "118.0.2.1"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Location.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Location.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Location.targets": {}
-        }
-      },
-      "Xamarin.GooglePlayServices.Tasks/118.0.2.1": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Build.Download": "0.11.4",
-          "Xamarin.GooglePlayServices.Basement": "118.1.0.2"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Tasks.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Tasks.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Tasks.targets": {}
         }
       },
       "Xamarin.Jetbrains.Annotations/26.0.2.1": {
@@ -10617,22 +10173,6 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Plugin.LocalNotification/10.1.8": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.GooglePlayServices.Location": "120.0.0.1"
-        },
-        "compile": {
-          "lib/net7.0-android33.0/Plugin.LocalNotification.dll": {
-            "related": ".aar;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net7.0-android33.0/Plugin.LocalNotification.dll": {
-            "related": ".aar;.xml"
-          }
-        }
-      },
       "Plugin.Maui.Calendar/2.0.12": {
         "type": "package",
         "dependencies": {
@@ -12354,13 +11894,6 @@
           "buildTransitive/net8.0-android34.0/Xamarin.AndroidX.Window.Extensions.Core.Core.targets": {}
         }
       },
-      "Xamarin.Build.Download/0.11.4": {
-        "type": "package",
-        "build": {
-          "buildTransitive/Xamarin.Build.Download.props": {},
-          "buildTransitive/Xamarin.Build.Download.targets": {}
-        }
-      },
       "Xamarin.Google.Android.Material/1.12.0.3": {
         "type": "package",
         "dependencies": {
@@ -12469,94 +12002,6 @@
           "lib/net8.0-android34.0/Xamarin.Google.Guava.ListenableFuture.dll": {
             "related": ".aar;.pdb;.xml"
           }
-        }
-      },
-      "Xamarin.GooglePlayServices.Base/118.1.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.AndroidX.Collection": "1.2.0.6",
-          "Xamarin.AndroidX.Core": "1.9.0.2",
-          "Xamarin.AndroidX.Fragment": "1.5.5.1",
-          "Xamarin.Build.Download": "0.11.4",
-          "Xamarin.GooglePlayServices.Basement": "118.1.0.2",
-          "Xamarin.GooglePlayServices.Tasks": "118.0.2.1"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Base.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Base.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Base.targets": {}
-        }
-      },
-      "Xamarin.GooglePlayServices.Basement/118.1.0.2": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.AndroidX.Collection": "1.2.0.6",
-          "Xamarin.AndroidX.Core": "1.9.0.2",
-          "Xamarin.AndroidX.Fragment": "1.5.5.1",
-          "Xamarin.Build.Download": "0.11.4"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Basement.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Basement.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Basement.targets": {}
-        }
-      },
-      "Xamarin.GooglePlayServices.Location/120.0.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Build.Download": "0.11.4",
-          "Xamarin.GooglePlayServices.Base": "118.1.0.1",
-          "Xamarin.GooglePlayServices.Basement": "118.1.0.2",
-          "Xamarin.GooglePlayServices.Tasks": "118.0.2.1"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Location.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Location.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Location.targets": {}
-        }
-      },
-      "Xamarin.GooglePlayServices.Tasks/118.0.2.1": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Build.Download": "0.11.4",
-          "Xamarin.GooglePlayServices.Basement": "118.1.0.2"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Tasks.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Tasks.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Tasks.targets": {}
         }
       },
       "Xamarin.Jetbrains.Annotations/26.0.2.1": {
@@ -13160,22 +12605,6 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Plugin.LocalNotification/10.1.8": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.GooglePlayServices.Location": "120.0.0.1"
-        },
-        "compile": {
-          "lib/net7.0-android33.0/Plugin.LocalNotification.dll": {
-            "related": ".aar;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net7.0-android33.0/Plugin.LocalNotification.dll": {
-            "related": ".aar;.xml"
-          }
-        }
-      },
       "Plugin.Maui.Calendar/2.0.12": {
         "type": "package",
         "dependencies": {
@@ -14897,13 +14326,6 @@
           "buildTransitive/net8.0-android34.0/Xamarin.AndroidX.Window.Extensions.Core.Core.targets": {}
         }
       },
-      "Xamarin.Build.Download/0.11.4": {
-        "type": "package",
-        "build": {
-          "buildTransitive/Xamarin.Build.Download.props": {},
-          "buildTransitive/Xamarin.Build.Download.targets": {}
-        }
-      },
       "Xamarin.Google.Android.Material/1.12.0.3": {
         "type": "package",
         "dependencies": {
@@ -15012,94 +14434,6 @@
           "lib/net8.0-android34.0/Xamarin.Google.Guava.ListenableFuture.dll": {
             "related": ".aar;.pdb;.xml"
           }
-        }
-      },
-      "Xamarin.GooglePlayServices.Base/118.1.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.AndroidX.Collection": "1.2.0.6",
-          "Xamarin.AndroidX.Core": "1.9.0.2",
-          "Xamarin.AndroidX.Fragment": "1.5.5.1",
-          "Xamarin.Build.Download": "0.11.4",
-          "Xamarin.GooglePlayServices.Basement": "118.1.0.2",
-          "Xamarin.GooglePlayServices.Tasks": "118.0.2.1"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Base.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Base.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Base.targets": {}
-        }
-      },
-      "Xamarin.GooglePlayServices.Basement/118.1.0.2": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.AndroidX.Collection": "1.2.0.6",
-          "Xamarin.AndroidX.Core": "1.9.0.2",
-          "Xamarin.AndroidX.Fragment": "1.5.5.1",
-          "Xamarin.Build.Download": "0.11.4"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Basement.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Basement.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Basement.targets": {}
-        }
-      },
-      "Xamarin.GooglePlayServices.Location/120.0.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Build.Download": "0.11.4",
-          "Xamarin.GooglePlayServices.Base": "118.1.0.1",
-          "Xamarin.GooglePlayServices.Basement": "118.1.0.2",
-          "Xamarin.GooglePlayServices.Tasks": "118.0.2.1"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Location.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Location.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Location.targets": {}
-        }
-      },
-      "Xamarin.GooglePlayServices.Tasks/118.0.2.1": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Build.Download": "0.11.4",
-          "Xamarin.GooglePlayServices.Basement": "118.1.0.2"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Tasks.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Tasks.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Tasks.targets": {}
         }
       },
       "Xamarin.Jetbrains.Annotations/26.0.2.1": {
@@ -15676,19 +15010,6 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Plugin.LocalNotification/10.1.8": {
-        "type": "package",
-        "compile": {
-          "lib/net7.0-ios16.1/Plugin.LocalNotification.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net7.0-ios16.1/Plugin.LocalNotification.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "Plugin.Maui.Calendar/2.0.12": {
         "type": "package",
         "dependencies": {
@@ -16188,19 +15509,6 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "Plugin.LocalNotification/10.1.8": {
-        "type": "package",
-        "compile": {
-          "lib/net7.0-ios16.1/Plugin.LocalNotification.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net7.0-ios16.1/Plugin.LocalNotification.dll": {
-            "related": ".xml"
-          }
         }
       },
       "Plugin.Maui.Calendar/2.0.12": {
@@ -16704,19 +16012,6 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Plugin.LocalNotification/10.1.8": {
-        "type": "package",
-        "compile": {
-          "lib/net7.0-ios16.1/Plugin.LocalNotification.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net7.0-ios16.1/Plugin.LocalNotification.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "Plugin.Maui.Calendar/2.0.12": {
         "type": "package",
         "dependencies": {
@@ -17216,19 +16511,6 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "Plugin.LocalNotification/10.1.8": {
-        "type": "package",
-        "compile": {
-          "lib/net7.0-ios16.1/Plugin.LocalNotification.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net7.0-ios16.1/Plugin.LocalNotification.dll": {
-            "related": ".xml"
-          }
         }
       },
       "Plugin.Maui.Calendar/2.0.12": {
@@ -17732,19 +17014,6 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Plugin.LocalNotification/10.1.8": {
-        "type": "package",
-        "compile": {
-          "lib/net7.0-ios16.1/Plugin.LocalNotification.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net7.0-ios16.1/Plugin.LocalNotification.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "Plugin.Maui.Calendar/2.0.12": {
         "type": "package",
         "dependencies": {
@@ -18246,19 +17515,6 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Plugin.LocalNotification/10.1.8": {
-        "type": "package",
-        "compile": {
-          "lib/net7.0-ios16.1/Plugin.LocalNotification.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net7.0-ios16.1/Plugin.LocalNotification.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "Plugin.Maui.Calendar/2.0.12": {
         "type": "package",
         "dependencies": {
@@ -18758,19 +18014,6 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "Plugin.LocalNotification/10.1.8": {
-        "type": "package",
-        "compile": {
-          "lib/net7.0/Plugin.LocalNotification.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net7.0/Plugin.LocalNotification.dll": {
-            "related": ".xml"
-          }
         }
       },
       "Plugin.Maui.Calendar/2.0.12": {
@@ -19364,19 +18607,6 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Plugin.LocalNotification/10.1.8": {
-        "type": "package",
-        "compile": {
-          "lib/net7.0/Plugin.LocalNotification.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net7.0/Plugin.LocalNotification.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "Plugin.Maui.Calendar/2.0.12": {
         "type": "package",
         "dependencies": {
@@ -19883,19 +19113,6 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "Plugin.LocalNotification/10.1.8": {
-        "type": "package",
-        "compile": {
-          "lib/net7.0/Plugin.LocalNotification.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net7.0/Plugin.LocalNotification.dll": {
-            "related": ".xml"
-          }
         }
       },
       "Plugin.Maui.Calendar/2.0.12": {
@@ -20406,19 +19623,6 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Plugin.LocalNotification/10.1.8": {
-        "type": "package",
-        "compile": {
-          "lib/net7.0/Plugin.LocalNotification.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net7.0/Plugin.LocalNotification.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "Plugin.Maui.Calendar/2.0.12": {
         "type": "package",
         "dependencies": {
@@ -20922,19 +20126,6 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "Plugin.LocalNotification/10.1.8": {
-        "type": "package",
-        "compile": {
-          "lib/net7.0/Plugin.LocalNotification.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net7.0/Plugin.LocalNotification.dll": {
-            "related": ".xml"
-          }
         }
       },
       "Plugin.Maui.Calendar/2.0.12": {
@@ -21443,19 +20634,6 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "Plugin.LocalNotification/10.1.8": {
-        "type": "package",
-        "compile": {
-          "lib/net7.0/Plugin.LocalNotification.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net7.0/Plugin.LocalNotification.dll": {
-            "related": ".xml"
-          }
         }
       },
       "Plugin.Maui.Calendar/2.0.12": {
@@ -22211,19 +21389,6 @@
           "runtimes/win-x86/native/Microsoft.WindowsAppRuntime.Bootstrap.dll": {
             "assetType": "native",
             "rid": "win-x86"
-          }
-        }
-      },
-      "Plugin.LocalNotification/10.1.8": {
-        "type": "package",
-        "compile": {
-          "lib/net7.0/Plugin.LocalNotification.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net7.0/Plugin.LocalNotification.dll": {
-            "related": ".xml"
           }
         }
       },
@@ -23007,19 +22172,6 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
-      "Plugin.LocalNotification/10.1.8": {
-        "type": "package",
-        "compile": {
-          "lib/net7.0/Plugin.LocalNotification.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net7.0/Plugin.LocalNotification.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "Plugin.Maui.Calendar/2.0.12": {
         "type": "package",
         "dependencies": {
@@ -23715,19 +22867,6 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
-        }
-      },
-      "Plugin.LocalNotification/10.1.8": {
-        "type": "package",
-        "compile": {
-          "lib/net7.0/Plugin.LocalNotification.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net7.0/Plugin.LocalNotification.dll": {
-            "related": ".xml"
-          }
         }
       },
       "Plugin.Maui.Calendar/2.0.12": {
@@ -24427,19 +23566,6 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
-      "Plugin.LocalNotification/10.1.8": {
-        "type": "package",
-        "compile": {
-          "lib/net7.0/Plugin.LocalNotification.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net7.0/Plugin.LocalNotification.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "Plugin.Maui.Calendar/2.0.12": {
         "type": "package",
         "dependencies": {
@@ -25132,19 +24258,6 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
-        }
-      },
-      "Plugin.LocalNotification/10.1.8": {
-        "type": "package",
-        "compile": {
-          "lib/net7.0/Plugin.LocalNotification.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net7.0/Plugin.LocalNotification.dll": {
-            "related": ".xml"
-          }
         }
       },
       "Plugin.Maui.Calendar/2.0.12": {
@@ -25852,19 +24965,6 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
-        }
-      },
-      "Plugin.LocalNotification/10.1.8": {
-        "type": "package",
-        "compile": {
-          "lib/net7.0/Plugin.LocalNotification.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net7.0/Plugin.LocalNotification.dll": {
-            "related": ".xml"
-          }
         }
       },
       "Plugin.Maui.Calendar/2.0.12": {
@@ -28054,38 +27154,6 @@
         "tools/x86/GenXbf.dll"
       ]
     },
-    "Plugin.LocalNotification/10.1.8": {
-      "sha512": "LiZpaY0iA4aFhRY/Brkm//D8BQKrd/GtGfhx2lg7jQKlXb0lzlvWx/sax28D4ufJgkOGpiQqGKjZ8CMo8yuTiA==",
-      "type": "package",
-      "path": "plugin.localnotification/10.1.8",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "README.md",
-        "icon.png",
-        "lib/monoandroid12.0/Plugin.LocalNotification.dll",
-        "lib/monoandroid12.0/Plugin.LocalNotification.xml",
-        "lib/net6.0-android31.0/Plugin.LocalNotification.dll",
-        "lib/net6.0-android31.0/Plugin.LocalNotification.xml",
-        "lib/net6.0-ios16.1/Plugin.LocalNotification.dll",
-        "lib/net6.0-ios16.1/Plugin.LocalNotification.xml",
-        "lib/net6.0/Plugin.LocalNotification.dll",
-        "lib/net6.0/Plugin.LocalNotification.xml",
-        "lib/net7.0-android33.0/Plugin.LocalNotification.aar",
-        "lib/net7.0-android33.0/Plugin.LocalNotification.dll",
-        "lib/net7.0-android33.0/Plugin.LocalNotification.xml",
-        "lib/net7.0-ios16.1/Plugin.LocalNotification.dll",
-        "lib/net7.0-ios16.1/Plugin.LocalNotification.xml",
-        "lib/net7.0/Plugin.LocalNotification.dll",
-        "lib/net7.0/Plugin.LocalNotification.xml",
-        "lib/netstandard2.0/Plugin.LocalNotification.dll",
-        "lib/netstandard2.0/Plugin.LocalNotification.xml",
-        "lib/xamarinios10/Plugin.LocalNotification.dll",
-        "lib/xamarinios10/Plugin.LocalNotification.xml",
-        "plugin.localnotification.10.1.8.nupkg.sha512",
-        "plugin.localnotification.nuspec"
-      ]
-    },
     "Plugin.Maui.Calendar/2.0.12": {
       "sha512": "XgOma9B+m6s5hRTv/Jc9cweWm0WmJmlzY96crOgUJnyuAZWybrz48VjBQArwFTw+qgVwH9WK2uA/xZIB02VtoA==",
       "type": "package",
@@ -29878,28 +28946,6 @@
         "xamarin.androidx.window.extensions.core.core.nuspec"
       ]
     },
-    "Xamarin.Build.Download/0.11.4": {
-      "sha512": "u2ROt0h6P7mfs0jbmgvmTrqU/YEpEZcf16xcHa78GSEp7fOZunNtJLCZxooeI1V5p+lrr9kYdg3Pa8FoTbgcXQ==",
-      "type": "package",
-      "path": "xamarin.build.download/0.11.4",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "THIRD-PARTY-NOTICE.txt",
-        "build/Microsoft.Win32.Registry.dll",
-        "build/Newtonsoft.Json.dll",
-        "build/Xamarin.Build.Download.dll",
-        "build/Xamarin.Build.Download.props",
-        "build/Xamarin.Build.Download.targets",
-        "buildTransitive/Microsoft.Win32.Registry.dll",
-        "buildTransitive/Newtonsoft.Json.dll",
-        "buildTransitive/Xamarin.Build.Download.dll",
-        "buildTransitive/Xamarin.Build.Download.props",
-        "buildTransitive/Xamarin.Build.Download.targets",
-        "xamarin.build.download.0.11.4.nupkg.sha512",
-        "xamarin.build.download.nuspec"
-      ]
-    },
     "Xamarin.Google.Android.Material/1.12.0.3": {
       "sha512": "7ozP312k4ipFRDsMEMeCAf7jY7zNKOWOGz82ICAmudVA51ylfOKbIWSnxa/eQcZJf13+Yg2mUO3o2nK5RiGPWw==",
       "type": "package",
@@ -30015,101 +29061,6 @@
         "readme.md",
         "xamarin.google.guava.listenablefuture.1.0.0.27.nupkg.sha512",
         "xamarin.google.guava.listenablefuture.nuspec"
-      ]
-    },
-    "Xamarin.GooglePlayServices.Base/118.1.0.1": {
-      "sha512": "c48g/7O/xe5WsE1kiWZK5v4hxBtPxBdhBQsy2hVOYMsIkama5Qa5UmM1GJs4ckAfk26o9z0Vg7kPT1a4jbASUg==",
-      "type": "package",
-      "path": "xamarin.googleplayservices.base/118.1.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "build/MonoAndroid12.0/Xamarin.GooglePlayServices.Base.targets",
-        "build/net6.0-android31.0/Xamarin.GooglePlayServices.Base.targets",
-        "buildTransitive/MonoAndroid12.0/Xamarin.GooglePlayServices.Base.targets",
-        "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Base.targets",
-        "lib/monoandroid12.0/Xamarin.GooglePlayServices.Base.dll",
-        "lib/monoandroid12.0/Xamarin.GooglePlayServices.Base.pdb",
-        "lib/monoandroid12.0/Xamarin.GooglePlayServices.Base.xml",
-        "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Base.dll",
-        "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Base.pdb",
-        "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Base.xml",
-        "lib/net6.0-android31.0/play-services-base.aar",
-        "proguard/proguard.txt",
-        "xamarin.googleplayservices.base.118.1.0.1.nupkg.sha512",
-        "xamarin.googleplayservices.base.nuspec"
-      ]
-    },
-    "Xamarin.GooglePlayServices.Basement/118.1.0.2": {
-      "sha512": "bSjK1mpfnmsomEZ16iyooeifaGZYOuJE8/fFl1+zCx3/ZBBoYywtadAzedFtRPdTsLHgWzO+a2jmn1RXOtkBLQ==",
-      "type": "package",
-      "path": "xamarin.googleplayservices.basement/118.1.0.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "build/MonoAndroid12.0/Xamarin.GooglePlayServices.Basement.targets",
-        "build/MonoAndroid12.0/Xamarin.GooglePlayServices.Tasks.dll",
-        "build/net6.0-android31.0/Xamarin.GooglePlayServices.Basement.targets",
-        "build/net6.0-android31.0/Xamarin.GooglePlayServices.Tasks.dll",
-        "buildTransitive/MonoAndroid12.0/Xamarin.GooglePlayServices.Basement.targets",
-        "buildTransitive/MonoAndroid12.0/Xamarin.GooglePlayServices.Tasks.dll",
-        "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Basement.targets",
-        "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Tasks.dll",
-        "lib/monoandroid12.0/Xamarin.GooglePlayServices.Basement.dll",
-        "lib/monoandroid12.0/Xamarin.GooglePlayServices.Basement.pdb",
-        "lib/monoandroid12.0/Xamarin.GooglePlayServices.Basement.xml",
-        "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Basement.dll",
-        "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Basement.pdb",
-        "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Basement.xml",
-        "lib/net6.0-android31.0/play-services-basement.aar",
-        "proguard/proguard.txt",
-        "xamarin.googleplayservices.basement.118.1.0.2.nupkg.sha512",
-        "xamarin.googleplayservices.basement.nuspec"
-      ]
-    },
-    "Xamarin.GooglePlayServices.Location/120.0.0.1": {
-      "sha512": "uiw9ZVQKZVLcrrLFjWcdNegWCgg96gAKQNkEz/KhaZWBXv/HC2HxE5p0j1dFliZ9jfVk3QNoWvwg20FNc9drkg==",
-      "type": "package",
-      "path": "xamarin.googleplayservices.location/120.0.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "build/MonoAndroid12.0/Xamarin.GooglePlayServices.Location.targets",
-        "build/net6.0-android31.0/Xamarin.GooglePlayServices.Location.targets",
-        "buildTransitive/MonoAndroid12.0/Xamarin.GooglePlayServices.Location.targets",
-        "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Location.targets",
-        "lib/monoandroid12.0/Xamarin.GooglePlayServices.Location.dll",
-        "lib/monoandroid12.0/Xamarin.GooglePlayServices.Location.pdb",
-        "lib/monoandroid12.0/Xamarin.GooglePlayServices.Location.xml",
-        "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Location.dll",
-        "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Location.pdb",
-        "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Location.xml",
-        "lib/net6.0-android31.0/play-services-location.aar",
-        "xamarin.googleplayservices.location.120.0.0.1.nupkg.sha512",
-        "xamarin.googleplayservices.location.nuspec"
-      ]
-    },
-    "Xamarin.GooglePlayServices.Tasks/118.0.2.1": {
-      "sha512": "glgAu/Oq/ByYuMzPEHtAYbFCDxXGIER7zmwaqDEsZXPLQ0QBL5PKymyuRDqq46vX9AffM8D4hUCdR/JqoOx9/w==",
-      "type": "package",
-      "path": "xamarin.googleplayservices.tasks/118.0.2.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "build/MonoAndroid12.0/Xamarin.GooglePlayServices.Tasks.targets",
-        "build/net6.0-android31.0/Xamarin.GooglePlayServices.Tasks.targets",
-        "buildTransitive/MonoAndroid12.0/Xamarin.GooglePlayServices.Tasks.targets",
-        "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Tasks.targets",
-        "lib/monoandroid12.0/Xamarin.GooglePlayServices.Tasks.dll",
-        "lib/monoandroid12.0/Xamarin.GooglePlayServices.Tasks.pdb",
-        "lib/monoandroid12.0/Xamarin.GooglePlayServices.Tasks.xml",
-        "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Tasks.dll",
-        "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Tasks.pdb",
-        "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Tasks.xml",
-        "lib/net6.0-android31.0/play-services-tasks.aar",
-        "proguard/proguard.txt",
-        "xamarin.googleplayservices.tasks.118.0.2.1.nupkg.sha512",
-        "xamarin.googleplayservices.tasks.nuspec"
       ]
     },
     "Xamarin.Jetbrains.Annotations/26.0.2.1": {
@@ -30308,7 +29259,6 @@
       "Microsoft.Extensions.Logging.Debug >= 9.0.0",
       "Microsoft.Maui.Controls >= 9.0.120",
       "Microsoft.NET.ILLink.Tasks >= 9.0.5",
-      "Plugin.LocalNotification >= 10.1.8",
       "Plugin.Maui.Calendar >= 2.0.12",
       "SQLitePCLRaw.bundle_green >= 2.1.10",
       "sqlite-net-pcl >= 1.9.172"
@@ -30317,7 +29267,6 @@
       "Microsoft.Extensions.Logging.Debug >= 9.0.0",
       "Microsoft.Maui.Controls >= 9.0.120",
       "Microsoft.NET.ILLink.Tasks >= 9.0.5",
-      "Plugin.LocalNotification >= 10.1.8",
       "Plugin.Maui.Calendar >= 2.0.12",
       "SQLitePCLRaw.bundle_green >= 2.1.10",
       "sqlite-net-pcl >= 1.9.172"
@@ -30326,7 +29275,6 @@
       "Microsoft.Extensions.Logging.Debug >= 9.0.0",
       "Microsoft.Maui.Controls >= 9.0.120",
       "Microsoft.NET.ILLink.Tasks >= 9.0.5",
-      "Plugin.LocalNotification >= 10.1.8",
       "Plugin.Maui.Calendar >= 2.0.12",
       "SQLitePCLRaw.bundle_green >= 2.1.10",
       "sqlite-net-pcl >= 1.9.172"
@@ -30334,7 +29282,6 @@
     "net9.0-windows10.0.19041": [
       "Microsoft.Extensions.Logging.Debug >= 9.0.0",
       "Microsoft.Maui.Controls >= 9.0.120",
-      "Plugin.LocalNotification >= 10.1.8",
       "Plugin.Maui.Calendar >= 2.0.12",
       "SQLitePCLRaw.bundle_green >= 2.1.10",
       "sqlite-net-pcl >= 1.9.172"
@@ -30347,11 +29294,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\OraXUnito\\OraX.csproj",
+      "projectUniqueName": "D:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\5_Applicativo\\OraXUnito_pulito_commentato\\OraXUnito\\OraX.csproj",
       "projectName": "OraX",
-      "projectPath": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\OraXUnito\\OraX.csproj",
+      "projectPath": "D:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\5_Applicativo\\OraXUnito_pulito_commentato\\OraXUnito\\OraX.csproj",
       "packagesPath": "C:\\Users\\bto419\\.nuget\\packages\\",
-      "outputPath": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\OraXUnito\\obj\\",
+      "outputPath": "D:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\5_Applicativo\\OraXUnito_pulito_commentato\\OraXUnito\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
@@ -30421,10 +29368,6 @@
             "version": "[9.0.5, )",
             "autoReferenced": true
           },
-          "Plugin.LocalNotification": {
-            "target": "Package",
-            "version": "[10.1.8, )"
-          },
           "Plugin.Maui.Calendar": {
             "target": "Package",
             "version": "[2.0.12, )"
@@ -30475,10 +29418,6 @@
             "target": "Package",
             "version": "[9.0.5, )",
             "autoReferenced": true
-          },
-          "Plugin.LocalNotification": {
-            "target": "Package",
-            "version": "[10.1.8, )"
           },
           "Plugin.Maui.Calendar": {
             "target": "Package",
@@ -30531,10 +29470,6 @@
             "version": "[9.0.5, )",
             "autoReferenced": true
           },
-          "Plugin.LocalNotification": {
-            "target": "Package",
-            "version": "[10.1.8, )"
-          },
           "Plugin.Maui.Calendar": {
             "target": "Package",
             "version": "[2.0.12, )"
@@ -30580,10 +29515,6 @@
           "Microsoft.Maui.Controls": {
             "target": "Package",
             "version": "[9.0.120, )"
-          },
-          "Plugin.LocalNotification": {
-            "target": "Package",
-            "version": "[10.1.8, )"
           },
           "Plugin.Maui.Calendar": {
             "target": "Package",

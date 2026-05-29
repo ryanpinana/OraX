@@ -4,14 +4,22 @@ namespace OraX
 {
     public partial class App : Application
     {
-        public App(DatabaseService db)
+        private readonly NotificationService notificationService;
+
+        public App(DatabaseService db, NotificationService notificationService)
         {
             InitializeComponent();
+
+            this.notificationService = notificationService;
         }
 
         protected override Window CreateWindow(IActivationState? activationState)
         {
-            return new Window(new AppShell());
+            var window = new Window(new AppShell());
+
+            notificationService.Avvia();
+
+            return window;
         }
     }
 }

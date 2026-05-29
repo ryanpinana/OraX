@@ -9,12 +9,10 @@
     <Grid ColumnDefinitions="*,*">
         <Grid Grid.Column="0" BackgroundColor="#0a0a0f">
 
-           
             <BoxView
                 Color="#0a0a0f"
                 Opacity="0.65" />
 
-            
             <BoxView
                 Color="#7C3AED"
                 Opacity="0.15" />
@@ -24,7 +22,6 @@
                 Spacing="20"
                 VerticalOptions="Fill">
 
-              
                 <HorizontalStackLayout Spacing="12">
                     <Border
                         WidthRequest="55"
@@ -53,7 +50,6 @@
 
                 <Grid VerticalOptions="FillAndExpand" />
 
-               
                 <VerticalStackLayout Spacing="6">
                     <Label
                         Text="Benvenuto/a"
@@ -79,15 +75,11 @@
 
                 <Grid VerticalOptions="FillAndExpand" />
 
-            
-
             </VerticalStackLayout>
         </Grid>
 
-       
         <ScrollView Grid.Column="1" BackgroundColor="#F9F9FB">
 
-          
             <VerticalStackLayout
                 x:Name="LoginLayout"
                 WidthRequest="430"
@@ -97,7 +89,6 @@
                 HorizontalOptions="Center"
                 Opacity="1">
 
-               
                 <Label
                     Text="Login"
                     FontSize="44"
@@ -111,7 +102,6 @@
                     TextColor="#8A8A9A"
                     Margin="0,0,0,28" />
 
-                
                 <Label
                     Text="USERNAME"
                     FontSize="17"
@@ -152,7 +142,6 @@
                     </Grid>
                 </Border>
 
-                
                 <Label
                     Text="PASSWORD"
                     FontSize="17"
@@ -193,8 +182,6 @@
                     </Grid>
                 </Border>
 
-
-                
                 <Border
                     StrokeThickness="0"
                     Margin="0,20,0,20">
@@ -220,7 +207,6 @@
                         Clicked="OnLoginClicked" />
                 </Border>
 
-                
                 <Grid ColumnDefinitions="*,Auto,*" Margin="0,0,0,18">
                     <BoxView
                         Grid.Column="0"
@@ -242,8 +228,6 @@
                         VerticalOptions="Center" />
                 </Grid>
 
-               
-               
                 <HorizontalStackLayout HorizontalOptions="Center" Spacing="4">
                     <Label
                         Text="Se non hai un account?"

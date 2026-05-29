@@ -1,4 +1,4 @@
-﻿using OraX.Models;
+using OraX.Models;
 using OraX.Services;
 using Microsoft.Maui.Storage;
 
@@ -31,7 +31,6 @@ public partial class Modifiche : ContentPage
         }
     }
 
-
     private async void OnChangePhotoClicked(object sender, EventArgs e)
     {
         var result = await FilePicker.PickAsync(new PickOptions
@@ -55,7 +54,6 @@ public partial class Modifiche : ContentPage
         ImgProfilo.Source = localPath;
     }
 
- 
     private async void OnSaveClicked(object sender, EventArgs e)
     {
         if (user == null)
@@ -82,18 +80,18 @@ public partial class Modifiche : ContentPage
 
     void LoadTheme()
     {
-        string theme = Preferences.Get("AppTheme", "Default");
+        int index = Preferences.Get("AppTheme", 0);
 
-        switch (theme)
+        switch (index)
         {
-            case "Dark": ThemeManager.SetDarkTheme(); break;
-            case "Blue": ThemeManager.SetBlueTheme(); break;
-            case "Pink": ThemeManager.SetPinkTheme(); break;
-            case "Purple": ThemeManager.SetPurpleTheme(); break;
-            case "Yellow": ThemeManager.SetYellowTheme(); break;
-            case "Red": ThemeManager.SetRedTheme(); break;
-            case "Brown": ThemeManager.SetBrownTheme(); break;
-            default: ThemeManager.SetDefaultTheme(); break;
+            case 1: ThemeManager.SetDarkTheme(); break;
+            case 2: ThemeManager.SetBlueTheme(); break;
+            case 3: ThemeManager.SetPinkTheme(); break;
+            case 4: ThemeManager.SetPurpleTheme(); break;
+            case 5: ThemeManager.SetYellowTheme(); break;
+            case 6: ThemeManager.SetRedTheme(); break;
+            case 7: ThemeManager.SetBrownTheme(); break;
+            default: ThemeManager.SetLightTheme(); break;
         }
 
         ApplyTheme();

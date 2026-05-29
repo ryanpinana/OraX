@@ -1,4 +1,4 @@
-﻿using OraX.Models;
+using OraX.Models;
 using OraX.Services;
 
 namespace OraX;
@@ -15,92 +15,63 @@ public partial class Statistiche : ContentPage
     }
     async Task CaricaStatistiche()
     {
-        var calendarioCorrente =
-            Preferences.Get("CalendarioCorrente", 0);
+        user = UserSession.CurrentUser;
 
-        var attivita =
-            await database.GetAttivitaUtenteCalendario(
-                calendarioCorrente,
-                user.Username);
-
-        int completate =
-            attivita.Count(a => a.Completata);
-
-        int nonCompletate =
-            attivita.Count(a => !a.Completata);
-
-        int totale =
-            attivita.Count;
-
-        double percentuale = 0;
-
-        if (totale > 0)
+        if (user == null)
         {
-            percentuale =
-                (double)completate / totale * 100;
+            labelFatte.Text = "0";
+            labelNonFatte.Text = "0";
+            labelTot.Text = "Totale: 0 attività";
+            labelPercento.Text = "0% completato";
+            progressBar.Progress = 0;
+            labelQuante.Text = "0 completate · 0 non completate";
+            labelStatistiche.Text = "0 completate · 0 non completate";
+            labelStati.Text = "0 completate · 0 non completate";
+            return;
         }
 
-        // LABEL PRINCIPALI
-        labelFatte.Text =
-            completate.ToString();
+        int calendarioCorrente = Preferences.Get("CalendarioCorrente", 0);
 
-        labelNonFatte.Text =
-            nonCompletate.ToString();
+        var attivita = calendarioCorrente > 0
+            ? await database.GetAttivitaUtenteCalendario(calendarioCorrente, user.Username)
+            : await database.GetAttivitaUtente(user.Username);
 
-        labelTot.Text =
-            $"Totale: {totale} attività";
+        int completate = attivita.Count(a => a.Completata);
+        int nonCompletate = attivita.Count(a => !a.Completata);
+        int totale = attivita.Count;
 
-        labelPercento.Text =
-            $"{Math.Round(percentuale)}% completato";
+        double percentuale = totale > 0
+            ? (double)completate / totale * 100
+            : 0;
 
+        labelFatte.Text = completate.ToString();
+        labelNonFatte.Text = nonCompletate.ToString();
+        labelTot.Text = $"Totale: {totale} attività";
+        labelPercento.Text = $"{Math.Round(percentuale)}% completato";
         progressBar.Progress = percentuale / 100;
 
-        // OGGI
-        var oggi =
-            attivita.Where(a =>
-                a.Data.Date ==
-                DateTime.Today);
+        AggiornaRigaGiorno(attivita, DateTime.Today, labelQuante);
+        AggiornaRigaGiorno(attivita, DateTime.Today.AddDays(-1), labelStatistiche);
+        AggiornaRigaGiorno(attivita, DateTime.Today.AddDays(-2), labelStati);
+    }
 
-        int oggiComplete =
-            oggi.Count(a => a.Completata);
+    void AggiornaRigaGiorno(IEnumerable<AttivitaDb> attivita, DateTime giorno, Label label)
+    {
+        var delGiorno = attivita.Where(a => a.Data.Date == giorno.Date);
+        int complete = delGiorno.Count(a => a.Completata);
+        int nonComplete = delGiorno.Count(a => !a.Completata);
 
-        int oggiNonComplete =
-            oggi.Count(a => !a.Completata);
-
-        labelQuante.Text =
-            $"{oggiComplete} completate - {oggiNonComplete} non completate";
-
-        // IERI
-        var ieri =
-            attivita.Where(a =>
-                a.Data.Date ==
-                DateTime.Today.AddDays(-1));
-
-        labelStatistiche.Text =
-            $"{ieri.Count(a => a.Completata)} completate - " +
-            $"{ieri.Count(a => !a.Completata)} non completate";
-
-        // 2 GIORNI FA
-        var dueGiorni =
-            attivita.Where(a =>
-                a.Data.Date ==
-                DateTime.Today.AddDays(-2));
-
-        labelStati.Text =
-            $"{dueGiorni.Count(a => a.Completata)} completate - " +
-            $"{dueGiorni.Count(a => !a.Completata)} non completate";
+        label.Text = $"{complete} completate · {nonComplete} non completate";
     }
     protected override async void OnNavigatedTo(NavigatedToEventArgs args)
     {
         base.OnNavigatedTo(args);
 
         user = UserSession.CurrentUser;
-        
 
         LoadTheme();
         await CaricaStatistiche();
     }
-    
 
     void LoadTheme()
     {

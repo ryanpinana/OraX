@@ -2,10 +2,11 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="OraX.MainPage"
-             Title="MainPage">
+             Title="MainPage"
+    Shell.NavBarIsVisible="False">
     <ScrollView>
         <VerticalStackLayout Padding="25" Spacing="20">
-           
+
             <HorizontalStackLayout Padding="10" Spacing="10">
                 <Label x:Name="titleLabel"
                        Text="Personalizza il tuo calendario:"
@@ -57,7 +58,7 @@
                            TextColor="#8E8E93"/>
                 </VerticalStackLayout>
             </Frame>
-            
+
             <!-- ACTIONS -->
             <Frame x:Name="frameActions"
                    CornerRadius="25"
@@ -81,7 +82,7 @@
                             TextColor="#007AFF"/>
                     <BoxView HeightRequest="1" Color="#E5E5EA"/>
                     <Button Text="Esci"
-                            Clicked="ButtonLogout_Clicked"
+                            Clicked="OnLogoutClicked"
                             BackgroundColor="Transparent"
                             TextColor="#FF3B30"/>
                 </VerticalStackLayout>

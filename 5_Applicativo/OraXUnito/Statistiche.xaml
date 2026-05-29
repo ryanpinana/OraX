@@ -3,18 +3,17 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="OraX.Statistiche"
              Title="Statistiche"
-             BackgroundColor="#F7F7F7">
+             BackgroundColor="#F7F7F7"
+    Shell.NavBarIsVisible="False">
 
     <ScrollView>
         <VerticalStackLayout Padding="25" Spacing="20">
-
 
             <Label x:Name="labelHeader"
                    Text="Le tue statistiche"
                    FontSize="28"
                    FontAttributes="Bold"
                    TextColor="#1C1C1E"/>
-
 
             <Frame x:Name="frameSummary"
                    CornerRadius="25"
@@ -66,7 +65,6 @@
                 </Grid>
             </Frame>
 
-
             <Frame x:Name="frameCard"
                    CornerRadius="25"
                    Padding="20"
@@ -82,7 +80,7 @@
                            FontAttributes="Bold"
                            TextColor="#1C1C1E"/>
 
-                    <ProgressBar x:Name="progressBar" 
+                    <ProgressBar x:Name="progressBar"
                                  Progress="0.75"
                                  HeightRequest="10"
                                  ProgressColor="#007AFF"
@@ -106,7 +104,6 @@
 
             <VerticalStackLayout Spacing="12">
 
-
                 <Frame x:Name="frameItem"
                        CornerRadius="18"
                        Padding="15"
@@ -127,8 +124,6 @@
                                    FontSize="13"
                                    TextColor="#8E8E93"/>
                         </VerticalStackLayout>
-
-
 
                     </Grid>
                 </Frame>
@@ -154,7 +149,6 @@
                                    TextColor="#8E8E93"/>
                         </VerticalStackLayout>
 
-
                     </Grid>
                 </Frame>
 
@@ -178,8 +172,6 @@
                                    FontSize="13"
                                    TextColor="#8E8E93"/>
                         </VerticalStackLayout>
-
-
 
                     </Grid>
                 </Frame>

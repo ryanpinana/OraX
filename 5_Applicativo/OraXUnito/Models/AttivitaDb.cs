@@ -27,5 +27,8 @@ namespace OraX.Models
 
         public int CalendarioId { get; set; }
         public string Colore { get; set; } = "";
+
+        public bool Completata { get; set; }
+        public bool NotificaInviata { get; set; }
     }
 }

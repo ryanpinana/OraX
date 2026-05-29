@@ -1,94 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\OraXUnito\\",
+  "WorkspaceRootPath": "D:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\5_Applicativo\\OraXUnito_pulito_commentato\\OraXUnito\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|e:\\scuola 2025-2026\\professionale\\secondo semestre\\m306\\orax\\oraxunito\\attivita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:attivita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|e:\\scuola 2025-2026\\professionale\\secondo semestre\\m306\\orax\\oraxunito\\calendarpagev2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:calendarpagev2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|e:\\scuola 2025-2026\\professionale\\secondo semestre\\m306\\orax\\oraxunito\\services\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|d:\\scuola 2025-2026\\professionale\\secondo semestre\\m306\\orax\\5_applicativo\\oraxunito_pulito_commentato\\oraxunito\\services\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:services\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|e:\\scuola 2025-2026\\professionale\\secondo semestre\\m306\\orax\\oraxunito\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|e:\\scuola 2025-2026\\professionale\\secondo semestre\\m306\\orax\\oraxunito\\calendarpagev2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:calendarpagev2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|e:\\scuola 2025-2026\\professionale\\secondo semestre\\m306\\orax\\oraxunito\\statistiche.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:statistiche.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|e:\\scuola 2025-2026\\professionale\\secondo semestre\\m306\\orax\\oraxunito\\statistiche.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:statistiche.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|e:\\scuola 2025-2026\\professionale\\secondo semestre\\m306\\orax\\oraxunito\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|e:\\scuola 2025-2026\\professionale\\secondo semestre\\m306\\orax\\oraxunito\\models\\attivitadb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:models\\attivitadb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|e:\\scuola 2025-2026\\professionale\\secondo semestre\\m306\\orax\\oraxunito\\models\\calendario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:models\\calendario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|e:\\scuola 2025-2026\\professionale\\secondo semestre\\m306\\orax\\oraxunito\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|e:\\scuola 2025-2026\\professionale\\secondo semestre\\m306\\orax\\oraxunito\\models\\richiestacondivisione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:models\\richiestacondivisione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|e:\\scuola 2025-2026\\professionale\\secondo semestre\\m306\\orax\\oraxunito\\models\\calendarioutente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:models\\calendarioutente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|e:\\scuola 2025-2026\\professionale\\secondo semestre\\m306\\orax\\oraxunito\\services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|e:\\scuola 2025-2026\\professionale\\secondo semestre\\m306\\orax\\oraxunito\\platforms\\android\\androidmanifest.xml||{4E01A4BC-CFCF-452C-8C08-51352512D197}",
-      "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:platforms\\android\\androidmanifest.xml||{4E01A4BC-CFCF-452C-8C08-51352512D197}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|e:\\scuola 2025-2026\\professionale\\secondo semestre\\m306\\orax\\oraxunito\\platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|e:\\scuola 2025-2026\\professionale\\secondo semestre\\m306\\orax\\oraxunito\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\OraXUnito\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|e:\\scuola 2025-2026\\professionale\\secondo semestre\\m306\\orax\\oraxunito\\orax.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:orax.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|e:\\scuola 2025-2026\\professionale\\secondo semestre\\m306\\orax\\oraxunito\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|d:\\scuola 2025-2026\\professionale\\secondo semestre\\m306\\orax\\5_applicativo\\oraxunito_pulito_commentato\\oraxunito\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|e:\\scuola 2025-2026\\professionale\\secondo semestre\\m306\\orax\\oraxunito\\tipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:tipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|d:\\scuola 2025-2026\\professionale\\secondo semestre\\m306\\orax\\5_applicativo\\oraxunito_pulito_commentato\\oraxunito\\models\\tipodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:models\\tipodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|e:\\scuola 2025-2026\\professionale\\secondo semestre\\m306\\orax\\oraxunito\\thememanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:thememanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|d:\\scuola 2025-2026\\professionale\\secondo semestre\\m306\\orax\\5_applicativo\\oraxunito_pulito_commentato\\oraxunito\\models\\richiestacondivisione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:models\\richiestacondivisione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|d:\\scuola 2025-2026\\professionale\\secondo semestre\\m306\\orax\\5_applicativo\\oraxunito_pulito_commentato\\oraxunito\\models\\calendarioutente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:models\\calendarioutente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|d:\\scuola 2025-2026\\professionale\\secondo semestre\\m306\\orax\\5_applicativo\\oraxunito_pulito_commentato\\oraxunito\\models\\calendario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:models\\calendario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|d:\\scuola 2025-2026\\professionale\\secondo semestre\\m306\\orax\\5_applicativo\\oraxunito_pulito_commentato\\oraxunito\\models\\attivitadb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:models\\attivitadb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|d:\\scuola 2025-2026\\professionale\\secondo semestre\\m306\\orax\\5_applicativo\\oraxunito_pulito_commentato\\oraxunito\\services\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:services\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|d:\\scuola 2025-2026\\professionale\\secondo semestre\\m306\\orax\\5_applicativo\\oraxunito_pulito_commentato\\oraxunito\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|d:\\scuola 2025-2026\\professionale\\secondo semestre\\m306\\orax\\5_applicativo\\oraxunito_pulito_commentato\\oraxunito\\calendarpagev2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:calendarpagev2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|d:\\scuola 2025-2026\\professionale\\secondo semestre\\m306\\orax\\5_applicativo\\oraxunito_pulito_commentato\\oraxunito\\calendarpagev2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2D55DB98-495D-4153-8AE9-9FAC4CFA6DC7}|OraX.csproj|solutionrelative:calendarpagev2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -98,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -106,276 +62,136 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CalendarPageV2.xaml.cs",
-              "DocumentMoniker": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\OraXUnito\\CalendarPageV2.xaml.cs",
-              "RelativeDocumentMoniker": "CalendarPageV2.xaml.cs",
-              "ToolTip": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\OraXUnito\\CalendarPageV2.xaml.cs",
-              "RelativeToolTip": "CalendarPageV2.xaml.cs",
-              "ViewState": "AgIAAE8BAAAAAAAAAADwv2MBAAAqAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "CalendarioUtente.cs",
+              "DocumentMoniker": "D:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\5_Applicativo\\OraXUnito_pulito_commentato\\OraXUnito\\Models\\CalendarioUtente.cs",
+              "RelativeDocumentMoniker": "Models\\CalendarioUtente.cs",
+              "ToolTip": "D:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\5_Applicativo\\OraXUnito_pulito_commentato\\OraXUnito\\Models\\CalendarioUtente.cs",
+              "RelativeToolTip": "Models\\CalendarioUtente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-22T06:45:20.888Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\OraXUnito\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "MainPage.xaml.cs",
-              "ToolTip": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\OraXUnito\\MainPage.xaml.cs",
-              "RelativeToolTip": "MainPage.xaml.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAUwF4AAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-22T06:45:40.795Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\OraXUnito\\MainPage.xaml",
-              "RelativeDocumentMoniker": "MainPage.xaml",
-              "ToolTip": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\OraXUnito\\MainPage.xaml",
-              "RelativeToolTip": "MainPage.xaml",
-              "ViewState": "AgIAADsAAAAAAAAAAAAAADsAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-07T20:48:27.011Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DatabaseService.cs",
-              "DocumentMoniker": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\OraXUnito\\Services\\DatabaseService.cs",
-              "RelativeDocumentMoniker": "Services\\DatabaseService.cs",
-              "ToolTip": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\OraXUnito\\Services\\DatabaseService.cs",
-              "RelativeToolTip": "Services\\DatabaseService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-22T06:46:27.051Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "App.g.i.cs",
-              "DocumentMoniker": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\OraXUnito\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
-              "RelativeDocumentMoniker": "obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
-              "ToolTip": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\OraXUnito\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
-              "RelativeToolTip": "obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAwwEQAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-22T07:19:48.742Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "AndroidManifest.xml",
-              "DocumentMoniker": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\OraXUnito\\Platforms\\Android\\AndroidManifest.xml",
-              "RelativeDocumentMoniker": "Platforms\\Android\\AndroidManifest.xml",
-              "ToolTip": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\OraXUnito\\Platforms\\Android\\AndroidManifest.xml",
-              "RelativeToolTip": "Platforms\\Android\\AndroidManifest.xml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2026-05-22T07:18:47.071Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Statistiche.xaml.cs",
-              "DocumentMoniker": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\OraXUnito\\Statistiche.xaml.cs",
-              "RelativeDocumentMoniker": "Statistiche.xaml.cs",
-              "ToolTip": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\OraXUnito\\Statistiche.xaml.cs",
-              "RelativeToolTip": "Statistiche.xaml.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAowG4AAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-22T13:01:14.344Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "RichiestaCondivisione.cs",
-              "DocumentMoniker": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\OraXUnito\\Models\\RichiestaCondivisione.cs",
-              "RelativeDocumentMoniker": "Models\\RichiestaCondivisione.cs",
-              "ToolTip": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\OraXUnito\\Models\\RichiestaCondivisione.cs",
-              "RelativeToolTip": "Models\\RichiestaCondivisione.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-22T09:08:40.122Z"
+              "WhenOpened": "2026-05-29T11:53:51.133Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Statistiche.xaml",
-              "DocumentMoniker": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\OraXUnito\\Statistiche.xaml",
-              "RelativeDocumentMoniker": "Statistiche.xaml",
-              "ToolTip": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\OraXUnito\\Statistiche.xaml",
-              "RelativeToolTip": "Statistiche.xaml",
-              "ViewState": "AgIAAHUAAAAAAAAAAAAAAFUAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-22T13:04:21.751Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CalendarPageV2.xaml",
-              "DocumentMoniker": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\OraXUnito\\CalendarPageV2.xaml",
-              "RelativeDocumentMoniker": "CalendarPageV2.xaml",
-              "ToolTip": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\OraXUnito\\CalendarPageV2.xaml",
-              "RelativeToolTip": "CalendarPageV2.xaml",
-              "ViewState": "AgIAAFIBAAAAAAAAAAAgwHEBAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-07T20:48:01.965Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Attivita.cs",
-              "DocumentMoniker": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\OraXUnito\\Attivita.cs",
-              "RelativeDocumentMoniker": "Attivita.cs",
-              "ToolTip": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\OraXUnito\\Attivita.cs",
-              "RelativeToolTip": "Attivita.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T20:47:42.655Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CalendarioUtente.cs",
-              "DocumentMoniker": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\OraXUnito\\Models\\CalendarioUtente.cs",
-              "RelativeDocumentMoniker": "Models\\CalendarioUtente.cs",
-              "ToolTip": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\OraXUnito\\Models\\CalendarioUtente.cs",
-              "RelativeToolTip": "Models\\CalendarioUtente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-22T09:08:11.385Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "Calendario.cs",
-              "DocumentMoniker": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\OraXUnito\\Models\\Calendario.cs",
+              "DocumentMoniker": "D:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\5_Applicativo\\OraXUnito_pulito_commentato\\OraXUnito\\Models\\Calendario.cs",
               "RelativeDocumentMoniker": "Models\\Calendario.cs",
-              "ToolTip": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\OraXUnito\\Models\\Calendario.cs",
+              "ToolTip": "D:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\5_Applicativo\\OraXUnito_pulito_commentato\\OraXUnito\\Models\\Calendario.cs",
               "RelativeToolTip": "Models\\Calendario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-22T09:07:28.648Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-29T11:53:48.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PasswordHelper.cs",
+              "DocumentMoniker": "D:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\5_Applicativo\\OraXUnito_pulito_commentato\\OraXUnito\\Services\\PasswordHelper.cs",
+              "RelativeDocumentMoniker": "Services\\PasswordHelper.cs",
+              "ToolTip": "D:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\5_Applicativo\\OraXUnito_pulito_commentato\\OraXUnito\\Services\\PasswordHelper.cs",
+              "RelativeToolTip": "Services\\PasswordHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T11:41:49.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\5_Applicativo\\OraXUnito_pulito_commentato\\OraXUnito\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "D:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\5_Applicativo\\OraXUnito_pulito_commentato\\OraXUnito\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T11:41:32.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TipoDb.cs",
+              "DocumentMoniker": "D:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\5_Applicativo\\OraXUnito_pulito_commentato\\OraXUnito\\Models\\TipoDb.cs",
+              "RelativeDocumentMoniker": "Models\\TipoDb.cs",
+              "ToolTip": "D:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\5_Applicativo\\OraXUnito_pulito_commentato\\OraXUnito\\Models\\TipoDb.cs",
+              "RelativeToolTip": "Models\\TipoDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T11:41:32.338Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "AttivitaDb.cs",
-              "DocumentMoniker": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\OraXUnito\\Models\\AttivitaDb.cs",
-              "RelativeDocumentMoniker": "Models\\AttivitaDb.cs",
-              "ToolTip": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\OraXUnito\\Models\\AttivitaDb.cs",
-              "RelativeToolTip": "Models\\AttivitaDb.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAiwBwAAAAwAAAAAAAAAA==",
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "D:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\5_Applicativo\\OraXUnito_pulito_commentato\\OraXUnito\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "LoginPage.xaml",
+              "ToolTip": "D:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\5_Applicativo\\OraXUnito_pulito_commentato\\OraXUnito\\LoginPage.xaml",
+              "RelativeToolTip": "LoginPage.xaml",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-29T11:36:53.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RichiestaCondivisione.cs",
+              "DocumentMoniker": "D:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\5_Applicativo\\OraXUnito_pulito_commentato\\OraXUnito\\Models\\RichiestaCondivisione.cs",
+              "RelativeDocumentMoniker": "Models\\RichiestaCondivisione.cs",
+              "ToolTip": "D:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\5_Applicativo\\OraXUnito_pulito_commentato\\OraXUnito\\Models\\RichiestaCondivisione.cs",
+              "RelativeToolTip": "Models\\RichiestaCondivisione.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T20:53:26.96Z",
+              "WhenOpened": "2026-05-29T11:36:08.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CalendarPageV2.xaml.cs",
+              "DocumentMoniker": "D:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\5_Applicativo\\OraXUnito_pulito_commentato\\OraXUnito\\CalendarPageV2.xaml.cs",
+              "RelativeDocumentMoniker": "CalendarPageV2.xaml.cs",
+              "ToolTip": "D:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\5_Applicativo\\OraXUnito_pulito_commentato\\OraXUnito\\CalendarPageV2.xaml.cs",
+              "RelativeToolTip": "CalendarPageV2.xaml.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T11:35:21.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DatabaseService.cs",
+              "DocumentMoniker": "D:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\5_Applicativo\\OraXUnito_pulito_commentato\\OraXUnito\\Services\\DatabaseService.cs",
+              "RelativeDocumentMoniker": "Services\\DatabaseService.cs",
+              "ToolTip": "D:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\5_Applicativo\\OraXUnito_pulito_commentato\\OraXUnito\\Services\\DatabaseService.cs",
+              "RelativeToolTip": "Services\\DatabaseService.cs",
+              "ViewState": "AgIAALYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T11:35:08.557Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AttivitaDb.cs",
+              "DocumentMoniker": "D:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\5_Applicativo\\OraXUnito_pulito_commentato\\OraXUnito\\Models\\AttivitaDb.cs",
+              "RelativeDocumentMoniker": "Models\\AttivitaDb.cs",
+              "ToolTip": "D:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\5_Applicativo\\OraXUnito_pulito_commentato\\OraXUnito\\Models\\AttivitaDb.cs",
+              "RelativeToolTip": "Models\\AttivitaDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T11:35:01.205Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "RegisterPage.xaml.cs",
-              "DocumentMoniker": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\OraXUnito\\RegisterPage.xaml.cs",
-              "RelativeDocumentMoniker": "RegisterPage.xaml.cs",
-              "ToolTip": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\OraXUnito\\RegisterPage.xaml.cs",
-              "RelativeToolTip": "RegisterPage.xaml.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAUwFcAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-22T10:34:26.867Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "NotificationService.cs",
-              "DocumentMoniker": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\OraXUnito\\Services\\NotificationService.cs",
-              "RelativeDocumentMoniker": "Services\\NotificationService.cs",
-              "ToolTip": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\OraXUnito\\Services\\NotificationService.cs",
-              "RelativeToolTip": "Services\\NotificationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-22T06:43:55.959Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "MainApplication.cs",
-              "DocumentMoniker": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\OraXUnito\\Platforms\\Android\\MainApplication.cs",
-              "RelativeDocumentMoniker": "Platforms\\Android\\MainApplication.cs",
-              "ToolTip": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\OraXUnito\\Platforms\\Android\\MainApplication.cs",
-              "RelativeToolTip": "Platforms\\Android\\MainApplication.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-22T07:18:26.917Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "OraX.csproj",
-              "DocumentMoniker": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\OraXUnito\\OraX.csproj",
-              "RelativeDocumentMoniker": "OraX.csproj",
-              "ToolTip": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\OraXUnito\\OraX.csproj",
-              "RelativeToolTip": "OraX.csproj",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAlwCIAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-05-22T07:12:49.9Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Tipo.cs",
-              "DocumentMoniker": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\OraXUnito\\Tipo.cs",
-              "RelativeDocumentMoniker": "Tipo.cs",
-              "ToolTip": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\OraXUnito\\Tipo.cs",
-              "RelativeToolTip": "Tipo.cs",
+              "Title": "CalendarPageV2.xaml",
+              "DocumentMoniker": "D:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\5_Applicativo\\OraXUnito_pulito_commentato\\OraXUnito\\CalendarPageV2.xaml",
+              "RelativeDocumentMoniker": "CalendarPageV2.xaml",
+              "ToolTip": "D:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\5_Applicativo\\OraXUnito_pulito_commentato\\OraXUnito\\CalendarPageV2.xaml",
+              "RelativeToolTip": "CalendarPageV2.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T20:52:59.622Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ThemeManager.cs",
-              "DocumentMoniker": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\OraXUnito\\ThemeManager.cs",
-              "RelativeDocumentMoniker": "ThemeManager.cs",
-              "ToolTip": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\OraXUnito\\ThemeManager.cs",
-              "RelativeToolTip": "ThemeManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T20:52:53.839Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "MauiProgram.cs",
-              "DocumentMoniker": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\OraXUnito\\MauiProgram.cs",
-              "RelativeDocumentMoniker": "MauiProgram.cs",
-              "ToolTip": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\OraXUnito\\MauiProgram.cs",
-              "RelativeToolTip": "MauiProgram.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T20:52:51.426Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "User.cs",
-              "DocumentMoniker": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\OraXUnito\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "E:\\Scuola 2025-2026\\Professionale\\Secondo Semestre\\m306\\OraX\\OraXUnito\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T20:53:13.818Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-28T08:14:36.67Z"
             }
           ]
         }

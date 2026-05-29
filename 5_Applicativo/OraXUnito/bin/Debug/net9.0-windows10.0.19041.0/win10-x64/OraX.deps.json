@@ -11,7 +11,6 @@
         "dependencies": {
           "Microsoft.Extensions.Logging.Debug": "9.0.0",
           "Microsoft.Maui.Controls": "9.0.120",
-          "Plugin.LocalNotification": "10.1.8",
           "Plugin.Maui.Calendar": "2.0.12",
           "SQLitePCLRaw.bundle_green": "2.1.10",
           "sqlite-net-pcl": "1.9.172",
@@ -494,14 +493,6 @@
           }
         }
       },
-      "Plugin.LocalNotification/10.1.8": {
-        "runtime": {
-          "lib/net7.0/Plugin.LocalNotification.dll": {
-            "assemblyVersion": "10.1.8.0",
-            "fileVersion": "10.1.8.0"
-          }
-        }
-      },
       "Plugin.Maui.Calendar/2.0.12": {
         "dependencies": {
           "CommunityToolkit.Mvvm": "8.4.0",
@@ -755,13 +746,6 @@
       "sha512": "sha512-zeVFVrkFYPkAL1cmXo62D1LVC66VqBiMx+WfZ3aDUmizNECCJewMTk0JwjlgYQcIqxqsK1SjF1CeG74TsokWpQ==",
       "path": "microsoft.windowsappsdk/1.7.250909003",
       "hashPath": "microsoft.windowsappsdk.1.7.250909003.nupkg.sha512"
-    },
-    "Plugin.LocalNotification/10.1.8": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-LiZpaY0iA4aFhRY/Brkm//D8BQKrd/GtGfhx2lg7jQKlXb0lzlvWx/sax28D4ufJgkOGpiQqGKjZ8CMo8yuTiA==",
-      "path": "plugin.localnotification/10.1.8",
-      "hashPath": "plugin.localnotification.10.1.8.nupkg.sha512"
     },
     "Plugin.Maui.Calendar/2.0.12": {
       "type": "package",

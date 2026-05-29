@@ -176,7 +176,6 @@
                     </Grid>
                 </Border>
 
-
                 <Label
                     Text="EMAIL"
                     FontSize="17"
@@ -214,7 +213,6 @@
                         </Grid>
                 </Border>
 
-
                 <Label
     Text="TELEFONO"
     FontSize="17"
@@ -251,7 +249,6 @@
                 VerticalOptions="Center" />
                     </Grid>
                 </Border>
-
 
                 <Label
                     Text="DATA DI NASCITA"
@@ -376,7 +373,6 @@
             Margin="10,0,0,0" />
                     </Grid>
                 </Border>
-
 
                 <Label
     Text="CONFERMA PASSWORD"
